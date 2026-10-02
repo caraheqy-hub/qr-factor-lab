@@ -6,7 +6,7 @@ F04,momentum,联合行业动量,R04,个股月最大收益日的行业指数收�
 F05,flow,公募季度净流入,R08,基金季度净流入/成交额,fund_flow traded_value publish_date,exact,no,data_blocked,必须在基金季报披露后使用
 F06,industry_timing,行业拥挤度,R07,量价指标滚动分位阈值,industry_ohlcv,partial,no,idea_only,摘要缺4项完整公式
 F07,industry_timing,AH红利轮动,R13,多个宏观与拥挤指标加权,macro vix fx index data,partial,no,idea_only,跨市场择时专案
-F08,technical,KMID,Qlib, (close-open)/open,open close,exact,yes,candidate,日内实体比例
+F08,technical,KMID,Qlib, (close-open)/open,open close,exact,yes,cost_rejected_hs300,倒向后2020至2026各年扣费超额均为负;见iteration_2026_10_02.md
 F09,technical,ROC20,Qlib,close_lag20/close_today,close,exact,yes,candidate,Qlib方向与通常动量相反;必须固定方向
 F10,technical,MA20,Qlib,Mean(close 20)/close_today,close,exact,yes,candidate,均线偏离
 F11,technical,STD20,Qlib,Std(close 20)/close_today,close,exact,yes,candidate,价格水平波动代理非收益波动
@@ -15,7 +15,7 @@ F13,technical,CORD20,Qlib,Corr(close/lagclose and Log(volume/lagvolume+1) over 2
 F14,technical,CNTP20,Qlib,Mean(close>lagclose over 20),close,exact,yes,candidate,上涨日比例
 F15,technical,CNTD20,Qlib,Mean(up days)-Mean(down days) over 20,close,exact,yes,candidate,不等于净收益
 F16,technical,SUMP20,Qlib,Sum(positive close change)/Sum(abs close change) over 20,close,exact,yes,candidate,零分母保护
-F17,volume,VMA20,Qlib,Mean(volume 20)/volume_today,volume,exact,yes,candidate,非R01的绝对量;零量要屏蔽
+F17,volume,VMA20,Qlib,Mean(volume 20)/volume_today,volume,exact,yes,unstable_rejected_hs300,2020至2026全期IC接近零;见iteration_2026_10_02.md
 F18,volume,VSTD20,Qlib,Std(volume 20)/volume_today,volume,exact,yes,candidate,量的变异程度
 F19,volume,WVMA20,Qlib,Std(abs(daily return)*volume 20)/Mean(abs(daily return)*volume 20),close volume,exact,yes,candidate,需保护零均值
 F20,volume,VSUMP20,Qlib,Sum(positive volume change)/Sum(abs volume change) over 20,volume,exact,yes,candidate,成交量变化方向
@@ -33,3 +33,5 @@ F31,growth,营业收入增长,R03,revenue growth from disclosed filings,financia
 F32,analyst,一致预期修正,R05,change in analyst consensus at known timestamp,forecast revisions publish_date,idea,no,data_blocked,仅题录;不可称原文因子
 F33,behavior,交易行为因子,R15,交易行为指标待原文,order/trade data,idea,no,source_to_review,近期月报题录;不得据摘要虚构公式
 F34,risk,低风险底池,R19,按绝对收益风险特征筛低风险因子,returns exposures,partial,no,source_to_review,风险分类框架;原报告完整阈值待核对
+F35,valuation,低市净率,Anomalies_China_A,negative_pbMRQ,pbMRQ,adaptation,exploratory,rejected_hs300,2025至2026扣费超额为负;历史PB点时未核
+F36,risk,低收益波动,Volatility_Effect_China,negative_std_daily_return_60_or_252,close,adaptation,yes,rejected_hs300,原文使用过去三年月收益波动率;本实验是短窗口改编

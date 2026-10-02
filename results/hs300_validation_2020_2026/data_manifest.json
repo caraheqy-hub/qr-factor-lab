@@ -1,0 +1,28 @@
+{
+  "members": {
+    "file": "bao_hs300_monthly_members.csv",
+    "sha256": "e90ccb9ff617a72e7466c7baed372df740b3ac4e0c98b5c981e357d60c90b7c9",
+    "rows": 24600,
+    "symbols": 493
+  },
+  "bars": {
+    "file": "bao_hs300_2019_2026.csv",
+    "sha256": "ccc531535e115d4e7618957486fd68cfbd384c4efcbbfbe46463b2202284e7ce",
+    "rows": 882599,
+    "symbols": 493
+  },
+  "valuation": {
+    "file": "bao_hs300_pb_2019_2026.csv",
+    "sha256": "f6ccd3eca1867ca453c92e03b5563786ae591fef7f142f6be8a93f330ad44af8",
+    "rows": 882599,
+    "symbols": 493
+  },
+  "retrieved_at_utc": "2026-10-02T14:13:20.881121+00:00",
+  "provider": "BaoStock 0.9.4",
+  "data_limits": [
+    "monthly queried HS300 members, not daily publication-time membership",
+    "retrospective forward-adjusted prices (adjustflag=2)",
+    "valuation timestamps and historical revisions not independently audited",
+    "no price-limit fill or order-book model"
+  ]
+}

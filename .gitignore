@@ -2,6 +2,7 @@ __pycache__/
 *.pyc
 .pytest_cache/
 .venv/
+deps/
 .env
 data/*.csv
 data/*.parquet
@@ -10,3 +11,4 @@ results/demo/
 results/*/*_daily.csv
 results/*/*_ic.csv
 results/*/daily_rank_ic.csv
+results/*/*daily*.csv

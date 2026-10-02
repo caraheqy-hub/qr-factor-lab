@@ -1,0 +1,14 @@
+{
+  "bars_sha256": "ccc531535e115d4e7618957486fd68cfbd384c4efcbbfbe46463b2202284e7ce",
+  "members_sha256": "e90ccb9ff617a72e7466c7baed372df740b3ac4e0c98b5c981e357d60c90b7c9",
+  "bars": 491065,
+  "symbols": 493,
+  "first_date": "2019-12-31",
+  "last_date": "2026-09-30",
+  "signal": "after close t",
+  "entry": "open t+1",
+  "returns": "open t+1 to open t+2 or t+6",
+  "membership": "latest available monthly HS300 snapshot at or before signal date",
+  "price_adjustment": "BaoStock adjustflag=2, retrospectively adjusted",
+  "scope": "exploratory Rank IC, no order fills or transaction costs"
+}

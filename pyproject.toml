@@ -11,6 +11,7 @@ dependencies = ["numpy>=1.26,<2", "pandas>=1.5,<2"]
 
 [project.optional-dependencies]
 gm = ["gm==3.0.187"]
+bao = ["baostock==0.9.4"]
 
 [project.scripts]
 qr-factor = "qr_factor_lab.cli:main"
