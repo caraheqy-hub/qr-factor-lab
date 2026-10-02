@@ -1,0 +1,65 @@
+{
+  "input": "data\\gm_a_share_2025.csv",
+  "split_date": "2025-07-01",
+  "factor_parameters": {
+    "momentum_window": 20,
+    "momentum_skip": 5,
+    "volatility_window": 20
+  },
+  "cost_bps_per_traded_notional": 15.0,
+  "factors": {
+    "momentum": {
+      "discovery": {
+        "days": 95,
+        "mean_rank_ic": 0.050160226007273316,
+        "ic_positive_fraction": 0.49473684210526314,
+        "annual_return": -0.004838214118079054,
+        "annual_volatility": 0.2519430594901685,
+        "sharpe": 0.10573157828843162,
+        "max_drawdown": -0.18904746061544653,
+        "mean_daily_turnover": 0.42484883031142356,
+        "baseline_total_return": 0.061523360690969975
+      },
+      "holdout": {
+        "days": 124,
+        "mean_rank_ic": 0.008212368963022751,
+        "ic_positive_fraction": 0.532258064516129,
+        "annual_return": 0.15052917517328623,
+        "annual_volatility": 0.23903665861451429,
+        "sharpe": 0.705092235510291,
+        "max_drawdown": -0.11459306943937975,
+        "mean_daily_turnover": 0.4083989107740465,
+        "baseline_total_return": 0.081933595770173
+      }
+    },
+    "low_vol": {
+      "discovery": {
+        "days": 95,
+        "mean_rank_ic": 0.045525557754738925,
+        "ic_positive_fraction": 0.5894736842105263,
+        "annual_return": -0.020064511727454715,
+        "annual_volatility": 0.13345351758284849,
+        "sharpe": -0.08565457500235986,
+        "max_drawdown": -0.08369772388597796,
+        "mean_daily_turnover": 0.267683947873662,
+        "baseline_total_return": 0.061523360690969975
+      },
+      "holdout": {
+        "days": 124,
+        "mean_rank_ic": 0.01652907044106319,
+        "ic_positive_fraction": 0.532258064516129,
+        "annual_return": -0.08013744181697768,
+        "annual_volatility": 0.10944858371581553,
+        "sharpe": -0.7087946084352913,
+        "max_drawdown": -0.07722054592836458,
+        "mean_daily_turnover": 0.22614935989168286,
+        "baseline_total_return": 0.081933595770173
+      }
+    }
+  },
+  "limits": [
+    "Static user-supplied universe may have survivorship bias",
+    "GM adjusted data is retrospective; results are research examples",
+    "No live trading or broker order execution"
+  ]
+}

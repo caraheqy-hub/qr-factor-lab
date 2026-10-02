@@ -1,0 +1,20 @@
+id,broker,date,title,url,source_access,formula_status,priority,notes
+R01,华福证券,2026-03-10,泛科技框架重构及选股模型初探,https://www.scribd.com/document/1023858597/,third-party full text,20日平均成交量已核实,high,现有项目已作公式级迁移;不是完整复现
+R02,东北证券,2024-03-04,上月红利及量价细分因子测试,https://www.nesc.cn/timerfiles/upload/report/2024/03/05/15813985.pdf,broker PDF,测试流程可核实;细因子需逐页核对,high,含Rank IC 分层和因子回归步骤
+R03,东北证券,2024-02-02,上月红利及48个细分因子跟踪,https://www.nesc.cn/timerfiles/upload/report/2024/02/03/15813826.pdf,broker PDF,分类与处理方法可核实;细因子待提取,high,12大类48细因子;适合建风格框架
+R04,国信证券,2024-01-09,个股与行业的共振联合动量因子,https://www.nxny.com/report/view_5527797.html,third-party abstract/paywall,仅摘要描述,medium,需要行业日收益和月度最大收益日;原文不可得前不称复现
+R05,华泰证券,2025-08-11,多目标基本面选股因子挖掘框架,https://www.nxny.com/report/view_6043567.html,third-party metadata/paywall,只有题录,medium,需原文公式与PIT财报数据
+R06,华泰证券,2025-04-01,多角度改进高频量价选股模型,https://www.sdyanbao.com/preview/866746,third-party preview,只有框架摘要,low,需分钟与Tick数据;留到高频阶段
+R07,华泰证券,2026-03-13,量化行业轮动的崎岖之路,https://www.nxny.com/report/view_6235182.html,third-party abstract/paywall,残差动量与拥挤逻辑描述,medium,需要行业指数和风格序列
+R08,开源证券,2025-04-03,公募基金定价权与调仓行为分析,https://pdf.dfcfw.com/pdf/H301_AP202504031650716765_1.pdf,branded PDF on public mirror,基金季度净流入/成交额可核实,medium,需基金持仓与披露时点
+R09,开源证券,2024-04-23,选基因子改进基金业绩动量中的beta识别与剥离,https://pdf.dfcfw.com/pdf/H301_AP202404231631037757_1.pdf,branded PDF on public mirror,方法描述可核实,low,基金选择而非个股选股
+R10,国金证券,2024-07-29,公募指增及量化基金经理精选系列五,https://pdf.dfcfw.com/pdf/H301_AP202407301638455900_1.pdf,branded PDF on public mirror,因子类别而非可执行公式,medium,观察行业实践与风控约束
+R11,华福证券,2025-02-14,1月价值红利策略相对较优2月建议持续关注,https://pdf.dfcfw.com/pdf/H3_AP202502141643090810_1.pdf,branded PDF on public mirror,策略描述需逐页核对,low,含估值成长质量与行业择时
+R12,华福证券,2025-04-02,4月行业配置重点推荐顺周期,https://pdf.dfcfw.com/pdf/H3_AP202504021650335936_1.pdf,branded PDF on public mirror,行业拥挤只见摘要,medium,行业择时需宏观与拥挤数据
+R13,华福证券,2025-02-17,红利加AH双市轮动策略,https://pdf.dfcfw.com/pdf/H3_AP202502171643171947_1.pdf%3F1739819514000.pdf,branded PDF on public mirror,权重和阈值可见但需完整核对,low,跨市场择时与A股选股不同
+R14,中信建投证券,2018-12-11,因子轮动研究,https://pdf.dfcfw.com/pdf/H3_DB201812111267298369_1.pdf,branded PDF on public mirror,滚动回归和序数回归方法可核实,medium,研究框架参考;不直接迁移历史阈值
+R15,开源证券,2026-09-30,开源交易行为因子绩效月报2026年9月,https://www.yanbaoke.com/info/MmLgLonbKQYFMFjyjh43hf,third-party metadata/abstract,仅报告题录和主题,medium,近期跟踪;需原文公式
+R16,国泰海通证券,2026-09-22,高频选股因子周报20260914至20260918,https://m.hibor.com.cn/wap_detail.aspx?id=acd34643db5282151679d58d5763e3c6,third-party abstract/paywall,仅绩效摘要,low,高频模型需分钟与逐笔数据
+R17,国泰海通证券,2026-09-05,低频选股因子周报,https://m.hibor.com.cn/wap_detail.aspx?id=744f46198fd297bb90bfb8354c0aa54e,third-party abstract/paywall,风格表现摘要非公式,medium,关注反转及估值风格但不照搬当周结果
+R18,华泰证券,2026-08-04,金工量化投资周报均衡配置仍是较优解,https://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/11/rptid/839169154892/index.phtml,third-party broker excerpt,26底层因子框架摘要,medium,行业轮动使用遗传规划;公式未公开
+R19,长江证券,2026-08-19,权益绝对收益策略研究,https://finance.sina.com.cn/wm/2026-08-19/doc-ininuzma2777935.shtml,broker repost/news summary,风险分类框架非完整公式,medium,低风险底池与Beta约束可研究

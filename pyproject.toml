@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "qr-factor-lab"
+version = "0.1.0"
+description = "A small, reproducible A-share factor research lab"
+requires-python = ">=3.11"
+dependencies = ["numpy>=1.26,<2", "pandas>=1.5,<2"]
+
+[project.optional-dependencies]
+gm = ["gm==3.0.187"]
+
+[project.scripts]
+qr-factor = "qr_factor_lab.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

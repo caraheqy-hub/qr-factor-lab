@@ -1,0 +1,24 @@
+{
+  "input": "data\\gm_tech_2026.csv",
+  "input_sha256": "e20d31d5630caa4c0b7f8eac8ada4587dbf6c154a720c301599b901fb18647c8",
+  "symbols": 23,
+  "candidate_ids": [
+    "F01",
+    "F08",
+    "F09",
+    "F10",
+    "F11",
+    "F12",
+    "F14",
+    "F15",
+    "F17",
+    "F18",
+    "F19"
+  ],
+  "common_dates": 139,
+  "first_signal_date": "2026-03-10",
+  "last_signal_date": "2026-09-28",
+  "signal_time": "after close t",
+  "label": "open t+1 to open t+2",
+  "scope": "exploratory Rank IC screen; no execution or cost model"
+}

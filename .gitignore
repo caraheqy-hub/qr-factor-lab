@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+.env
+data/*.csv
+data/*.parquet
+data/*.json
+results/demo/
+results/*/*_daily.csv
+results/*/*_ic.csv
+results/*/daily_rank_ic.csv

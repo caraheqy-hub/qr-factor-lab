@@ -1,0 +1,35 @@
+id,family,name,source_id,formula_or_definition,required_fields,formula_status,current_data,status,remarks
+F01,liquidity,20日均量负向,R01,-Mean(volume 20),volume,exact,yes,prior_tested,现有项目已测;静态科技池结果不支持策略优越性
+F02,intraday,5日内收益波动负向,R01,-Std((close-open)/open 5),open close,partial,yes,idea_only,原文维度已见;需确认原文日内收益定义和调仓
+F03,overnight,5日隔夜回报,R01,Mean(open/previous_close-1 5),open close,partial,yes,idea_only,需核对复权与原文定义
+F04,momentum,联合行业动量,R04,个股月最大收益日的行业指数收益,close industry_return,partial,no,data_blocked,摘要仅说明逻辑;需原文及行业历史成分
+F05,flow,公募季度净流入,R08,基金季度净流入/成交额,fund_flow traded_value publish_date,exact,no,data_blocked,必须在基金季报披露后使用
+F06,industry_timing,行业拥挤度,R07,量价指标滚动分位阈值,industry_ohlcv,partial,no,idea_only,摘要缺4项完整公式
+F07,industry_timing,AH红利轮动,R13,多个宏观与拥挤指标加权,macro vix fx index data,partial,no,idea_only,跨市场择时专案
+F08,technical,KMID,Qlib, (close-open)/open,open close,exact,yes,candidate,日内实体比例
+F09,technical,ROC20,Qlib,close_lag20/close_today,close,exact,yes,candidate,Qlib方向与通常动量相反;必须固定方向
+F10,technical,MA20,Qlib,Mean(close 20)/close_today,close,exact,yes,candidate,均线偏离
+F11,technical,STD20,Qlib,Std(close 20)/close_today,close,exact,yes,candidate,价格水平波动代理非收益波动
+F12,technical,CORR20,Qlib,Corr(close and Log(volume+1) over 20),close volume,exact,yes,candidate,量价相关
+F13,technical,CORD20,Qlib,Corr(close/lagclose and Log(volume/lagvolume+1) over 20),close volume,exact,yes,candidate,需处理零量与对数域
+F14,technical,CNTP20,Qlib,Mean(close>lagclose over 20),close,exact,yes,candidate,上涨日比例
+F15,technical,CNTD20,Qlib,Mean(up days)-Mean(down days) over 20,close,exact,yes,candidate,不等于净收益
+F16,technical,SUMP20,Qlib,Sum(positive close change)/Sum(abs close change) over 20,close,exact,yes,candidate,零分母保护
+F17,volume,VMA20,Qlib,Mean(volume 20)/volume_today,volume,exact,yes,candidate,非R01的绝对量;零量要屏蔽
+F18,volume,VSTD20,Qlib,Std(volume 20)/volume_today,volume,exact,yes,candidate,量的变异程度
+F19,volume,WVMA20,Qlib,Std(abs(daily return)*volume 20)/Mean(abs(daily return)*volume 20),close volume,exact,yes,candidate,需保护零均值
+F20,volume,VSUMP20,Qlib,Sum(positive volume change)/Sum(abs volume change) over 20,volume,exact,yes,candidate,成交量变化方向
+F21,technical,RSQR20,Qlib,Rsquare(close 20),close,exact,yes,candidate,趋势线性程度
+F22,technical,RESI20,Qlib,Resi(close 20)/close_today,close,exact,yes,candidate,线性趋势残差
+F23,technical,RSV20,Qlib,(close-Min(low 20))/(Max(high 20)-Min(low 20)),high low close,exact,no,data_blocked,现有快照无高低价
+F24,technical,MAX20,Qlib,Max(high 20)/close_today,high close,exact,no,data_blocked,现有快照无最高价
+F25,technical,IMAX20,Qlib,IdxMax(high 20)/20,high,exact,no,data_blocked,现有快照无最高价
+F26,academic,101 Formulaic Alphas,Paper,101 explicit expressions,OHLCV VWAP and more,exact,no,source_to_review,逐式筛选;不可视作101个已测A股因子
+F27,academic,中期价格动量,Jegadeesh_Titman,过去3到12个月赢家减输家,close,partial,yes,idea_only,美国论文现象;需A股定义和时间线
+F28,quality,盈利能力,QMJ,profitability composite,financials publish_date,partial,no,data_blocked,需逐财报实际披露日
+F29,quality,安全性,QMJ,safety composite,financials returns publish_date,partial,no,data_blocked,需完整口径和PIT数据
+F30,valuation,市净率倒数,R03,book_equity/market_cap,financials market_cap publish_date,idea,no,data_blocked,类别线索不是该研报完整公式
+F31,growth,营业收入增长,R03,revenue growth from disclosed filings,financials publish_date,idea,no,data_blocked,需要滚动口径和当时披露版本
+F32,analyst,一致预期修正,R05,change in analyst consensus at known timestamp,forecast revisions publish_date,idea,no,data_blocked,仅题录;不可称原文因子
+F33,behavior,交易行为因子,R15,交易行为指标待原文,order/trade data,idea,no,source_to_review,近期月报题录;不得据摘要虚构公式
+F34,risk,低风险底池,R19,按绝对收益风险特征筛低风险因子,returns exposures,partial,no,source_to_review,风险分类框架;原报告完整阈值待核对
