@@ -8,8 +8,8 @@ ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / 'results' / 'gtja_alpha1_gm'
 
 
-def trial(window, horizon, cost_bps=15):
-    data = pd.read_parquet(ROOT / 'data' / f'gtja_alpha1_{window}_signals.parquet')
+def trial(window, horizon, cost_bps=15, family='gtja_alpha1'):
+    data = pd.read_parquet(ROOT / 'data' / f'{family}_{window}_signals.parquet')
     data = data[data.day_number.mod(horizon).eq(0)]
     label = f'return_{horizon}'
     previous = {}

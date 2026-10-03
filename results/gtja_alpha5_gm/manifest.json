@@ -1,0 +1,31 @@
+{
+  "source": "GTJA 2017-06-15, table 6, PDF page 11, Alpha5",
+  "formula": "-TSMAX(CORR(TSRANK(VOLUME,5),TSRANK(HIGH,5),5),3)",
+  "grid": [
+    [
+      3,
+      3,
+      3
+    ],
+    [
+      5,
+      5,
+      3
+    ],
+    [
+      10,
+      10,
+      5
+    ]
+  ],
+  "original": [
+    5,
+    5,
+    3
+  ],
+  "tsrank": "rolling percentile rank including signal date",
+  "signal": "after close t",
+  "entry": "open t+1",
+  "label": "adjusted open t+1 to t+2 or t+6",
+  "scope": "exploratory IC; no cost or execution claim"
+}
