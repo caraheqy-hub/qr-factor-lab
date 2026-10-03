@@ -1,0 +1,21 @@
+{
+  "source": "WorldQuant 101 Formulaic Alphas, alpha 101",
+  "formula": "(close-open)/(high-low+0.001)",
+  "windows": [
+    1,
+    5,
+    10
+  ],
+  "windows_other_than_1": "adaptations",
+  "horizons": [
+    1,
+    5
+  ],
+  "signal": "after close t",
+  "return": "open t+1 to open t+2 or t+6",
+  "prices": "GM raw OHLC for signal; entry/exit open multiplied by same-day adj_factor",
+  "scope": "exploratory IC only; no cost or execution claim",
+  "bar_rows": 490216,
+  "first_date": "2020-01-02",
+  "last_date": "2026-09-30"
+}

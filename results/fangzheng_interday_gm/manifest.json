@@ -1,0 +1,17 @@
+{
+  "source": "Fangzheng Securities, 2022-06-11, section 2.4",
+  "formula": "flip 20-day mean close-to-close return if its 20-day volatility is below cross-sectional mean",
+  "windows": [
+    10,
+    20,
+    40
+  ],
+  "original_window": 20,
+  "universe_change": "HS300 instead of all A shares",
+  "neutralization": "none; report uses size and industry neutralization",
+  "signal": "month-end after close",
+  "entry": "next trading day open",
+  "exit": "open after next month-end",
+  "returns": "raw open times same-day GM adj_factor",
+  "scope": "exploratory IC; missing entry/exit excluded; no fill or cost claim"
+}

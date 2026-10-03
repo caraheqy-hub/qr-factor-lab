@@ -35,3 +35,6 @@ F33,behavior,交易行为因子,R15,交易行为指标待原文,order/trade data
 F34,risk,低风险底池,R19,按绝对收益风险特征筛低风险因子,returns exposures,partial,no,source_to_review,风险分类框架;原报告完整阈值待核对
 F35,valuation,低市净率,Anomalies_China_A,negative_pbMRQ,pbMRQ,adaptation,exploratory,rejected_hs300,2025至2026扣费超额为负;历史PB点时未核
 F36,risk,低收益波动,Volatility_Effect_China,negative_std_daily_return_60_or_252,close,adaptation,yes,rejected_hs300,原文使用过去三年月收益波动率;本实验是短窗口改编
+F37,price,WorldQuant Alpha 101,R20,(close-open)/(high-low+0.001),open high low close,exact,yes,rejected_gm_ic_screen,原式及5日10日平滑共6试验;2026年5日标签的平滑信号方向转弱
+F38,behavior,球队硬币因子,R24,three_revised_reversal_components_equal_weight,open close turnrate,formula_verified,no,awaiting_turnover_data,原报告转载全文第7至19页;全市场行业市值中性化与本项目沪深300有差异
+F39,behavior,方正日间波动翻转,R24,flip_20day_mean_close_return_if_20day_vol_below_cross_mean,close adj_factor,exact_subfactor,yes,cost_screen_failed,20日IC同向但月度费用后2021 2023 2025超额为负且多月无法完整成交;10/20/40日均记录
