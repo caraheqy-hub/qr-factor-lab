@@ -1,0 +1,4143 @@
+{
+  "source": "GM original consolidated statements (data_type=101)",
+  "query_rule": "previous trading day before monthly signal close",
+  "months": [
+    {
+      "month": "2020-01",
+      "balance_rows": 300,
+      "balance_latest_pub": "2019-10-31",
+      "balance_published_after_query": 0,
+      "balance_nonmissing": {
+        "ttl_ast": 300,
+        "ttl_liab": 300
+      },
+      "balance_sha256": "db91e18571c4c32be26835cc43d97318f03cc530f8e4d7fafe67348fbf969191",
+      "income_rows": 300,
+      "income_latest_pub": "2019-10-31",
+      "income_published_after_query": 0,
+      "income_nonmissing": {
+        "net_prof_pcom": 300
+      },
+      "income_sha256": "f2f89b23d40df834b1e358a65d1767032a40989a9f59c35ce87253e269b25f60",
+      "cashflow_rows": 300,
+      "cashflow_latest_pub": "2019-10-31",
+      "cashflow_published_after_query": 0,
+      "cashflow_nonmissing": {
+        "net_cf_oper": 300
+      },
+      "cashflow_sha256": "5666a8902723c055c7f4c23b77fc8ab80cd282e9a9f85fd0be54a42986b326b1",
+      "annual_balance_rows": 300,
+      "annual_balance_latest_pub": "2019-06-22",
+      "annual_balance_published_after_query": 0,
+      "annual_balance_nonmissing": {
+        "ttl_ast": 300,
+        "ttl_liab": 300
+      },
+      "annual_balance_sha256": "3b0f57c6cad35efe50c9d3fe9d26c0ed42772f2e00a633dd0d4be2caf753a439",
+      "annual_income_rows": 298,
+      "annual_income_latest_pub": "2019-06-22",
+      "annual_income_published_after_query": 0,
+      "annual_income_nonmissing": {
+        "net_prof_pcom": 298
+      },
+      "annual_income_sha256": "6a81c82d6c63fecb27b2e95b0b2a564170c160b1e498bcf74b12808fff066584",
+      "annual_cashflow_rows": 300,
+      "annual_cashflow_latest_pub": "2019-06-22",
+      "annual_cashflow_published_after_query": 0,
+      "annual_cashflow_nonmissing": {
+        "net_cf_oper": 300
+      },
+      "annual_cashflow_sha256": "259f3f29ee8fd047e33fbb3b3395c4a0379c02e28b27e20afc3737ac5b83c005",
+      "shared_symbols": 300,
+      "aligned_report_dates": 299,
+      "annual_shared_symbols": 298,
+      "annual_aligned_report_dates": 295
+    },
+    {
+      "month": "2020-02",
+      "balance_rows": 300,
+      "balance_latest_pub": "2020-02-27",
+      "balance_published_after_query": 0,
+      "balance_nonmissing": {
+        "ttl_ast": 300,
+        "ttl_liab": 300
+      },
+      "balance_sha256": "f3b14e2fc311bce6571c0afaa955ac9b46eff9475f0d0a5d3594048d8366119b",
+      "income_rows": 300,
+      "income_latest_pub": "2020-02-27",
+      "income_published_after_query": 0,
+      "income_nonmissing": {
+        "net_prof_pcom": 300
+      },
+      "income_sha256": "62f18aa547e463d3da41e72632857d02bced1a2b47dde3e5ae0aee38ea863381",
+      "cashflow_rows": 300,
+      "cashflow_latest_pub": "2020-02-27",
+      "cashflow_published_after_query": 0,
+      "cashflow_nonmissing": {
+        "net_cf_oper": 300
+      },
+      "cashflow_sha256": "e7e27ccae4e7c5e8d5760c334ebf4ac0b5af7f81604e68a0a45d3089e871f9c7",
+      "annual_balance_rows": 300,
+      "annual_balance_latest_pub": "2020-02-27",
+      "annual_balance_published_after_query": 0,
+      "annual_balance_nonmissing": {
+        "ttl_ast": 300,
+        "ttl_liab": 300
+      },
+      "annual_balance_sha256": "5f066db52b3ef1e819caa8911ce9c5a4ecfe1e94001e44855b07872fb5e61d6c",
+      "annual_income_rows": 298,
+      "annual_income_latest_pub": "2020-02-27",
+      "annual_income_published_after_query": 0,
+      "annual_income_nonmissing": {
+        "net_prof_pcom": 298
+      },
+      "annual_income_sha256": "bf3174445c01258a6f493522c6b7b0d769164b1fc9df09e178a61146a52862ff",
+      "annual_cashflow_rows": 300,
+      "annual_cashflow_latest_pub": "2020-02-27",
+      "annual_cashflow_published_after_query": 0,
+      "annual_cashflow_nonmissing": {
+        "net_cf_oper": 300
+      },
+      "annual_cashflow_sha256": "db07de6de18e98d337ef149b00b4c6bf2ccf01e14cfce63abb4b2185b0e728e5",
+      "shared_symbols": 300,
+      "aligned_report_dates": 300,
+      "annual_shared_symbols": 298,
+      "annual_aligned_report_dates": 295
+    },
+    {
+      "month": "2020-03",
+      "balance_rows": 300,
+      "balance_latest_pub": "2020-03-30",
+      "balance_published_after_query": 0,
+      "balance_nonmissing": {
+        "ttl_ast": 300,
+        "ttl_liab": 300
+      },
+      "balance_sha256": "a49b2fa49c0b6546a51cd51119072dcda17851bc9218dad4b776e8015cdc28c1",
+      "income_rows": 300,
+      "income_latest_pub": "2020-03-30",
+      "income_published_after_query": 0,
+      "income_nonmissing": {
+        "net_prof_pcom": 300
+      },
+      "income_sha256": "d366ceca8ecf73ef23bcb01416e3e244bff74f8d944f1f72fa28ab6d371e794a",
+      "cashflow_rows": 300,
+      "cashflow_latest_pub": "2020-03-30",
+      "cashflow_published_after_query": 0,
+      "cashflow_nonmissing": {
+        "net_cf_oper": 300
+      },
+      "cashflow_sha256": "94da3b3f84ce997945530e8b5e692e5b2d7efdd26749e3af655706de34128336",
+      "annual_balance_rows": 300,
+      "annual_balance_latest_pub": "2020-03-30",
+      "annual_balance_published_after_query": 0,
+      "annual_balance_nonmissing": {
+        "ttl_ast": 300,
+        "ttl_liab": 300
+      },
+      "annual_balance_sha256": "0d2fe4bb8d7364eb49031ba399e1be488415cddb7af8bae3fc4daabde02ca6c7",
+      "annual_income_rows": 298,
+      "annual_income_latest_pub": "2020-03-30",
+      "annual_income_published_after_query": 0,
+      "annual_income_nonmissing": {
+        "net_prof_pcom": 298
+      },
+      "annual_income_sha256": "5788813de2da63fdb786747f86a095ec0b3e8ddaace481ef004bb9ffeb3f68f9",
+      "annual_cashflow_rows": 300,
+      "annual_cashflow_latest_pub": "2020-03-30",
+      "annual_cashflow_published_after_query": 0,
+      "annual_cashflow_nonmissing": {
+        "net_cf_oper": 300
+      },
+      "annual_cashflow_sha256": "9c4756d157d579a065e64a205acf22c57787373224fc1797586c677cd995d753",
+      "shared_symbols": 300,
+      "aligned_report_dates": 300,
+      "annual_shared_symbols": 298,
+      "annual_aligned_report_dates": 295
+    },
+    {
+      "month": "2020-04",
+      "balance_rows": 300,
+      "balance_latest_pub": "2020-04-29",
+      "balance_published_after_query": 0,
+      "balance_nonmissing": {
+        "ttl_ast": 300,
+        "ttl_liab": 300
+      },
+      "balance_sha256": "2d307b66cf7e64383096bfb01df6b8db2721bbffc0153c94b5c6817e96f818bd",
+      "income_rows": 300,
+      "income_latest_pub": "2020-04-29",
+      "income_published_after_query": 0,
+      "income_nonmissing": {
+        "net_prof_pcom": 300
+      },
+      "income_sha256": "47195cbd88d5d40ebe87e31ceb4d09246b7beefec577207ceb0abfef9919a9d2",
+      "cashflow_rows": 300,
+      "cashflow_latest_pub": "2020-04-29",
+      "cashflow_published_after_query": 0,
+      "cashflow_nonmissing": {
+        "net_cf_oper": 300
+      },
+      "cashflow_sha256": "84e46d9aba5841f4930c9a0bc64c08bd75609a076d0d4f7be34cc9ae75b75b3b",
+      "annual_balance_rows": 296,
+      "annual_balance_latest_pub": "2020-04-29",
+      "annual_balance_published_after_query": 0,
+      "annual_balance_nonmissing": {
+        "ttl_ast": 296,
+        "ttl_liab": 296
+      },
+      "annual_balance_sha256": "f4f07eda42f26a655c8a4fca0ce4f0f4599d84aae9e6b2f7e61b7e5ad67ac9d4",
+      "annual_income_rows": 295,
+      "annual_income_latest_pub": "2020-04-29",
+      "annual_income_published_after_query": 0,
+      "annual_income_nonmissing": {
+        "net_prof_pcom": 295
+      },
+      "annual_income_sha256": "4ffc29d7ba510668c50787b2c5c3a7c455df4a307e2182fd974341e77e3eea48",
+      "annual_cashflow_rows": 299,
+      "annual_cashflow_latest_pub": "2020-04-29",
+      "annual_cashflow_published_after_query": 0,
+      "annual_cashflow_nonmissing": {
+        "net_cf_oper": 299
+      },
+      "annual_cashflow_sha256": "b38eb6ae4a6a96f58aa8e30a98fee37f4710d10616d16000a7acc5ff45b76784",
+      "shared_symbols": 300,
+      "aligned_report_dates": 296,
+      "annual_shared_symbols": 294,
+      "annual_aligned_report_dates": 292
+    },
+    {
+      "month": "2020-05",
+      "balance_rows": 300,
+      "balance_latest_pub": "2020-04-30",
+      "balance_published_after_query": 0,
+      "balance_nonmissing": {
+        "ttl_ast": 300,
+        "ttl_liab": 300
+      },
+      "balance_sha256": "5e633f39311521f73ae2a624615c9ad403e6540303f171557f335a42f3caa233",
+      "income_rows": 300,
+      "income_latest_pub": "2020-04-30",
+      "income_published_after_query": 0,
+      "income_nonmissing": {
+        "net_prof_pcom": 300
+      },
+      "income_sha256": "25e87f281fe1d91da3d9933b3762fb9fc9e795a399db4726f48983b365f6c383",
+      "cashflow_rows": 300,
+      "cashflow_latest_pub": "2020-04-30",
+      "cashflow_published_after_query": 0,
+      "cashflow_nonmissing": {
+        "net_cf_oper": 300
+      },
+      "cashflow_sha256": "2080dd6baa83929d427406d56a75523be9f183ddcf9b78aa1e6e64238fadba86",
+      "annual_balance_rows": 297,
+      "annual_balance_latest_pub": "2020-05-21",
+      "annual_balance_published_after_query": 0,
+      "annual_balance_nonmissing": {
+        "ttl_ast": 297,
+        "ttl_liab": 297
+      },
+      "annual_balance_sha256": "6800d994890b2e1bb55dcbd65c5dc26a045f9f5d28a1094800dd30434686cc08",
+      "annual_income_rows": 296,
+      "annual_income_latest_pub": "2020-05-21",
+      "annual_income_published_after_query": 0,
+      "annual_income_nonmissing": {
+        "net_prof_pcom": 296
+      },
+      "annual_income_sha256": "99c5bdfe6cd27f3677fae5664cedc15e9db6b3fa6a8762269da536cb591aeb4b",
+      "annual_cashflow_rows": 300,
+      "annual_cashflow_latest_pub": "2020-05-21",
+      "annual_cashflow_published_after_query": 0,
+      "annual_cashflow_nonmissing": {
+        "net_cf_oper": 300
+      },
+      "annual_cashflow_sha256": "1a9429521a004d1be180b4c5a57525adeb3934dc552387669adf9782b7627e8e",
+      "shared_symbols": 300,
+      "aligned_report_dates": 299,
+      "annual_shared_symbols": 295,
+      "annual_aligned_report_dates": 290
+    },
+    {
+      "month": "2020-06",
+      "balance_rows": 300,
+      "balance_latest_pub": "2020-04-30",
+      "balance_published_after_query": 0,
+      "balance_nonmissing": {
+        "ttl_ast": 300,
+        "ttl_liab": 300
+      },
+      "balance_sha256": "6a6d2c6a1f8c00ed5bd22887090026bb1782e64de33c3e54f9cb492c41375ead",
+      "income_rows": 300,
+      "income_latest_pub": "2020-04-30",
+      "income_published_after_query": 0,
+      "income_nonmissing": {
+        "net_prof_pcom": 300
+      },
+      "income_sha256": "b327a025ba95977de32b2d693aae1bab6fac4d2def02c3d4985e52d487699694",
+      "cashflow_rows": 300,
+      "cashflow_latest_pub": "2020-04-30",
+      "cashflow_published_after_query": 0,
+      "cashflow_nonmissing": {
+        "net_cf_oper": 300
+      },
+      "cashflow_sha256": "1e49278f8ac6d5e47756a781d7a068bb7615b7135d3382f1efe3a8870223f043",
+      "annual_balance_rows": 297,
+      "annual_balance_latest_pub": "2020-06-20",
+      "annual_balance_published_after_query": 0,
+      "annual_balance_nonmissing": {
+        "ttl_ast": 297,
+        "ttl_liab": 297
+      },
+      "annual_balance_sha256": "04cfc16f691521fafbd656ff4b955cd4e671f6ebaf0cd42b846c32e9c0a2df23",
+      "annual_income_rows": 297,
+      "annual_income_latest_pub": "2020-06-20",
+      "annual_income_published_after_query": 0,
+      "annual_income_nonmissing": {
+        "net_prof_pcom": 297
+      },
+      "annual_income_sha256": "2944b4ad5ceee531c43c29aa8dccfb4d5f747f38135a0459ec2976a3a2e7b108",
+      "annual_cashflow_rows": 300,
+      "annual_cashflow_latest_pub": "2020-06-20",
+      "annual_cashflow_published_after_query": 0,
+      "annual_cashflow_nonmissing": {
+        "net_cf_oper": 300
+      },
+      "annual_cashflow_sha256": "83813645361bc8a65de539e6f725e6b185bcc9b865413fc53a3a3baadb969df4",
+      "shared_symbols": 300,
+      "aligned_report_dates": 300,
+      "annual_shared_symbols": 296,
+      "annual_aligned_report_dates": 291
+    },
+    {
+      "month": "2020-07",
+      "balance_rows": 300,
+      "balance_latest_pub": "2020-07-29",
+      "balance_published_after_query": 0,
+      "balance_nonmissing": {
+        "ttl_ast": 300,
+        "ttl_liab": 300
+      },
+      "balance_sha256": "f9c72d8071d3f6407b36185aa93617f71eb0eb8ff5822b52bcee9cc4ad75f18f",
+      "income_rows": 300,
+      "income_latest_pub": "2020-07-29",
+      "income_published_after_query": 0,
+      "income_nonmissing": {
+        "net_prof_pcom": 300
+      },
+      "income_sha256": "d0d612038b67a4532f9b61b2c7d3b7e3f4a5b8d08fb605558eb2e07b400a84b1",
+      "cashflow_rows": 300,
+      "cashflow_latest_pub": "2020-07-29",
+      "cashflow_published_after_query": 0,
+      "cashflow_nonmissing": {
+        "net_cf_oper": 300
+      },
+      "cashflow_sha256": "cd893dac7052b6049a4bfff351787ffc623941a4d965c601ab31e5e85e093d16",
+      "annual_balance_rows": 297,
+      "annual_balance_latest_pub": "2020-06-20",
+      "annual_balance_published_after_query": 0,
+      "annual_balance_nonmissing": {
+        "ttl_ast": 297,
+        "ttl_liab": 297
+      },
+      "annual_balance_sha256": "7fc864091e162f3b9b193c57a49f76902ed9b8410670527d84921a2dc0998b54",
+      "annual_income_rows": 297,
+      "annual_income_latest_pub": "2020-06-20",
+      "annual_income_published_after_query": 0,
+      "annual_income_nonmissing": {
+        "net_prof_pcom": 297
+      },
+      "annual_income_sha256": "7dfa4e75e6d2bbfe565eb0aee404d66333aaadc22067e93b3b32e9178263ad1d",
+      "annual_cashflow_rows": 300,
+      "annual_cashflow_latest_pub": "2020-06-20",
+      "annual_cashflow_published_after_query": 0,
+      "annual_cashflow_nonmissing": {
+        "net_cf_oper": 300
+      },
+      "annual_cashflow_sha256": "84a0663481f87e1c32c600535019060982212d923f8ee3cca5c592566c9ff639",
+      "shared_symbols": 300,
+      "aligned_report_dates": 300,
+      "annual_shared_symbols": 296,
+      "annual_aligned_report_dates": 291
+    },
+    {
+      "month": "2020-08",
+      "balance_rows": 300,
+      "balance_latest_pub": "2020-08-28",
+      "balance_published_after_query": 0,
+      "balance_nonmissing": {
+        "ttl_ast": 300,
+        "ttl_liab": 300
+      },
+      "balance_sha256": "01c30220a1edf9279abe3edda953fd0a7215a6506c4a88d96a078d671508a1e2",
+      "income_rows": 300,
+      "income_latest_pub": "2020-08-28",
+      "income_published_after_query": 0,
+      "income_nonmissing": {
+        "net_prof_pcom": 300
+      },
+      "income_sha256": "937d8987b5b1522a9ccc8d8b9e6927e6c30d69b1b86e14ab98d304549ed5d79e",
+      "cashflow_rows": 300,
+      "cashflow_latest_pub": "2020-08-28",
+      "cashflow_published_after_query": 0,
+      "cashflow_nonmissing": {
+        "net_cf_oper": 300
+      },
+      "cashflow_sha256": "468ca837ecc14193eeea98896381ead0112ade35c0019953274cbd22fd21fd5b",
+      "annual_balance_rows": 297,
+      "annual_balance_latest_pub": "2020-06-20",
+      "annual_balance_published_after_query": 0,
+      "annual_balance_nonmissing": {
+        "ttl_ast": 297,
+        "ttl_liab": 297
+      },
+      "annual_balance_sha256": "3fce49a066056bfb3ff9bdb8863967bfeca6ecceacbc53bc12a03664830d7d93",
+      "annual_income_rows": 297,
+      "annual_income_latest_pub": "2020-06-20",
+      "annual_income_published_after_query": 0,
+      "annual_income_nonmissing": {
+        "net_prof_pcom": 297
+      },
+      "annual_income_sha256": "c1ec2723026628b2fd6388b57d43021c3a4a61b6dbc6baa1e5a2649c1aa6d73e",
+      "annual_cashflow_rows": 300,
+      "annual_cashflow_latest_pub": "2020-06-20",
+      "annual_cashflow_published_after_query": 0,
+      "annual_cashflow_nonmissing": {
+        "net_cf_oper": 300
+      },
+      "annual_cashflow_sha256": "bb2092343e1d7d1319b2ad4f7b813a2c8b036c92d06b34d6f349d5284889e63b",
+      "shared_symbols": 300,
+      "aligned_report_dates": 299,
+      "annual_shared_symbols": 296,
+      "annual_aligned_report_dates": 291
+    },
+    {
+      "month": "2020-09",
+      "balance_rows": 300,
+      "balance_latest_pub": "2020-09-05",
+      "balance_published_after_query": 0,
+      "balance_nonmissing": {
+        "ttl_ast": 300,
+        "ttl_liab": 300
+      },
+      "balance_sha256": "7ae80ae070e00221195122736aa0ce504b1e1e3cacee6952c9135308d62997c2",
+      "income_rows": 300,
+      "income_latest_pub": "2020-09-05",
+      "income_published_after_query": 0,
+      "income_nonmissing": {
+        "net_prof_pcom": 300
+      },
+      "income_sha256": "7ed0399c4485ef27a226040c7dc86a6ce9b0da0ddc39a61725539dcb778329e8",
+      "cashflow_rows": 300,
+      "cashflow_latest_pub": "2020-09-05",
+      "cashflow_published_after_query": 0,
+      "cashflow_nonmissing": {
+        "net_cf_oper": 300
+      },
+      "cashflow_sha256": "0903de487c125bd7ccc0e331555352393f98b206debcef68ef4bf9b439cc3a33",
+      "annual_balance_rows": 297,
+      "annual_balance_latest_pub": "2020-08-29",
+      "annual_balance_published_after_query": 0,
+      "annual_balance_nonmissing": {
+        "ttl_ast": 297,
+        "ttl_liab": 297
+      },
+      "annual_balance_sha256": "791e1016d8913d58a3a4a1b4ed0af00cad1ffcd0756e6f73196530091a7bb7ef",
+      "annual_income_rows": 297,
+      "annual_income_latest_pub": "2020-06-20",
+      "annual_income_published_after_query": 0,
+      "annual_income_nonmissing": {
+        "net_prof_pcom": 297
+      },
+      "annual_income_sha256": "c34453beb3272fbe3758cd9e4f264b1d67d5936eaed03e772d70c72030128361",
+      "annual_cashflow_rows": 300,
+      "annual_cashflow_latest_pub": "2020-06-20",
+      "annual_cashflow_published_after_query": 0,
+      "annual_cashflow_nonmissing": {
+        "net_cf_oper": 300
+      },
+      "annual_cashflow_sha256": "d21c5a0d98b7b3ebbc00ed5fa45c9d6d75080788dbe7305906cb5963939d51af",
+      "shared_symbols": 300,
+      "aligned_report_dates": 299,
+      "annual_shared_symbols": 296,
+      "annual_aligned_report_dates": 292
+    },
+    {
+      "month": "2020-10",
+      "balance_rows": 300,
+      "balance_latest_pub": "2020-10-29",
+      "balance_published_after_query": 0,
+      "balance_nonmissing": {
+        "ttl_ast": 300,
+        "ttl_liab": 300
+      },
+      "balance_sha256": "99bcff4030b00e33f91c6af453f0e5a576b7dc2a21edd74ccc10232912611b9f",
+      "income_rows": 300,
+      "income_latest_pub": "2020-10-29",
+      "income_published_after_query": 0,
+      "income_nonmissing": {
+        "net_prof_pcom": 300
+      },
+      "income_sha256": "43531f6ac18c5fa923691209fc1246e0c0d26f352dff304609a8cdf6e13f2f4e",
+      "cashflow_rows": 300,
+      "cashflow_latest_pub": "2020-10-29",
+      "cashflow_published_after_query": 0,
+      "cashflow_nonmissing": {
+        "net_cf_oper": 300
+      },
+      "cashflow_sha256": "4fbe4d3a98bb8072364d9318d5d8c58a1dc2e19ecc080ef030a6708db8729458",
+      "annual_balance_rows": 297,
+      "annual_balance_latest_pub": "2020-08-29",
+      "annual_balance_published_after_query": 0,
+      "annual_balance_nonmissing": {
+        "ttl_ast": 297,
+        "ttl_liab": 297
+      },
+      "annual_balance_sha256": "524e007ef8a87900c75e419c8e7b6d79900c12cccff522519b6989dbb9ab577a",
+      "annual_income_rows": 297,
+      "annual_income_latest_pub": "2020-06-20",
+      "annual_income_published_after_query": 0,
+      "annual_income_nonmissing": {
+        "net_prof_pcom": 297
+      },
+      "annual_income_sha256": "85e1d93539804906abc6fce9eb91cd478abd6e2bf5e919fe1ce101738315d896",
+      "annual_cashflow_rows": 300,
+      "annual_cashflow_latest_pub": "2020-06-20",
+      "annual_cashflow_published_after_query": 0,
+      "annual_cashflow_nonmissing": {
+        "net_cf_oper": 300
+      },
+      "annual_cashflow_sha256": "4f696ef14b682ccc22afc8bcf1aa18e1eeda6cc3ab40a787d2931a668a23b59f",
+      "shared_symbols": 300,
+      "aligned_report_dates": 300,
+      "annual_shared_symbols": 296,
+      "annual_aligned_report_dates": 292
+    },
+    {
+      "month": "2020-11",
+      "balance_rows": 300,
+      "balance_latest_pub": "2020-11-21",
+      "balance_published_after_query": 0,
+      "balance_nonmissing": {
+        "ttl_ast": 300,
+        "ttl_liab": 300
+      },
+      "balance_sha256": "7731c3622f99dff41a95442b5812a94268eac2c2e07a290cf37769dfd29216be",
+      "income_rows": 300,
+      "income_latest_pub": "2020-11-21",
+      "income_published_after_query": 0,
+      "income_nonmissing": {
+        "net_prof_pcom": 300
+      },
+      "income_sha256": "3a363ba6661f106d81ab4663032be1035ab4cef71e816c46267e35b4c38421ca",
+      "cashflow_rows": 300,
+      "cashflow_latest_pub": "2020-11-21",
+      "cashflow_published_after_query": 0,
+      "cashflow_nonmissing": {
+        "net_cf_oper": 300
+      },
+      "cashflow_sha256": "5ccb7ec2b359792d25d7ad49ad2ca4b2460ef4fe3934250e45ef1112f02e2c9d",
+      "annual_balance_rows": 297,
+      "annual_balance_latest_pub": "2020-08-29",
+      "annual_balance_published_after_query": 0,
+      "annual_balance_nonmissing": {
+        "ttl_ast": 297,
+        "ttl_liab": 297
+      },
+      "annual_balance_sha256": "d6160b22722d9b2c05c324ab662d973fe2dd917cf62d118962963aaa387fe805",
+      "annual_income_rows": 297,
+      "annual_income_latest_pub": "2020-06-20",
+      "annual_income_published_after_query": 0,
+      "annual_income_nonmissing": {
+        "net_prof_pcom": 297
+      },
+      "annual_income_sha256": "2884168b141cf3b9809081302cd4c8bc24d06565976b83a5868c0c371d8cffa5",
+      "annual_cashflow_rows": 300,
+      "annual_cashflow_latest_pub": "2020-06-20",
+      "annual_cashflow_published_after_query": 0,
+      "annual_cashflow_nonmissing": {
+        "net_cf_oper": 300
+      },
+      "annual_cashflow_sha256": "da9197dd5620b9ae99e266a0ae593636d5d51d68104fd0dbd499a6800171e531",
+      "shared_symbols": 300,
+      "aligned_report_dates": 300,
+      "annual_shared_symbols": 296,
+      "annual_aligned_report_dates": 292
+    },
+    {
+      "month": "2020-12",
+      "balance_rows": 300,
+      "balance_latest_pub": "2020-12-22",
+      "balance_published_after_query": 0,
+      "balance_nonmissing": {
+        "ttl_ast": 300,
+        "ttl_liab": 300
+      },
+      "balance_sha256": "2606ca38a73f9e07db105aed2c00ddc0b297566b52134f5c7670609ce7028680",
+      "income_rows": 300,
+      "income_latest_pub": "2020-12-22",
+      "income_published_after_query": 0,
+      "income_nonmissing": {
+        "net_prof_pcom": 300
+      },
+      "income_sha256": "b1c316a47c8d5ca4deaf3b9d7118e7c8b94c0a19b2afec30d5fe72fd9ee028ed",
+      "cashflow_rows": 300,
+      "cashflow_latest_pub": "2020-12-22",
+      "cashflow_published_after_query": 0,
+      "cashflow_nonmissing": {
+        "net_cf_oper": 300
+      },
+      "cashflow_sha256": "139f217ab4d55e7c8077dafa17ad148b4a7793602bae94b119860ab4f80d7e08",
+      "annual_balance_rows": 297,
+      "annual_balance_latest_pub": "2020-08-29",
+      "annual_balance_published_after_query": 0,
+      "annual_balance_nonmissing": {
+        "ttl_ast": 297,
+        "ttl_liab": 297
+      },
+      "annual_balance_sha256": "2ac3673e738c2e16a2afd67006ac5b997664354fe992b1944cc23b5bbd9a204c",
+      "annual_income_rows": 297,
+      "annual_income_latest_pub": "2020-06-20",
+      "annual_income_published_after_query": 0,
+      "annual_income_nonmissing": {
+        "net_prof_pcom": 297
+      },
+      "annual_income_sha256": "eb066cb1ad0b52caf42b38272c545bca55f1e276cc0dd707226a8d33c308ff3d",
+      "annual_cashflow_rows": 300,
+      "annual_cashflow_latest_pub": "2020-06-20",
+      "annual_cashflow_published_after_query": 0,
+      "annual_cashflow_nonmissing": {
+        "net_cf_oper": 300
+      },
+      "annual_cashflow_sha256": "e1df9e3f498ef4e71408546b123074998fdd8eef3b593f6be044dcb1ecb39e4e",
+      "shared_symbols": 300,
+      "aligned_report_dates": 300,
+      "annual_shared_symbols": 296,
+      "annual_aligned_report_dates": 295
+    },
+    {
+      "month": "2021-01",
+      "balance_rows": 300,
+      "balance_latest_pub": "2021-01-22",
+      "balance_published_after_query": 0,
+      "balance_nonmissing": {
+        "ttl_ast": 300,
+        "ttl_liab": 300
+      },
+      "balance_sha256": "c6cda673a23de936331fb6684f83a7d2cf019f9fa368a4a388ce21de95d66ced",
+      "income_rows": 300,
+      "income_latest_pub": "2021-01-22",
+      "income_published_after_query": 0,
+      "income_nonmissing": {
+        "net_prof_pcom": 300
+      },
+      "income_sha256": "911e1c3689c60e2345fa12b530551f1a21d5824daba1c353d349c0eef0126ec1",
+      "cashflow_rows": 300,
+      "cashflow_latest_pub": "2021-01-22",
+      "cashflow_published_after_query": 0,
+      "cashflow_nonmissing": {
+        "net_cf_oper": 300
+      },
+      "cashflow_sha256": "cdfd94206c5a0becce072d1e5d90627ea9a31d9299e89289016acb921a10eb01",
+      "annual_balance_rows": 297,
+      "annual_balance_latest_pub": "2020-08-29",
+      "annual_balance_published_after_query": 0,
+      "annual_balance_nonmissing": {
+        "ttl_ast": 297,
+        "ttl_liab": 297
+      },
+      "annual_balance_sha256": "3962c563efe937ee8f826cc79a3df993632c0f5a7ca677f04ae7f641282e1aa9",
+      "annual_income_rows": 297,
+      "annual_income_latest_pub": "2020-06-20",
+      "annual_income_published_after_query": 0,
+      "annual_income_nonmissing": {
+        "net_prof_pcom": 297
+      },
+      "annual_income_sha256": "89e04e26b45e8eb5b7e6f7164965f4cd671c6eef7624c106d95ac0ae22818a7f",
+      "annual_cashflow_rows": 300,
+      "annual_cashflow_latest_pub": "2020-06-20",
+      "annual_cashflow_published_after_query": 0,
+      "annual_cashflow_nonmissing": {
+        "net_cf_oper": 300
+      },
+      "annual_cashflow_sha256": "62282ce4b43f6e2c95a3a617b2c6d59e96c0f522afe9fa414686a5b4a27e9045",
+      "shared_symbols": 300,
+      "aligned_report_dates": 300,
+      "annual_shared_symbols": 296,
+      "annual_aligned_report_dates": 295
+    },
+    {
+      "month": "2021-02",
+      "balance_rows": 300,
+      "balance_latest_pub": "2021-02-04",
+      "balance_published_after_query": 0,
+      "balance_nonmissing": {
+        "ttl_ast": 300,
+        "ttl_liab": 300
+      },
+      "balance_sha256": "94bd92ef48034f9643cd4c1b6012811557ae08e9fc9975bb22b7b0f11c79db91",
+      "income_rows": 300,
+      "income_latest_pub": "2021-02-04",
+      "income_published_after_query": 0,
+      "income_nonmissing": {
+        "net_prof_pcom": 300
+      },
+      "income_sha256": "4caa92495c14e6d3b42abc351ad8e9e3dcc24d69b1c67281ef078fa304d21791",
+      "cashflow_rows": 300,
+      "cashflow_latest_pub": "2021-02-04",
+      "cashflow_published_after_query": 0,
+      "cashflow_nonmissing": {
+        "net_cf_oper": 300
+      },
+      "cashflow_sha256": "b73349992de4076f7cf246815691540d8e340f31d4c6cc1e7936e083db4d8791",
+      "annual_balance_rows": 297,
+      "annual_balance_latest_pub": "2021-02-04",
+      "annual_balance_published_after_query": 0,
+      "annual_balance_nonmissing": {
+        "ttl_ast": 297,
+        "ttl_liab": 297
+      },
+      "annual_balance_sha256": "4de5deff3b01fa4c2ee3c46dce5acec6be4115db2745619fc37a927c17f3c327",
+      "annual_income_rows": 297,
+      "annual_income_latest_pub": "2021-02-04",
+      "annual_income_published_after_query": 0,
+      "annual_income_nonmissing": {
+        "net_prof_pcom": 297
+      },
+      "annual_income_sha256": "0f8e0a7f3ac2021f85fd0a6c67a340489974c80753377ebdb7130718de91b74c",
+      "annual_cashflow_rows": 300,
+      "annual_cashflow_latest_pub": "2021-02-04",
+      "annual_cashflow_published_after_query": 0,
+      "annual_cashflow_nonmissing": {
+        "net_cf_oper": 300
+      },
+      "annual_cashflow_sha256": "3320fed1782ac062e1a9d50e6020d5f236f00b9b4dbb1c727e41f067a178d084",
+      "shared_symbols": 300,
+      "aligned_report_dates": 300,
+      "annual_shared_symbols": 296,
+      "annual_aligned_report_dates": 295
+    },
+    {
+      "month": "2021-03",
+      "balance_rows": 300,
+      "balance_latest_pub": "2021-03-30",
+      "balance_published_after_query": 0,
+      "balance_nonmissing": {
+        "ttl_ast": 300,
+        "ttl_liab": 300
+      },
+      "balance_sha256": "ae09d9f00ae34458368936ed1edc7938c7b7b30f80fd47a4a8222852de1c32c4",
+      "income_rows": 300,
+      "income_latest_pub": "2021-03-30",
+      "income_published_after_query": 0,
+      "income_nonmissing": {
+        "net_prof_pcom": 300
+      },
+      "income_sha256": "9b3d2fb35e313fbd48ff49e09c4bd8ea3706c8f120e7a2b9eac4d963a13e464d",
+      "cashflow_rows": 300,
+      "cashflow_latest_pub": "2021-03-30",
+      "cashflow_published_after_query": 0,
+      "cashflow_nonmissing": {
+        "net_cf_oper": 300
+      },
+      "cashflow_sha256": "bad9c53d2a8bf13632c7d8d82cce9eea50edcf3cfd986492b06e88f755fca595",
+      "annual_balance_rows": 297,
+      "annual_balance_latest_pub": "2021-03-30",
+      "annual_balance_published_after_query": 0,
+      "annual_balance_nonmissing": {
+        "ttl_ast": 297,
+        "ttl_liab": 297
+      },
+      "annual_balance_sha256": "0cd3639098c5efcf2249f126cc368d4ff67097db5aa496e8c29e602649fa30cb",
+      "annual_income_rows": 297,
+      "annual_income_latest_pub": "2021-03-30",
+      "annual_income_published_after_query": 0,
+      "annual_income_nonmissing": {
+        "net_prof_pcom": 297
+      },
+      "annual_income_sha256": "ac6b3d5fd821ccd49d8c0c66a99e1a6160d6bc5f77500508886c9b7058acd3b1",
+      "annual_cashflow_rows": 300,
+      "annual_cashflow_latest_pub": "2021-03-30",
+      "annual_cashflow_published_after_query": 0,
+      "annual_cashflow_nonmissing": {
+        "net_cf_oper": 300
+      },
+      "annual_cashflow_sha256": "a11aab92e16d4adc567859adf2d4a903b21f912db6292e6f063989e3c3052f17",
+      "shared_symbols": 300,
+      "aligned_report_dates": 300,
+      "annual_shared_symbols": 296,
+      "annual_aligned_report_dates": 295
+    },
+    {
+      "month": "2021-04",
+      "balance_rows": 300,
+      "balance_latest_pub": "2021-04-29",
+      "balance_published_after_query": 0,
+      "balance_nonmissing": {
+        "ttl_ast": 300,
+        "ttl_liab": 300
+      },
+      "balance_sha256": "8eb4109a1bb8953989d579d0540f8e66cf5909a31331bdd33767152dfd0bd8f2",
+      "income_rows": 300,
+      "income_latest_pub": "2021-04-29",
+      "income_published_after_query": 0,
+      "income_nonmissing": {
+        "net_prof_pcom": 300
+      },
+      "income_sha256": "57806bdf8871cd0a2f737d2e0f24d62f178f876e9ec4c70eed8c4d1f98067f5f",
+      "cashflow_rows": 300,
+      "cashflow_latest_pub": "2021-04-29",
+      "cashflow_published_after_query": 0,
+      "cashflow_nonmissing": {
+        "net_cf_oper": 300
+      },
+      "cashflow_sha256": "558fefa0ff86a08e768d39dbce00df0c6667a503617f93e873e3b1e75e940fcf",
+      "annual_balance_rows": 298,
+      "annual_balance_latest_pub": "2021-04-29",
+      "annual_balance_published_after_query": 0,
+      "annual_balance_nonmissing": {
+        "ttl_ast": 298,
+        "ttl_liab": 298
+      },
+      "annual_balance_sha256": "e52c2520a9a7b62085f3d2b4c8b95f108562bc2a3e8fa217fd2a8ae37ab002a4",
+      "annual_income_rows": 298,
+      "annual_income_latest_pub": "2021-04-29",
+      "annual_income_published_after_query": 0,
+      "annual_income_nonmissing": {
+        "net_prof_pcom": 298
+      },
+      "annual_income_sha256": "3f9ce0c2676858f85c22dbfef6c7bf05c4aa057b3615e3c156d29e1126bfb453",
+      "annual_cashflow_rows": 300,
+      "annual_cashflow_latest_pub": "2021-04-29",
+      "annual_cashflow_published_after_query": 0,
+      "annual_cashflow_nonmissing": {
+        "net_cf_oper": 300
+      },
+      "annual_cashflow_sha256": "9ad309701422e023355464b55a60b28aea823454e2b0a9317698d45608c6a993",
+      "shared_symbols": 300,
+      "aligned_report_dates": 298,
+      "annual_shared_symbols": 298,
+      "annual_aligned_report_dates": 296
+    },
+    {
+      "month": "2021-05",
+      "balance_rows": 300,
+      "balance_latest_pub": "2021-04-30",
+      "balance_published_after_query": 0,
+      "balance_nonmissing": {
+        "ttl_ast": 300,
+        "ttl_liab": 300
+      },
+      "balance_sha256": "5052c6b243601012178a037cf7c008b5a547154c1569c5e7b84fa7f313df3cd8",
+      "income_rows": 300,
+      "income_latest_pub": "2021-04-30",
+      "income_published_after_query": 0,
+      "income_nonmissing": {
+        "net_prof_pcom": 300
+      },
+      "income_sha256": "d89460c8e887d540a75b628e596ee4e1cf052a13c0a28046ff303aba214351b2",
+      "cashflow_rows": 300,
+      "cashflow_latest_pub": "2021-04-30",
+      "cashflow_published_after_query": 0,
+      "cashflow_nonmissing": {
+        "net_cf_oper": 300
+      },
+      "cashflow_sha256": "99883fcf9496fea8f0cbf11b194e7210d12c56654a4af9d5c9c09d873dc1d924",
+      "annual_balance_rows": 298,
+      "annual_balance_latest_pub": "2021-05-12",
+      "annual_balance_published_after_query": 0,
+      "annual_balance_nonmissing": {
+        "ttl_ast": 298,
+        "ttl_liab": 298
+      },
+      "annual_balance_sha256": "2257b8cf212c4390d87a43669a418d914f3d6b94aad536b00b82562e25e4a7a5",
+      "annual_income_rows": 297,
+      "annual_income_latest_pub": "2021-05-12",
+      "annual_income_published_after_query": 0,
+      "annual_income_nonmissing": {
+        "net_prof_pcom": 297
+      },
+      "annual_income_sha256": "b8f40cc0ffa2379a3d96d70603cde576b182422198113f4c045f5e2095f6c8e8",
+      "annual_cashflow_rows": 300,
+      "annual_cashflow_latest_pub": "2021-05-12",
+      "annual_cashflow_published_after_query": 0,
+      "annual_cashflow_nonmissing": {
+        "net_cf_oper": 300
+      },
+      "annual_cashflow_sha256": "37c161a9d54213f2c4cb53860f5ca3e79091cc10148a98572499889db3c49f8f",
+      "shared_symbols": 300,
+      "aligned_report_dates": 299,
+      "annual_shared_symbols": 297,
+      "annual_aligned_report_dates": 296
+    },
+    {
+      "month": "2021-06",
+      "balance_rows": 300,
+      "balance_latest_pub": "2021-06-04",
+      "balance_published_after_query": 0,
+      "balance_nonmissing": {
+        "ttl_ast": 300,
+        "ttl_liab": 300
+      },
+      "balance_sha256": "81ff8b37a3ffabe3cc4f20ec9583cb0448c7c3b9e78646f65db019e0bd1b9b78",
+      "income_rows": 300,
+      "income_latest_pub": "2021-06-23",
+      "income_published_after_query": 0,
+      "income_nonmissing": {
+        "net_prof_pcom": 300
+      },
+      "income_sha256": "ce38f094ae68d61ebbb11a476aeb1cd0066edf814c2fe12535a9b2a208cab31b",
+      "cashflow_rows": 300,
+      "cashflow_latest_pub": "2021-06-04",
+      "cashflow_published_after_query": 0,
+      "cashflow_nonmissing": {
+        "net_cf_oper": 300
+      },
+      "cashflow_sha256": "0599e61fdbccd4d48158689446194c3e05197a278b6d6cb9db5c9cc2ab4f8714",
+      "annual_balance_rows": 297,
+      "annual_balance_latest_pub": "2021-06-23",
+      "annual_balance_published_after_query": 0,
+      "annual_balance_nonmissing": {
+        "ttl_ast": 297,
+        "ttl_liab": 297
+      },
+      "annual_balance_sha256": "3ff04f5812d38b5e6f7c62a018aba7d85f6b247bfca33551313edad53bea8ad1",
+      "annual_income_rows": 297,
+      "annual_income_latest_pub": "2021-06-23",
+      "annual_income_published_after_query": 0,
+      "annual_income_nonmissing": {
+        "net_prof_pcom": 297
+      },
+      "annual_income_sha256": "42789e8094884c5db25b58d6dad9775649fb7e57bef8ea3306145fc1e32d17a1",
+      "annual_cashflow_rows": 299,
+      "annual_cashflow_latest_pub": "2021-06-23",
+      "annual_cashflow_published_after_query": 0,
+      "annual_cashflow_nonmissing": {
+        "net_cf_oper": 299
+      },
+      "annual_cashflow_sha256": "73a61cc6eb0869dd4080ce1d28564e4fd4abdf9087850cc205d6409cebc3a013",
+      "shared_symbols": 300,
+      "aligned_report_dates": 299,
+      "annual_shared_symbols": 296,
+      "annual_aligned_report_dates": 295
+    },
+    {
+      "month": "2021-07",
+      "balance_rows": 300,
+      "balance_latest_pub": "2021-07-28",
+      "balance_published_after_query": 0,
+      "balance_nonmissing": {
+        "ttl_ast": 300,
+        "ttl_liab": 300
+      },
+      "balance_sha256": "cbf762d12819e0b2e72c9ccc01665b40b76832d752910c0126726d18b3a164c9",
+      "income_rows": 300,
+      "income_latest_pub": "2021-07-28",
+      "income_published_after_query": 0,
+      "income_nonmissing": {
+        "net_prof_pcom": 300
+      },
+      "income_sha256": "b3234829eba71a4e964f78ac43cb8b1b8eea2f08daf022dd69730f67d377baac",
+      "cashflow_rows": 300,
+      "cashflow_latest_pub": "2021-07-28",
+      "cashflow_published_after_query": 0,
+      "cashflow_nonmissing": {
+        "net_cf_oper": 300
+      },
+      "cashflow_sha256": "3c9c16326cf1dccb6d61eda1424aec9b949d25f7e8dc683147e541482adf1570",
+      "annual_balance_rows": 297,
+      "annual_balance_latest_pub": "2021-07-23",
+      "annual_balance_published_after_query": 0,
+      "annual_balance_nonmissing": {
+        "ttl_ast": 297,
+        "ttl_liab": 297
+      },
+      "annual_balance_sha256": "9d854303422c9b54c3975e0a663037a0d5692fe789e794decaa6a0672eee80b4",
+      "annual_income_rows": 297,
+      "annual_income_latest_pub": "2021-07-23",
+      "annual_income_published_after_query": 0,
+      "annual_income_nonmissing": {
+        "net_prof_pcom": 297
+      },
+      "annual_income_sha256": "ee2df8b04d4515ad0c2b92d30260884002d6f248435879d43558d6553cc87ca8",
+      "annual_cashflow_rows": 299,
+      "annual_cashflow_latest_pub": "2021-07-23",
+      "annual_cashflow_published_after_query": 0,
+      "annual_cashflow_nonmissing": {
+        "net_cf_oper": 299
+      },
+      "annual_cashflow_sha256": "1d306954f531c032ba7aedaa55dfe1af5f8d50ba542d6fead2af7e0e7ffc3015",
+      "shared_symbols": 300,
+      "aligned_report_dates": 299,
+      "annual_shared_symbols": 296,
+      "annual_aligned_report_dates": 295
+    },
+    {
+      "month": "2021-08",
+      "balance_rows": 300,
+      "balance_latest_pub": "2021-08-30",
+      "balance_published_after_query": 0,
+      "balance_nonmissing": {
+        "ttl_ast": 300,
+        "ttl_liab": 300
+      },
+      "balance_sha256": "c906ae14c89672c4eb5396c354d5475ce00f840657e8e07f4c132dcd91c9baf0",
+      "income_rows": 300,
+      "income_latest_pub": "2021-08-30",
+      "income_published_after_query": 0,
+      "income_nonmissing": {
+        "net_prof_pcom": 300
+      },
+      "income_sha256": "e61a5e2c7f29dea161729c8d3d0e999201a0d17ad7169344af9ae15620e2ffe8",
+      "cashflow_rows": 300,
+      "cashflow_latest_pub": "2021-08-30",
+      "cashflow_published_after_query": 0,
+      "cashflow_nonmissing": {
+        "net_cf_oper": 300
+      },
+      "cashflow_sha256": "c82e3d9e48ebb9d47995afcd7f80765ffcde68ecc526b29f651ed1842d4109ef",
+      "annual_balance_rows": 297,
+      "annual_balance_latest_pub": "2021-07-23",
+      "annual_balance_published_after_query": 0,
+      "annual_balance_nonmissing": {
+        "ttl_ast": 297,
+        "ttl_liab": 297
+      },
+      "annual_balance_sha256": "e0abab1bd2b96695ad5da824dedcb335c563e8480d7f547643b4b06ef4184a9a",
+      "annual_income_rows": 297,
+      "annual_income_latest_pub": "2021-07-23",
+      "annual_income_published_after_query": 0,
+      "annual_income_nonmissing": {
+        "net_prof_pcom": 297
+      },
+      "annual_income_sha256": "7a60a588e638cde40a50cf6da6f9ea7c211836b496731bb9b55439c1b835b973",
+      "annual_cashflow_rows": 299,
+      "annual_cashflow_latest_pub": "2021-07-23",
+      "annual_cashflow_published_after_query": 0,
+      "annual_cashflow_nonmissing": {
+        "net_cf_oper": 299
+      },
+      "annual_cashflow_sha256": "7669e7010465b4ddd5c259836196d37a9e5f9d5f0226b894521f2f8498d36bdf",
+      "shared_symbols": 300,
+      "aligned_report_dates": 299,
+      "annual_shared_symbols": 296,
+      "annual_aligned_report_dates": 295
+    },
+    {
+      "month": "2021-09",
+      "balance_rows": 300,
+      "balance_latest_pub": "2021-09-27",
+      "balance_published_after_query": 0,
+      "balance_nonmissing": {
+        "ttl_ast": 300,
+        "ttl_liab": 300
+      },
+      "balance_sha256": "9149bce8ed845c801c28f7520c48ddf5b939e015c475a728bae5c8d1bb8e3e68",
+      "income_rows": 300,
+      "income_latest_pub": "2021-09-27",
+      "income_published_after_query": 0,
+      "income_nonmissing": {
+        "net_prof_pcom": 300
+      },
+      "income_sha256": "9eebd0fad7d0948ee25f6f3fc5ae8f1e71cf03e1c90cccac41f62b80e560334c",
+      "cashflow_rows": 300,
+      "cashflow_latest_pub": "2021-09-27",
+      "cashflow_published_after_query": 0,
+      "cashflow_nonmissing": {
+        "net_cf_oper": 300
+      },
+      "cashflow_sha256": "a89502d3f44572809b5f00c1001384917a4f65d09a9a8269836c34f8c33e477f",
+      "annual_balance_rows": 297,
+      "annual_balance_latest_pub": "2021-07-23",
+      "annual_balance_published_after_query": 0,
+      "annual_balance_nonmissing": {
+        "ttl_ast": 297,
+        "ttl_liab": 297
+      },
+      "annual_balance_sha256": "9fd96690b32cd8d85fce656ec7e55659c04447dd1a542d08b834f73b377aad46",
+      "annual_income_rows": 297,
+      "annual_income_latest_pub": "2021-07-23",
+      "annual_income_published_after_query": 0,
+      "annual_income_nonmissing": {
+        "net_prof_pcom": 297
+      },
+      "annual_income_sha256": "2ff1d4ae36c54fc1c161da0a4cdbf764ee27ff6061160bc3647fcb4c3aade2b6",
+      "annual_cashflow_rows": 299,
+      "annual_cashflow_latest_pub": "2021-09-27",
+      "annual_cashflow_published_after_query": 0,
+      "annual_cashflow_nonmissing": {
+        "net_cf_oper": 299
+      },
+      "annual_cashflow_sha256": "54111d2bcd3d08ad0989a7420f74f522bb3e7739d73cc2dc458f395a36035d7a",
+      "shared_symbols": 300,
+      "aligned_report_dates": 299,
+      "annual_shared_symbols": 296,
+      "annual_aligned_report_dates": 295
+    },
+    {
+      "month": "2021-10",
+      "balance_rows": 300,
+      "balance_latest_pub": "2021-10-28",
+      "balance_published_after_query": 0,
+      "balance_nonmissing": {
+        "ttl_ast": 300,
+        "ttl_liab": 300
+      },
+      "balance_sha256": "0f916722e5d7f5cca786801190b9063be44c7f74062a186aab95211491b6fbce",
+      "income_rows": 300,
+      "income_latest_pub": "2021-10-28",
+      "income_published_after_query": 0,
+      "income_nonmissing": {
+        "net_prof_pcom": 300
+      },
+      "income_sha256": "45fa84e5194dc5e8a940221eb1469f8ecd0745bd5b84bd3500c96780dfd00bf2",
+      "cashflow_rows": 300,
+      "cashflow_latest_pub": "2021-10-28",
+      "cashflow_published_after_query": 0,
+      "cashflow_nonmissing": {
+        "net_cf_oper": 300
+      },
+      "cashflow_sha256": "b28278bcd116161013df76b1eed517639a9e749a764a22c2cbfbf483cbae3be1",
+      "annual_balance_rows": 297,
+      "annual_balance_latest_pub": "2021-07-23",
+      "annual_balance_published_after_query": 0,
+      "annual_balance_nonmissing": {
+        "ttl_ast": 297,
+        "ttl_liab": 297
+      },
+      "annual_balance_sha256": "49c31a1cebde8e6f6ce4daca6325919111dabd66d5a890b99e59a939fba1a8ac",
+      "annual_income_rows": 297,
+      "annual_income_latest_pub": "2021-07-23",
+      "annual_income_published_after_query": 0,
+      "annual_income_nonmissing": {
+        "net_prof_pcom": 297
+      },
+      "annual_income_sha256": "b1d861938190679788134f8e6781a38483567da3dc4f18125f4f4f0102bc2a57",
+      "annual_cashflow_rows": 299,
+      "annual_cashflow_latest_pub": "2021-09-27",
+      "annual_cashflow_published_after_query": 0,
+      "annual_cashflow_nonmissing": {
+        "net_cf_oper": 299
+      },
+      "annual_cashflow_sha256": "91c281fdb1baf32df1c839024141f7865c5b80882fc4b2c2c366d5c00c442306",
+      "shared_symbols": 300,
+      "aligned_report_dates": 299,
+      "annual_shared_symbols": 296,
+      "annual_aligned_report_dates": 295
+    },
+    {
+      "month": "2021-11",
+      "balance_rows": 300,
+      "balance_latest_pub": "2021-10-30",
+      "balance_published_after_query": 0,
+      "balance_nonmissing": {
+        "ttl_ast": 300,
+        "ttl_liab": 300
+      },
+      "balance_sha256": "55dd17928a93203c82fbf2728e07989689618575669a662f2d7d3a068beb28dd",
+      "income_rows": 300,
+      "income_latest_pub": "2021-10-30",
+      "income_published_after_query": 0,
+      "income_nonmissing": {
+        "net_prof_pcom": 300
+      },
+      "income_sha256": "7cd975391470389fbe37393791712237b2b3f816746a8d9c3b3ad13f236e1354",
+      "cashflow_rows": 300,
+      "cashflow_latest_pub": "2021-10-30",
+      "cashflow_published_after_query": 0,
+      "cashflow_nonmissing": {
+        "net_cf_oper": 300
+      },
+      "cashflow_sha256": "b8d293b5bdd4022ebe005eab2c598e72f784f93a62dca1310706e1bb03ffa96f",
+      "annual_balance_rows": 297,
+      "annual_balance_latest_pub": "2021-07-23",
+      "annual_balance_published_after_query": 0,
+      "annual_balance_nonmissing": {
+        "ttl_ast": 297,
+        "ttl_liab": 297
+      },
+      "annual_balance_sha256": "d30209bb8c9cb76d4c41478cb45a59d963362f3fc570585da971859122bc422e",
+      "annual_income_rows": 297,
+      "annual_income_latest_pub": "2021-07-23",
+      "annual_income_published_after_query": 0,
+      "annual_income_nonmissing": {
+        "net_prof_pcom": 297
+      },
+      "annual_income_sha256": "69009d85dd26d06bc7a259dba28f3730edf6049887c0bcbcaf4b5ab3923d8aaf",
+      "annual_cashflow_rows": 299,
+      "annual_cashflow_latest_pub": "2021-09-27",
+      "annual_cashflow_published_after_query": 0,
+      "annual_cashflow_nonmissing": {
+        "net_cf_oper": 299
+      },
+      "annual_cashflow_sha256": "d5e554814c042d436713288a350d85cec5a09153d7b2926d51908187c96d9820",
+      "shared_symbols": 300,
+      "aligned_report_dates": 299,
+      "annual_shared_symbols": 296,
+      "annual_aligned_report_dates": 295
+    },
+    {
+      "month": "2021-12",
+      "balance_rows": 300,
+      "balance_latest_pub": "2021-12-04",
+      "balance_published_after_query": 0,
+      "balance_nonmissing": {
+        "ttl_ast": 300,
+        "ttl_liab": 300
+      },
+      "balance_sha256": "292c746ab28f1e8c77842738002b62f56ef1cb6803fe4f07116277a4cefb384f",
+      "income_rows": 300,
+      "income_latest_pub": "2021-12-04",
+      "income_published_after_query": 0,
+      "income_nonmissing": {
+        "net_prof_pcom": 300
+      },
+      "income_sha256": "9e7a118881d2c7561f4ba70e670268b04e769837d7558d3431725ec88953a25d",
+      "cashflow_rows": 300,
+      "cashflow_latest_pub": "2021-12-04",
+      "cashflow_published_after_query": 0,
+      "cashflow_nonmissing": {
+        "net_cf_oper": 300
+      },
+      "cashflow_sha256": "64e0b8648bdda75e026884690af7b010906d2db6808334afb933feb95d7cfdb6",
+      "annual_balance_rows": 297,
+      "annual_balance_latest_pub": "2021-12-04",
+      "annual_balance_published_after_query": 0,
+      "annual_balance_nonmissing": {
+        "ttl_ast": 297,
+        "ttl_liab": 297
+      },
+      "annual_balance_sha256": "517f99855ba3e78846ab65b575a9b50edb973a10777aacc762aee49176394f2d",
+      "annual_income_rows": 297,
+      "annual_income_latest_pub": "2021-12-04",
+      "annual_income_published_after_query": 0,
+      "annual_income_nonmissing": {
+        "net_prof_pcom": 297
+      },
+      "annual_income_sha256": "10309741162d93545bdfae9c2e82e9ff390df7e29311db03be7e724e63431c86",
+      "annual_cashflow_rows": 299,
+      "annual_cashflow_latest_pub": "2021-12-04",
+      "annual_cashflow_published_after_query": 0,
+      "annual_cashflow_nonmissing": {
+        "net_cf_oper": 299
+      },
+      "annual_cashflow_sha256": "35d17b11333a528c6d60aad11e5bcf16e3f27ebd2f3d784e1899e4ea1cd038da",
+      "shared_symbols": 300,
+      "aligned_report_dates": 300,
+      "annual_shared_symbols": 296,
+      "annual_aligned_report_dates": 294
+    },
+    {
+      "month": "2022-01",
+      "balance_rows": 300,
+      "balance_latest_pub": "2021-12-31",
+      "balance_published_after_query": 0,
+      "balance_nonmissing": {
+        "ttl_ast": 300,
+        "ttl_liab": 300
+      },
+      "balance_sha256": "21901b371b9f68de08e296aa5a007ee4cf4342891d5825b57f50b4e3a7f30353",
+      "income_rows": 300,
+      "income_latest_pub": "2021-12-31",
+      "income_published_after_query": 0,
+      "income_nonmissing": {
+        "net_prof_pcom": 300
+      },
+      "income_sha256": "d039daf05196ebd4f8c13bb1026da6ba997d81e3982676aa85bcc4c73a707a55",
+      "cashflow_rows": 300,
+      "cashflow_latest_pub": "2021-12-31",
+      "cashflow_published_after_query": 0,
+      "cashflow_nonmissing": {
+        "net_cf_oper": 300
+      },
+      "cashflow_sha256": "997a9697e2821641c347ba85a860a5e2d7c2af028f50a931400623e9a4260d82",
+      "annual_balance_rows": 297,
+      "annual_balance_latest_pub": "2021-12-04",
+      "annual_balance_published_after_query": 0,
+      "annual_balance_nonmissing": {
+        "ttl_ast": 297,
+        "ttl_liab": 297
+      },
+      "annual_balance_sha256": "d956b404349c2d44e5603f2d99894cb9a3b3c268ad08783cf139ec07b7fbdde3",
+      "annual_income_rows": 297,
+      "annual_income_latest_pub": "2021-12-04",
+      "annual_income_published_after_query": 0,
+      "annual_income_nonmissing": {
+        "net_prof_pcom": 297
+      },
+      "annual_income_sha256": "c68e0b799004eac69990a36f99e82541b10faba6922815c6eb54d55c696b21af",
+      "annual_cashflow_rows": 299,
+      "annual_cashflow_latest_pub": "2021-12-04",
+      "annual_cashflow_published_after_query": 0,
+      "annual_cashflow_nonmissing": {
+        "net_cf_oper": 299
+      },
+      "annual_cashflow_sha256": "20bd471e96100a56ba00af946daf059a304d087fc4ab78054523f54c4c1b3e0d",
+      "shared_symbols": 300,
+      "aligned_report_dates": 300,
+      "annual_shared_symbols": 296,
+      "annual_aligned_report_dates": 294
+    },
+    {
+      "month": "2022-02",
+      "balance_rows": 300,
+      "balance_latest_pub": "2021-12-31",
+      "balance_published_after_query": 0,
+      "balance_nonmissing": {
+        "ttl_ast": 300,
+        "ttl_liab": 300
+      },
+      "balance_sha256": "b093b3d52201234132a98cccd7d7b2ad02cf99753bf9b1fa3322bca1aa2840b3",
+      "income_rows": 300,
+      "income_latest_pub": "2021-12-31",
+      "income_published_after_query": 0,
+      "income_nonmissing": {
+        "net_prof_pcom": 300
+      },
+      "income_sha256": "432ed0f2eb7fba4eb1b57a4963a59e87bb51a34320fa967d952e76daedaf4f82",
+      "cashflow_rows": 300,
+      "cashflow_latest_pub": "2021-12-31",
+      "cashflow_published_after_query": 0,
+      "cashflow_nonmissing": {
+        "net_cf_oper": 300
+      },
+      "cashflow_sha256": "ae30185a4bc32b70bb757597dbf0ad95caa6cf5b67b58de06d5bbace8ad309f2",
+      "annual_balance_rows": 297,
+      "annual_balance_latest_pub": "2021-12-04",
+      "annual_balance_published_after_query": 0,
+      "annual_balance_nonmissing": {
+        "ttl_ast": 297,
+        "ttl_liab": 297
+      },
+      "annual_balance_sha256": "660d25bbac1cf78b23e9099360b9e10e9404612f6d8be2cb1b05146d9a2faebd",
+      "annual_income_rows": 297,
+      "annual_income_latest_pub": "2021-12-04",
+      "annual_income_published_after_query": 0,
+      "annual_income_nonmissing": {
+        "net_prof_pcom": 297
+      },
+      "annual_income_sha256": "f62f3e2f7b8e221b4a53400caeb8bca572ab27101a03b6717e2142e36147732a",
+      "annual_cashflow_rows": 299,
+      "annual_cashflow_latest_pub": "2021-12-04",
+      "annual_cashflow_published_after_query": 0,
+      "annual_cashflow_nonmissing": {
+        "net_cf_oper": 299
+      },
+      "annual_cashflow_sha256": "2705c5c5fcfe6ce055cdc5f8d38510b073463e709be7bdfc190be3adf95cb8be",
+      "shared_symbols": 300,
+      "aligned_report_dates": 300,
+      "annual_shared_symbols": 296,
+      "annual_aligned_report_dates": 294
+    },
+    {
+      "month": "2022-03",
+      "balance_rows": 300,
+      "balance_latest_pub": "2022-03-30",
+      "balance_published_after_query": 0,
+      "balance_nonmissing": {
+        "ttl_ast": 300,
+        "ttl_liab": 300
+      },
+      "balance_sha256": "c04b48386abab4e7adb7bc871265c8f0f0f49d678be0f18b5c2056741f4d21eb",
+      "income_rows": 300,
+      "income_latest_pub": "2022-03-30",
+      "income_published_after_query": 0,
+      "income_nonmissing": {
+        "net_prof_pcom": 300
+      },
+      "income_sha256": "8da1942bd6eb64597fe32056973ba1baad345112d56913193926da3aeda86751",
+      "cashflow_rows": 300,
+      "cashflow_latest_pub": "2022-03-30",
+      "cashflow_published_after_query": 0,
+      "cashflow_nonmissing": {
+        "net_cf_oper": 300
+      },
+      "cashflow_sha256": "b140307dca80a85e54677a30a3a553a9f2926a030299c68f2cd6114ceeafc517",
+      "annual_balance_rows": 297,
+      "annual_balance_latest_pub": "2022-03-30",
+      "annual_balance_published_after_query": 0,
+      "annual_balance_nonmissing": {
+        "ttl_ast": 297,
+        "ttl_liab": 297
+      },
+      "annual_balance_sha256": "2cb5dcbb10bb004d28996a6e648517fbeec8b69108e4cfaa789c5e20318ce7bc",
+      "annual_income_rows": 297,
+      "annual_income_latest_pub": "2022-03-30",
+      "annual_income_published_after_query": 0,
+      "annual_income_nonmissing": {
+        "net_prof_pcom": 297
+      },
+      "annual_income_sha256": "404c574fa4c8e83ecf943402be702aa34ad547688848f4b2a5921479c8ae1763",
+      "annual_cashflow_rows": 299,
+      "annual_cashflow_latest_pub": "2022-03-30",
+      "annual_cashflow_published_after_query": 0,
+      "annual_cashflow_nonmissing": {
+        "net_cf_oper": 299
+      },
+      "annual_cashflow_sha256": "b3d7378392594692fe37689d4a6342c82065a1ffb0b7052c6c2bbcace2d7fca3",
+      "shared_symbols": 300,
+      "aligned_report_dates": 300,
+      "annual_shared_symbols": 296,
+      "annual_aligned_report_dates": 295
+    },
+    {
+      "month": "2022-04",
+      "balance_rows": 300,
+      "balance_latest_pub": "2022-04-28",
+      "balance_published_after_query": 0,
+      "balance_nonmissing": {
+        "ttl_ast": 300,
+        "ttl_liab": 300
+      },
+      "balance_sha256": "edbbe9ddb41e019919c0bf28bc4a6a13f1dd724e78946571ca366c36e9ba97ce",
+      "income_rows": 300,
+      "income_latest_pub": "2022-04-28",
+      "income_published_after_query": 0,
+      "income_nonmissing": {
+        "net_prof_pcom": 300
+      },
+      "income_sha256": "da77338949d1c1f2ba6fac51e12809d44db04a5201752d376af2a16dd4236919",
+      "cashflow_rows": 300,
+      "cashflow_latest_pub": "2022-04-28",
+      "cashflow_published_after_query": 0,
+      "cashflow_nonmissing": {
+        "net_cf_oper": 300
+      },
+      "cashflow_sha256": "dd1202d7e5cd4643dbe2506bb881d3c5fbce01def595a143994805d321bba0ef",
+      "annual_balance_rows": 296,
+      "annual_balance_latest_pub": "2022-04-28",
+      "annual_balance_published_after_query": 0,
+      "annual_balance_nonmissing": {
+        "ttl_ast": 296,
+        "ttl_liab": 296
+      },
+      "annual_balance_sha256": "09d5581f45a8b6484292811c7c281826693b7fc05d14cdfe9604437af45d0250",
+      "annual_income_rows": 296,
+      "annual_income_latest_pub": "2022-04-28",
+      "annual_income_published_after_query": 0,
+      "annual_income_nonmissing": {
+        "net_prof_pcom": 296
+      },
+      "annual_income_sha256": "b5e4d3c082b5c6957f888f85500b8871c39202681aafe88e648eb258abc54bf2",
+      "annual_cashflow_rows": 298,
+      "annual_cashflow_latest_pub": "2022-04-28",
+      "annual_cashflow_published_after_query": 0,
+      "annual_cashflow_nonmissing": {
+        "net_cf_oper": 298
+      },
+      "annual_cashflow_sha256": "bfe4e3854f1917b94916efd05447fcf891a96637ef289e819ed82aa2e7dd0752",
+      "shared_symbols": 300,
+      "aligned_report_dates": 299,
+      "annual_shared_symbols": 295,
+      "annual_aligned_report_dates": 293
+    },
+    {
+      "month": "2022-05",
+      "balance_rows": 300,
+      "balance_latest_pub": "2022-05-13",
+      "balance_published_after_query": 0,
+      "balance_nonmissing": {
+        "ttl_ast": 300,
+        "ttl_liab": 300
+      },
+      "balance_sha256": "6fc7639698c8f87b8d36601dc4544176b7cafd8ef9b6619adf68cd6ea8bacec5",
+      "income_rows": 300,
+      "income_latest_pub": "2022-05-13",
+      "income_published_after_query": 0,
+      "income_nonmissing": {
+        "net_prof_pcom": 300
+      },
+      "income_sha256": "a320efdd46f82f8614e5b38156e2cbfed8a623b9cd1a0e9469b87d618958418c",
+      "cashflow_rows": 300,
+      "cashflow_latest_pub": "2022-05-13",
+      "cashflow_published_after_query": 0,
+      "cashflow_nonmissing": {
+        "net_cf_oper": 300
+      },
+      "cashflow_sha256": "df76bb9a77d14624e2c0d25af40fac33cd7de83f1cc5d5ca3a03730843114300",
+      "annual_balance_rows": 296,
+      "annual_balance_latest_pub": "2022-05-07",
+      "annual_balance_published_after_query": 0,
+      "annual_balance_nonmissing": {
+        "ttl_ast": 296,
+        "ttl_liab": 296
+      },
+      "annual_balance_sha256": "8b7f01710af53eab9f7f430eabe60421fe21624d95489e1c057818e686289851",
+      "annual_income_rows": 296,
+      "annual_income_latest_pub": "2022-05-07",
+      "annual_income_published_after_query": 0,
+      "annual_income_nonmissing": {
+        "net_prof_pcom": 296
+      },
+      "annual_income_sha256": "f36ef3a02521ef2f0dfa654b11a07e73f115316645bf997b2eb76e2b0889aa8b",
+      "annual_cashflow_rows": 298,
+      "annual_cashflow_latest_pub": "2022-05-25",
+      "annual_cashflow_published_after_query": 0,
+      "annual_cashflow_nonmissing": {
+        "net_cf_oper": 298
+      },
+      "annual_cashflow_sha256": "c52481e2833d6b186d767a35ef945476d39db7ef3d531f4be9231e03fc14921f",
+      "shared_symbols": 300,
+      "aligned_report_dates": 300,
+      "annual_shared_symbols": 295,
+      "annual_aligned_report_dates": 293
+    },
+    {
+      "month": "2022-06",
+      "balance_rows": 300,
+      "balance_latest_pub": "2022-05-13",
+      "balance_published_after_query": 0,
+      "balance_nonmissing": {
+        "ttl_ast": 300,
+        "ttl_liab": 300
+      },
+      "balance_sha256": "ac745df2ec8564e2fef63a142738e880a9f477a1f7d52ade9fc20355611f8841",
+      "income_rows": 300,
+      "income_latest_pub": "2022-05-13",
+      "income_published_after_query": 0,
+      "income_nonmissing": {
+        "net_prof_pcom": 300
+      },
+      "income_sha256": "14506382025f495e676c448a2040f00ed026610cb79cf477809c0b48e50ee717",
+      "cashflow_rows": 300,
+      "cashflow_latest_pub": "2022-05-13",
+      "cashflow_published_after_query": 0,
+      "cashflow_nonmissing": {
+        "net_cf_oper": 300
+      },
+      "cashflow_sha256": "b041bbbdd6bb86059078dd030788d4a7b1b858910502952f53cbde19ee98c2cb",
+      "annual_balance_rows": 297,
+      "annual_balance_latest_pub": "2022-06-06",
+      "annual_balance_published_after_query": 0,
+      "annual_balance_nonmissing": {
+        "ttl_ast": 297,
+        "ttl_liab": 297
+      },
+      "annual_balance_sha256": "6c6db39f46ce4e423e04670a1a8a4585185c811046695fa0e3cb31d676de8524",
+      "annual_income_rows": 297,
+      "annual_income_latest_pub": "2022-06-06",
+      "annual_income_published_after_query": 0,
+      "annual_income_nonmissing": {
+        "net_prof_pcom": 297
+      },
+      "annual_income_sha256": "cf05895e3b5dd22716b7f7a066f997856781b8dc1bf3d43ef2c645ae1086ad72",
+      "annual_cashflow_rows": 298,
+      "annual_cashflow_latest_pub": "2022-06-06",
+      "annual_cashflow_published_after_query": 0,
+      "annual_cashflow_nonmissing": {
+        "net_cf_oper": 298
+      },
+      "annual_cashflow_sha256": "ef0e67718b91138144faa32905497fbfd4b59be6e7d6718a3e94ccb41ef011ad",
+      "shared_symbols": 300,
+      "aligned_report_dates": 300,
+      "annual_shared_symbols": 297,
+      "annual_aligned_report_dates": 296
+    },
+    {
+      "month": "2022-07",
+      "balance_rows": 300,
+      "balance_latest_pub": "2022-07-28",
+      "balance_published_after_query": 0,
+      "balance_nonmissing": {
+        "ttl_ast": 300,
+        "ttl_liab": 300
+      },
+      "balance_sha256": "ab232ff7886e689a0928f95810fc97e5f7e3ea18182f604e01684e01df8a91d1",
+      "income_rows": 300,
+      "income_latest_pub": "2022-07-28",
+      "income_published_after_query": 0,
+      "income_nonmissing": {
+        "net_prof_pcom": 300
+      },
+      "income_sha256": "132542d7bd0722ad4e5b4214aec1058175c90ca937ac3a2c2395d52a2482788d",
+      "cashflow_rows": 300,
+      "cashflow_latest_pub": "2022-07-28",
+      "cashflow_published_after_query": 0,
+      "cashflow_nonmissing": {
+        "net_cf_oper": 300
+      },
+      "cashflow_sha256": "43c6f6776ff8444fe948e9c6a3810821663d0d94864ef326e76e00fdaab2c5b9",
+      "annual_balance_rows": 297,
+      "annual_balance_latest_pub": "2022-06-06",
+      "annual_balance_published_after_query": 0,
+      "annual_balance_nonmissing": {
+        "ttl_ast": 297,
+        "ttl_liab": 297
+      },
+      "annual_balance_sha256": "51634a048a0ff4da7fe29fcdcadfdcaba64be0893197b3bb68cc18a2a1525abf",
+      "annual_income_rows": 297,
+      "annual_income_latest_pub": "2022-06-06",
+      "annual_income_published_after_query": 0,
+      "annual_income_nonmissing": {
+        "net_prof_pcom": 297
+      },
+      "annual_income_sha256": "d045306579bd1f16087d642a3d2615b7e621cc8442880480ede96ddad072b480",
+      "annual_cashflow_rows": 298,
+      "annual_cashflow_latest_pub": "2022-06-06",
+      "annual_cashflow_published_after_query": 0,
+      "annual_cashflow_nonmissing": {
+        "net_cf_oper": 298
+      },
+      "annual_cashflow_sha256": "ad247ac685a48cbe8078ea76ba687f909f1819047924f3c595597d5372fd3f6a",
+      "shared_symbols": 300,
+      "aligned_report_dates": 300,
+      "annual_shared_symbols": 297,
+      "annual_aligned_report_dates": 296
+    },
+    {
+      "month": "2022-08",
+      "balance_rows": 300,
+      "balance_latest_pub": "2022-08-30",
+      "balance_published_after_query": 0,
+      "balance_nonmissing": {
+        "ttl_ast": 300,
+        "ttl_liab": 300
+      },
+      "balance_sha256": "5706379e510d4318c38604dccb33bb51bbb522dd54f7145f3b2540f25d10706f",
+      "income_rows": 300,
+      "income_latest_pub": "2022-08-30",
+      "income_published_after_query": 0,
+      "income_nonmissing": {
+        "net_prof_pcom": 300
+      },
+      "income_sha256": "ce5792e68b08c6fc5504b445b55e2129b5357f39e6213c95a8c2518792abe736",
+      "cashflow_rows": 300,
+      "cashflow_latest_pub": "2022-08-30",
+      "cashflow_published_after_query": 0,
+      "cashflow_nonmissing": {
+        "net_cf_oper": 300
+      },
+      "cashflow_sha256": "ea1e33cc5298d362a067d506aa02e80253758af4251c0e386caa5d49c879d084",
+      "annual_balance_rows": 297,
+      "annual_balance_latest_pub": "2022-06-06",
+      "annual_balance_published_after_query": 0,
+      "annual_balance_nonmissing": {
+        "ttl_ast": 297,
+        "ttl_liab": 297
+      },
+      "annual_balance_sha256": "1e88d911e8fae6b4a5312330ce3c16c6b7bbed6bb86f0ad1914ae7c4965f5b78",
+      "annual_income_rows": 297,
+      "annual_income_latest_pub": "2022-06-06",
+      "annual_income_published_after_query": 0,
+      "annual_income_nonmissing": {
+        "net_prof_pcom": 297
+      },
+      "annual_income_sha256": "733b6a719fcef4c011c605b9814bb92c3083b36d992405a79c4fe08b0048e0a1",
+      "annual_cashflow_rows": 298,
+      "annual_cashflow_latest_pub": "2022-06-06",
+      "annual_cashflow_published_after_query": 0,
+      "annual_cashflow_nonmissing": {
+        "net_cf_oper": 298
+      },
+      "annual_cashflow_sha256": "296f0ed347b9f8985723393d84dd002eee9587b65893efae35bf5b3026626ea1",
+      "shared_symbols": 300,
+      "aligned_report_dates": 300,
+      "annual_shared_symbols": 297,
+      "annual_aligned_report_dates": 296
+    },
+    {
+      "month": "2022-09",
+      "balance_rows": 300,
+      "balance_latest_pub": "2022-09-21",
+      "balance_published_after_query": 0,
+      "balance_nonmissing": {
+        "ttl_ast": 300,
+        "ttl_liab": 300
+      },
+      "balance_sha256": "32a7b0967ad874e24f82af4fa18caed4bc8f0154ac4c8c28008cf58e5d0b9346",
+      "income_rows": 300,
+      "income_latest_pub": "2022-09-21",
+      "income_published_after_query": 0,
+      "income_nonmissing": {
+        "net_prof_pcom": 300
+      },
+      "income_sha256": "f5801b8116c0916ccabe0fd663c2d51b33f342cf2bead8e93610727777f0ac7f",
+      "cashflow_rows": 300,
+      "cashflow_latest_pub": "2022-09-21",
+      "cashflow_published_after_query": 0,
+      "cashflow_nonmissing": {
+        "net_cf_oper": 300
+      },
+      "cashflow_sha256": "9c67a8c8bd5e1a6eb1381d982f25c1adb4d9d46a76e04e1680f0ae30bb403b26",
+      "annual_balance_rows": 297,
+      "annual_balance_latest_pub": "2022-06-06",
+      "annual_balance_published_after_query": 0,
+      "annual_balance_nonmissing": {
+        "ttl_ast": 297,
+        "ttl_liab": 297
+      },
+      "annual_balance_sha256": "2db8678cc500a0a8971179b4087680dee9e502b89f66411bdf1fa591df64b82c",
+      "annual_income_rows": 297,
+      "annual_income_latest_pub": "2022-06-06",
+      "annual_income_published_after_query": 0,
+      "annual_income_nonmissing": {
+        "net_prof_pcom": 297
+      },
+      "annual_income_sha256": "de30b91ca82a206ada60dec719321b56605a59577d8de6127531ff316d0b3539",
+      "annual_cashflow_rows": 298,
+      "annual_cashflow_latest_pub": "2022-06-06",
+      "annual_cashflow_published_after_query": 0,
+      "annual_cashflow_nonmissing": {
+        "net_cf_oper": 298
+      },
+      "annual_cashflow_sha256": "7555c54ee89776e9081a054c7b71a99ad4fd513d1d3c5c2d247c6babf855b6c2",
+      "shared_symbols": 300,
+      "aligned_report_dates": 300,
+      "annual_shared_symbols": 297,
+      "annual_aligned_report_dates": 296
+    },
+    {
+      "month": "2022-10",
+      "balance_rows": 300,
+      "balance_latest_pub": "2022-10-28",
+      "balance_published_after_query": 0,
+      "balance_nonmissing": {
+        "ttl_ast": 300,
+        "ttl_liab": 300
+      },
+      "balance_sha256": "8a54eb12f56439920257bd6e52ac58d0680d0f0dd9e3b73678722d402294ff7d",
+      "income_rows": 300,
+      "income_latest_pub": "2022-10-28",
+      "income_published_after_query": 0,
+      "income_nonmissing": {
+        "net_prof_pcom": 300
+      },
+      "income_sha256": "8ff2eb1c29b6943c6fedfc15e475fd155917b1d72a1aa49dc73a2af77617dec6",
+      "cashflow_rows": 300,
+      "cashflow_latest_pub": "2022-10-28",
+      "cashflow_published_after_query": 0,
+      "cashflow_nonmissing": {
+        "net_cf_oper": 300
+      },
+      "cashflow_sha256": "0f1dfc6f18b4b2121b335aa203c433f7769543a60ec8b5b12497e21232c9f05d",
+      "annual_balance_rows": 297,
+      "annual_balance_latest_pub": "2022-06-06",
+      "annual_balance_published_after_query": 0,
+      "annual_balance_nonmissing": {
+        "ttl_ast": 297,
+        "ttl_liab": 297
+      },
+      "annual_balance_sha256": "24e8317c1432f5b0286c7c9404317fffe9125766705e7df59cf79674148afec5",
+      "annual_income_rows": 297,
+      "annual_income_latest_pub": "2022-06-06",
+      "annual_income_published_after_query": 0,
+      "annual_income_nonmissing": {
+        "net_prof_pcom": 297
+      },
+      "annual_income_sha256": "874191dab6a75bf631ad44eed6db9e1d65068c46ca1f6a68084f36e17b0e78e6",
+      "annual_cashflow_rows": 298,
+      "annual_cashflow_latest_pub": "2022-06-06",
+      "annual_cashflow_published_after_query": 0,
+      "annual_cashflow_nonmissing": {
+        "net_cf_oper": 298
+      },
+      "annual_cashflow_sha256": "abb1c0011afd5d08582ec49e726577b4eb410e36c339f1eb895b28ba917ca2b0",
+      "shared_symbols": 300,
+      "aligned_report_dates": 300,
+      "annual_shared_symbols": 297,
+      "annual_aligned_report_dates": 296
+    },
+    {
+      "month": "2022-11",
+      "balance_rows": 300,
+      "balance_latest_pub": "2022-11-12",
+      "balance_published_after_query": 0,
+      "balance_nonmissing": {
+        "ttl_ast": 300,
+        "ttl_liab": 300
+      },
+      "balance_sha256": "1a7b223b6620a1421c5355ac3c08a3e4dcca25fba4d2a951e789d378fef777ea",
+      "income_rows": 300,
+      "income_latest_pub": "2022-11-12",
+      "income_published_after_query": 0,
+      "income_nonmissing": {
+        "net_prof_pcom": 300
+      },
+      "income_sha256": "cd3e02f652c492bbdb3b825174a52ed44d47f4807dad69484dff71eae566d49e",
+      "cashflow_rows": 300,
+      "cashflow_latest_pub": "2022-11-12",
+      "cashflow_published_after_query": 0,
+      "cashflow_nonmissing": {
+        "net_cf_oper": 300
+      },
+      "cashflow_sha256": "9d2ed203295f901498f59f2a98f385a9711721d10a1f8c9bb025ad557743d02f",
+      "annual_balance_rows": 297,
+      "annual_balance_latest_pub": "2022-06-06",
+      "annual_balance_published_after_query": 0,
+      "annual_balance_nonmissing": {
+        "ttl_ast": 297,
+        "ttl_liab": 297
+      },
+      "annual_balance_sha256": "8703180b703b39011768477e58206e8525a3e9e0ee9caf6c153cba0c72123f81",
+      "annual_income_rows": 297,
+      "annual_income_latest_pub": "2022-06-06",
+      "annual_income_published_after_query": 0,
+      "annual_income_nonmissing": {
+        "net_prof_pcom": 297
+      },
+      "annual_income_sha256": "c634fa203329b2a381427da133a87ec1398326f4779dca37176cb1ec41c0328e",
+      "annual_cashflow_rows": 298,
+      "annual_cashflow_latest_pub": "2022-06-06",
+      "annual_cashflow_published_after_query": 0,
+      "annual_cashflow_nonmissing": {
+        "net_cf_oper": 298
+      },
+      "annual_cashflow_sha256": "aa7e6c7a116a0fbebd72ccf1df5953637de4f5bdf3d9eeeb20c498f89dca8a7f",
+      "shared_symbols": 300,
+      "aligned_report_dates": 300,
+      "annual_shared_symbols": 297,
+      "annual_aligned_report_dates": 296
+    },
+    {
+      "month": "2022-12",
+      "balance_rows": 300,
+      "balance_latest_pub": "2022-11-12",
+      "balance_published_after_query": 0,
+      "balance_nonmissing": {
+        "ttl_ast": 300,
+        "ttl_liab": 300
+      },
+      "balance_sha256": "c56c5db6d47e55ce6f360d0215381aabbac1b3294491fdd25f33a4fa44807516",
+      "income_rows": 300,
+      "income_latest_pub": "2022-11-12",
+      "income_published_after_query": 0,
+      "income_nonmissing": {
+        "net_prof_pcom": 300
+      },
+      "income_sha256": "ded44657b9115ab81867cfe16cc3a562c9da88a785391c6584917d854400ece6",
+      "cashflow_rows": 300,
+      "cashflow_latest_pub": "2022-11-12",
+      "cashflow_published_after_query": 0,
+      "cashflow_nonmissing": {
+        "net_cf_oper": 300
+      },
+      "cashflow_sha256": "82f784e28e1a6a55927cca837245b64ecf7dba1bb5119ffaac4388b7f7269612",
+      "annual_balance_rows": 297,
+      "annual_balance_latest_pub": "2022-06-06",
+      "annual_balance_published_after_query": 0,
+      "annual_balance_nonmissing": {
+        "ttl_ast": 297,
+        "ttl_liab": 297
+      },
+      "annual_balance_sha256": "d4fa11ef5872ed2a15782f9faa75153c0e7d14b88cc21966289188950fa5b843",
+      "annual_income_rows": 297,
+      "annual_income_latest_pub": "2022-06-06",
+      "annual_income_published_after_query": 0,
+      "annual_income_nonmissing": {
+        "net_prof_pcom": 297
+      },
+      "annual_income_sha256": "62df26c5c97a14f9424f7b5323cdfc5bb1dc3777d0a2d2448026d5dc22ad4ad5",
+      "annual_cashflow_rows": 298,
+      "annual_cashflow_latest_pub": "2022-06-06",
+      "annual_cashflow_published_after_query": 0,
+      "annual_cashflow_nonmissing": {
+        "net_cf_oper": 298
+      },
+      "annual_cashflow_sha256": "573fe9361dab0b9351d948006ff89f8a1c3de1f3d06e9854d6d8a7d5a2d59332",
+      "shared_symbols": 300,
+      "aligned_report_dates": 300,
+      "annual_shared_symbols": 297,
+      "annual_aligned_report_dates": 296
+    },
+    {
+      "month": "2023-01",
+      "balance_rows": 300,
+      "balance_latest_pub": "2022-11-12",
+      "balance_published_after_query": 0,
+      "balance_nonmissing": {
+        "ttl_ast": 300,
+        "ttl_liab": 300
+      },
+      "balance_sha256": "8622b18cdce05436e0f3714ffa07270641460bab5777af9fd2974e3dc4281368",
+      "income_rows": 300,
+      "income_latest_pub": "2022-11-12",
+      "income_published_after_query": 0,
+      "income_nonmissing": {
+        "net_prof_pcom": 300
+      },
+      "income_sha256": "7e1d8ed8fb46b0ce21508b250dc816ab7fcee17cd5f0076355879db1752fdd19",
+      "cashflow_rows": 300,
+      "cashflow_latest_pub": "2022-11-12",
+      "cashflow_published_after_query": 0,
+      "cashflow_nonmissing": {
+        "net_cf_oper": 300
+      },
+      "cashflow_sha256": "ee0404336281256448fce3c462e850fcf092e3eec236f4c8560d6ae07fddb409",
+      "annual_balance_rows": 297,
+      "annual_balance_latest_pub": "2022-06-06",
+      "annual_balance_published_after_query": 0,
+      "annual_balance_nonmissing": {
+        "ttl_ast": 297,
+        "ttl_liab": 297
+      },
+      "annual_balance_sha256": "04f0747e13c0ce90087119940a3d86a6ccb087e3f2f9d8b1deb19bfd6fb7ba75",
+      "annual_income_rows": 297,
+      "annual_income_latest_pub": "2022-06-06",
+      "annual_income_published_after_query": 0,
+      "annual_income_nonmissing": {
+        "net_prof_pcom": 297
+      },
+      "annual_income_sha256": "35b7be912e9b95ee20fd4b3ccadfd35471a138c2f4f679c1c80982cd58221dfe",
+      "annual_cashflow_rows": 298,
+      "annual_cashflow_latest_pub": "2022-06-06",
+      "annual_cashflow_published_after_query": 0,
+      "annual_cashflow_nonmissing": {
+        "net_cf_oper": 298
+      },
+      "annual_cashflow_sha256": "c9b5616d3fdc14870d1da350291d53a5e0a6202069670974ab11228a55039aa3",
+      "shared_symbols": 300,
+      "aligned_report_dates": 300,
+      "annual_shared_symbols": 297,
+      "annual_aligned_report_dates": 296
+    },
+    {
+      "month": "2023-02",
+      "balance_rows": 300,
+      "balance_latest_pub": "2022-11-12",
+      "balance_published_after_query": 0,
+      "balance_nonmissing": {
+        "ttl_ast": 300,
+        "ttl_liab": 300
+      },
+      "balance_sha256": "01f73241c96ee4dbd277d9a34967672044cec1beaf384323fb46c17d881130e2",
+      "income_rows": 300,
+      "income_latest_pub": "2022-11-12",
+      "income_published_after_query": 0,
+      "income_nonmissing": {
+        "net_prof_pcom": 300
+      },
+      "income_sha256": "7afcdd4fb9921401dbea94b9019b595eea29aeb30bbf0a10f455996aefcbdd8d",
+      "cashflow_rows": 300,
+      "cashflow_latest_pub": "2022-11-12",
+      "cashflow_published_after_query": 0,
+      "cashflow_nonmissing": {
+        "net_cf_oper": 300
+      },
+      "cashflow_sha256": "2f6306b929b0fd3b549fcae69fbeb16c392c69fe6cf8cde775dc884d630f774f",
+      "annual_balance_rows": 297,
+      "annual_balance_latest_pub": "2022-06-06",
+      "annual_balance_published_after_query": 0,
+      "annual_balance_nonmissing": {
+        "ttl_ast": 297,
+        "ttl_liab": 297
+      },
+      "annual_balance_sha256": "f15cbc7bcdb5b18610c9ba506d0fa71d66a8e5b697a4a30dc6a63a1f0a595905",
+      "annual_income_rows": 297,
+      "annual_income_latest_pub": "2022-06-06",
+      "annual_income_published_after_query": 0,
+      "annual_income_nonmissing": {
+        "net_prof_pcom": 297
+      },
+      "annual_income_sha256": "36cc91326212e53fcf45473f43102bf7ca8cdaa7260317e88fad696993af51cc",
+      "annual_cashflow_rows": 298,
+      "annual_cashflow_latest_pub": "2022-06-06",
+      "annual_cashflow_published_after_query": 0,
+      "annual_cashflow_nonmissing": {
+        "net_cf_oper": 298
+      },
+      "annual_cashflow_sha256": "c641ea787af36b07fbb79fb67d6633541298360c3defc7db2d986e31c8d2899e",
+      "shared_symbols": 300,
+      "aligned_report_dates": 300,
+      "annual_shared_symbols": 297,
+      "annual_aligned_report_dates": 296
+    },
+    {
+      "month": "2023-03",
+      "balance_rows": 300,
+      "balance_latest_pub": "2023-03-30",
+      "balance_published_after_query": 0,
+      "balance_nonmissing": {
+        "ttl_ast": 300,
+        "ttl_liab": 300
+      },
+      "balance_sha256": "6536ab5b1387198b9bd1411eaf5c114c47fe278d34ef5e9756a48a612ff0930d",
+      "income_rows": 300,
+      "income_latest_pub": "2023-03-30",
+      "income_published_after_query": 0,
+      "income_nonmissing": {
+        "net_prof_pcom": 300
+      },
+      "income_sha256": "7b2b54bc5c181962e116f3a36788375c17d4681ef60fd413d666548c6df6492b",
+      "cashflow_rows": 300,
+      "cashflow_latest_pub": "2023-03-30",
+      "cashflow_published_after_query": 0,
+      "cashflow_nonmissing": {
+        "net_cf_oper": 300
+      },
+      "cashflow_sha256": "75674c772178144a6fae8631979aa15b9c730e25f39dda92cf4c7f57070e68f9",
+      "annual_balance_rows": 296,
+      "annual_balance_latest_pub": "2023-03-30",
+      "annual_balance_published_after_query": 0,
+      "annual_balance_nonmissing": {
+        "ttl_ast": 296,
+        "ttl_liab": 296
+      },
+      "annual_balance_sha256": "f07b606e793abadc7516c845edc5cd3c0a130d4f8a62ef818217fe6436cf0665",
+      "annual_income_rows": 296,
+      "annual_income_latest_pub": "2023-03-30",
+      "annual_income_published_after_query": 0,
+      "annual_income_nonmissing": {
+        "net_prof_pcom": 296
+      },
+      "annual_income_sha256": "e420c65aafe2ddd90edb97c0eb629e0772be69e8fcb52ed95a73043f0ca7573b",
+      "annual_cashflow_rows": 298,
+      "annual_cashflow_latest_pub": "2023-03-30",
+      "annual_cashflow_published_after_query": 0,
+      "annual_cashflow_nonmissing": {
+        "net_cf_oper": 298
+      },
+      "annual_cashflow_sha256": "7d1a17d22d02de33c8cf7f39ceceecbb0de33a7814fc00292e7cd40e3381056b",
+      "shared_symbols": 300,
+      "aligned_report_dates": 300,
+      "annual_shared_symbols": 296,
+      "annual_aligned_report_dates": 296
+    },
+    {
+      "month": "2023-04",
+      "balance_rows": 300,
+      "balance_latest_pub": "2023-04-27",
+      "balance_published_after_query": 0,
+      "balance_nonmissing": {
+        "ttl_ast": 300,
+        "ttl_liab": 300
+      },
+      "balance_sha256": "f8d3df1da34923af9d5dae27f8674c5e06d1cecb664527ad744845445779fe49",
+      "income_rows": 300,
+      "income_latest_pub": "2023-04-27",
+      "income_published_after_query": 0,
+      "income_nonmissing": {
+        "net_prof_pcom": 300
+      },
+      "income_sha256": "cf5f171f9c23d76c197c18570ca579d46bdda9b2ac3fdf8097db03fb6a94da52",
+      "cashflow_rows": 300,
+      "cashflow_latest_pub": "2023-04-27",
+      "cashflow_published_after_query": 0,
+      "cashflow_nonmissing": {
+        "net_cf_oper": 300
+      },
+      "cashflow_sha256": "f40920a9645d9972b7cb2065beeb16025cf8cea086cb3d37c49c59f67e841e76",
+      "annual_balance_rows": 296,
+      "annual_balance_latest_pub": "2023-04-27",
+      "annual_balance_published_after_query": 0,
+      "annual_balance_nonmissing": {
+        "ttl_ast": 296,
+        "ttl_liab": 296
+      },
+      "annual_balance_sha256": "d82e5d2d46fe4c5cc98d99a3ecd52a3f57638c9b5bd0e0ba0c6aa7ab38af81d8",
+      "annual_income_rows": 294,
+      "annual_income_latest_pub": "2023-04-27",
+      "annual_income_published_after_query": 0,
+      "annual_income_nonmissing": {
+        "net_prof_pcom": 294
+      },
+      "annual_income_sha256": "9fe727cf79b1e1ce81a49cbc0d441d660e0de73378b3c32184c902d3cfa00c15",
+      "annual_cashflow_rows": 296,
+      "annual_cashflow_latest_pub": "2023-04-27",
+      "annual_cashflow_published_after_query": 0,
+      "annual_cashflow_nonmissing": {
+        "net_cf_oper": 296
+      },
+      "annual_cashflow_sha256": "737abd89e548833aac34e0b760ff1665ebb03b926c109ca88947ad9e21694bb5",
+      "shared_symbols": 300,
+      "aligned_report_dates": 300,
+      "annual_shared_symbols": 294,
+      "annual_aligned_report_dates": 294
+    },
+    {
+      "month": "2023-05",
+      "balance_rows": 300,
+      "balance_latest_pub": "2023-05-12",
+      "balance_published_after_query": 0,
+      "balance_nonmissing": {
+        "ttl_ast": 300,
+        "ttl_liab": 300
+      },
+      "balance_sha256": "5817bb4ff311ab755bd2fa45bf61f0eda2f7a47b60563bbb18ff1943317a9b43",
+      "income_rows": 300,
+      "income_latest_pub": "2023-05-12",
+      "income_published_after_query": 0,
+      "income_nonmissing": {
+        "net_prof_pcom": 300
+      },
+      "income_sha256": "3e93bce0e14fe1c85dc7a34ec8b7f36b9a38db367a9fc1d1c6e31db0d6fb5f36",
+      "cashflow_rows": 300,
+      "cashflow_latest_pub": "2023-05-12",
+      "cashflow_published_after_query": 0,
+      "cashflow_nonmissing": {
+        "net_cf_oper": 300
+      },
+      "cashflow_sha256": "9b81c50ee62eae406586996afa95de24485b863616c28e91ea879b960cc9469c",
+      "annual_balance_rows": 297,
+      "annual_balance_latest_pub": "2023-04-29",
+      "annual_balance_published_after_query": 0,
+      "annual_balance_nonmissing": {
+        "ttl_ast": 297,
+        "ttl_liab": 297
+      },
+      "annual_balance_sha256": "ce733005b989b265681f733dcc3d4e1a970e85eabc0ced1787eddf1d20dee508",
+      "annual_income_rows": 295,
+      "annual_income_latest_pub": "2023-04-29",
+      "annual_income_published_after_query": 0,
+      "annual_income_nonmissing": {
+        "net_prof_pcom": 295
+      },
+      "annual_income_sha256": "e7c9af76a866834996115ce4695492aeb96a93f8777fc961ccbd8e7984b6615c",
+      "annual_cashflow_rows": 297,
+      "annual_cashflow_latest_pub": "2023-04-29",
+      "annual_cashflow_published_after_query": 0,
+      "annual_cashflow_nonmissing": {
+        "net_cf_oper": 297
+      },
+      "annual_cashflow_sha256": "42dc4b9a5f97381a2f3c9c65587e0e42b2f21ad9d2f3dfba0b372b030abbdb67",
+      "shared_symbols": 300,
+      "aligned_report_dates": 300,
+      "annual_shared_symbols": 295,
+      "annual_aligned_report_dates": 295
+    },
+    {
+      "month": "2023-06",
+      "balance_rows": 300,
+      "balance_latest_pub": "2023-05-12",
+      "balance_published_after_query": 0,
+      "balance_nonmissing": {
+        "ttl_ast": 300,
+        "ttl_liab": 300
+      },
+      "balance_sha256": "f0744af95499a695e80a25d0ce7be4a043f59b2890f0535d175953f5ad1bd45b",
+      "income_rows": 300,
+      "income_latest_pub": "2023-05-12",
+      "income_published_after_query": 0,
+      "income_nonmissing": {
+        "net_prof_pcom": 300
+      },
+      "income_sha256": "976fba5562524661195a94b2596806781d927f581914f61f65492f60c68b9bbf",
+      "cashflow_rows": 300,
+      "cashflow_latest_pub": "2023-05-12",
+      "cashflow_published_after_query": 0,
+      "cashflow_nonmissing": {
+        "net_cf_oper": 300
+      },
+      "cashflow_sha256": "8e0262c0988a2ea99e0100b193eca5bc5ae9870f4be74d80d07f1c9bd609e7ae",
+      "annual_balance_rows": 298,
+      "annual_balance_latest_pub": "2023-06-28",
+      "annual_balance_published_after_query": 0,
+      "annual_balance_nonmissing": {
+        "ttl_ast": 298,
+        "ttl_liab": 298
+      },
+      "annual_balance_sha256": "e65e0e16f587200930a123a1498e04926436e6a3c6858d605194c92e380f6d7e",
+      "annual_income_rows": 297,
+      "annual_income_latest_pub": "2023-06-28",
+      "annual_income_published_after_query": 0,
+      "annual_income_nonmissing": {
+        "net_prof_pcom": 297
+      },
+      "annual_income_sha256": "166765c9aa9d210c5996d99a325d5980c9d47f31981366c105d79341049adfad",
+      "annual_cashflow_rows": 298,
+      "annual_cashflow_latest_pub": "2023-06-28",
+      "annual_cashflow_published_after_query": 0,
+      "annual_cashflow_nonmissing": {
+        "net_cf_oper": 298
+      },
+      "annual_cashflow_sha256": "2471850cea92153e9e0b888249741666a93e33fc3eb6d419efbf999150ec2603",
+      "shared_symbols": 300,
+      "aligned_report_dates": 300,
+      "annual_shared_symbols": 297,
+      "annual_aligned_report_dates": 296
+    },
+    {
+      "month": "2023-07",
+      "balance_rows": 300,
+      "balance_latest_pub": "2023-07-28",
+      "balance_published_after_query": 0,
+      "balance_nonmissing": {
+        "ttl_ast": 300,
+        "ttl_liab": 300
+      },
+      "balance_sha256": "ef494827bd90fd0fc0abc5d810f943813a4fa3f991b9bb1808b94a1b48341aa7",
+      "income_rows": 300,
+      "income_latest_pub": "2023-07-28",
+      "income_published_after_query": 0,
+      "income_nonmissing": {
+        "net_prof_pcom": 300
+      },
+      "income_sha256": "f595f3556a2cd3d5236c37365fddd18cc348f41ae69eec84033d7bbe12d511a8",
+      "cashflow_rows": 300,
+      "cashflow_latest_pub": "2023-07-28",
+      "cashflow_published_after_query": 0,
+      "cashflow_nonmissing": {
+        "net_cf_oper": 300
+      },
+      "cashflow_sha256": "b06e3bd3ccf8df487c5d2c752f266e9772fe538fe7833a736db83e4ef2009cf1",
+      "annual_balance_rows": 298,
+      "annual_balance_latest_pub": "2023-07-28",
+      "annual_balance_published_after_query": 0,
+      "annual_balance_nonmissing": {
+        "ttl_ast": 298,
+        "ttl_liab": 298
+      },
+      "annual_balance_sha256": "f8930d11a7bec99ad89b73ca6edf5d51c432085b4b1c5593d68804e91a08f911",
+      "annual_income_rows": 297,
+      "annual_income_latest_pub": "2023-07-28",
+      "annual_income_published_after_query": 0,
+      "annual_income_nonmissing": {
+        "net_prof_pcom": 297
+      },
+      "annual_income_sha256": "befb8cbbdf1c074b055e1a9f7ba25711a68204bd78393806935fb3d025688a68",
+      "annual_cashflow_rows": 298,
+      "annual_cashflow_latest_pub": "2023-07-28",
+      "annual_cashflow_published_after_query": 0,
+      "annual_cashflow_nonmissing": {
+        "net_cf_oper": 298
+      },
+      "annual_cashflow_sha256": "dcebaf11d86e0dc21631faa582b318c496e2b3f446232a03552c0a22b5c96b3f",
+      "shared_symbols": 300,
+      "aligned_report_dates": 300,
+      "annual_shared_symbols": 297,
+      "annual_aligned_report_dates": 296
+    },
+    {
+      "month": "2023-08",
+      "balance_rows": 300,
+      "balance_latest_pub": "2023-08-30",
+      "balance_published_after_query": 0,
+      "balance_nonmissing": {
+        "ttl_ast": 300,
+        "ttl_liab": 300
+      },
+      "balance_sha256": "6a720a04b7cda60c0e3d3cf4b1e350b171597c1ddfbd92abe7a36e4ebddcff2e",
+      "income_rows": 300,
+      "income_latest_pub": "2023-08-30",
+      "income_published_after_query": 0,
+      "income_nonmissing": {
+        "net_prof_pcom": 300
+      },
+      "income_sha256": "ec3fee0557bdc2426fab694496858ba438a7b90e0a889fcdef2d343d00237287",
+      "cashflow_rows": 300,
+      "cashflow_latest_pub": "2023-08-30",
+      "cashflow_published_after_query": 0,
+      "cashflow_nonmissing": {
+        "net_cf_oper": 300
+      },
+      "cashflow_sha256": "b95247a6a63bcc4300d3e66dff0a712f7e1897dff6796ea6df3e34fd2785a28c",
+      "annual_balance_rows": 298,
+      "annual_balance_latest_pub": "2023-08-29",
+      "annual_balance_published_after_query": 0,
+      "annual_balance_nonmissing": {
+        "ttl_ast": 298,
+        "ttl_liab": 298
+      },
+      "annual_balance_sha256": "3189020b766c34b61df54970bfa5ba0dad06ef703be9d820a1e707c77e50e449",
+      "annual_income_rows": 297,
+      "annual_income_latest_pub": "2023-07-28",
+      "annual_income_published_after_query": 0,
+      "annual_income_nonmissing": {
+        "net_prof_pcom": 297
+      },
+      "annual_income_sha256": "efe23f576cd9020e2e8e2ed138bb47b4882223a6dd42e5b3a0f5a7ba5e7637c8",
+      "annual_cashflow_rows": 298,
+      "annual_cashflow_latest_pub": "2023-08-10",
+      "annual_cashflow_published_after_query": 0,
+      "annual_cashflow_nonmissing": {
+        "net_cf_oper": 298
+      },
+      "annual_cashflow_sha256": "9f52cf658df4f923c4f8818551eb66d7d4c2d0740cf3a10152fd15843d487533",
+      "shared_symbols": 300,
+      "aligned_report_dates": 300,
+      "annual_shared_symbols": 297,
+      "annual_aligned_report_dates": 297
+    },
+    {
+      "month": "2023-09",
+      "balance_rows": 300,
+      "balance_latest_pub": "2023-08-31",
+      "balance_published_after_query": 0,
+      "balance_nonmissing": {
+        "ttl_ast": 300,
+        "ttl_liab": 300
+      },
+      "balance_sha256": "0c4ba2f23801d6c94274973b13d304f741929194318c7eb128ed8be5c850a220",
+      "income_rows": 300,
+      "income_latest_pub": "2023-08-31",
+      "income_published_after_query": 0,
+      "income_nonmissing": {
+        "net_prof_pcom": 300
+      },
+      "income_sha256": "053138a31e071f0779742e8c617ba12321ca9aa6e090189f578d62510f9925ed",
+      "cashflow_rows": 300,
+      "cashflow_latest_pub": "2023-08-31",
+      "cashflow_published_after_query": 0,
+      "cashflow_nonmissing": {
+        "net_cf_oper": 300
+      },
+      "cashflow_sha256": "6598b0692556d61c06cb1fdf3ef55c4412448e94e9739812810237ffbca2bc04",
+      "annual_balance_rows": 298,
+      "annual_balance_latest_pub": "2023-08-29",
+      "annual_balance_published_after_query": 0,
+      "annual_balance_nonmissing": {
+        "ttl_ast": 298,
+        "ttl_liab": 298
+      },
+      "annual_balance_sha256": "27aae9fb381141edaa1cd9ca1c0303dd5ddf93d654dc3df363453cfdde3033d8",
+      "annual_income_rows": 297,
+      "annual_income_latest_pub": "2023-07-28",
+      "annual_income_published_after_query": 0,
+      "annual_income_nonmissing": {
+        "net_prof_pcom": 297
+      },
+      "annual_income_sha256": "2b1d8e8e399c99dba4c164266875c1aad918d4abb4aa722a583065fcb2c59ccf",
+      "annual_cashflow_rows": 298,
+      "annual_cashflow_latest_pub": "2023-08-10",
+      "annual_cashflow_published_after_query": 0,
+      "annual_cashflow_nonmissing": {
+        "net_cf_oper": 298
+      },
+      "annual_cashflow_sha256": "f186d197f286e2daa7df213bf65527093c5589e1af21545b67989e28d6b77633",
+      "shared_symbols": 300,
+      "aligned_report_dates": 300,
+      "annual_shared_symbols": 297,
+      "annual_aligned_report_dates": 297
+    },
+    {
+      "month": "2023-10",
+      "balance_rows": 300,
+      "balance_latest_pub": "2023-10-30",
+      "balance_published_after_query": 0,
+      "balance_nonmissing": {
+        "ttl_ast": 300,
+        "ttl_liab": 300
+      },
+      "balance_sha256": "6a46c7c5cd491384fafefb8f72be144f86419f15b0cb46d04ff04a1b75511acf",
+      "income_rows": 300,
+      "income_latest_pub": "2023-10-30",
+      "income_published_after_query": 0,
+      "income_nonmissing": {
+        "net_prof_pcom": 300
+      },
+      "income_sha256": "a433fe8407efcbe15037a562812af676f9ca22f021b248d485e867d8353e7270",
+      "cashflow_rows": 300,
+      "cashflow_latest_pub": "2023-10-30",
+      "cashflow_published_after_query": 0,
+      "cashflow_nonmissing": {
+        "net_cf_oper": 300
+      },
+      "cashflow_sha256": "6869abc310db3709924539d2cdbff7b4d779a9da52f3f7a81dc57a9b9b6b096f",
+      "annual_balance_rows": 298,
+      "annual_balance_latest_pub": "2023-08-29",
+      "annual_balance_published_after_query": 0,
+      "annual_balance_nonmissing": {
+        "ttl_ast": 298,
+        "ttl_liab": 298
+      },
+      "annual_balance_sha256": "03212abcbb0d45339b87b9025b21c17f1ffe306759094bf16e64eb168dbab9e8",
+      "annual_income_rows": 297,
+      "annual_income_latest_pub": "2023-07-28",
+      "annual_income_published_after_query": 0,
+      "annual_income_nonmissing": {
+        "net_prof_pcom": 297
+      },
+      "annual_income_sha256": "f8c5c2d79deda55846698ff3196510a50c84f986394bd72061f5e1792bb5b23b",
+      "annual_cashflow_rows": 298,
+      "annual_cashflow_latest_pub": "2023-08-10",
+      "annual_cashflow_published_after_query": 0,
+      "annual_cashflow_nonmissing": {
+        "net_cf_oper": 298
+      },
+      "annual_cashflow_sha256": "771d52d4759fc1b548a58ad6b5baab0001c509015d75ae7748cbf4048fae9de3",
+      "shared_symbols": 300,
+      "aligned_report_dates": 300,
+      "annual_shared_symbols": 297,
+      "annual_aligned_report_dates": 297
+    },
+    {
+      "month": "2023-11",
+      "balance_rows": 300,
+      "balance_latest_pub": "2023-11-10",
+      "balance_published_after_query": 0,
+      "balance_nonmissing": {
+        "ttl_ast": 300,
+        "ttl_liab": 300
+      },
+      "balance_sha256": "97d44b4a64fa1d485e385913fa0ba8e78afccd094435a9ff8b9bb97eb1ed849e",
+      "income_rows": 300,
+      "income_latest_pub": "2023-11-10",
+      "income_published_after_query": 0,
+      "income_nonmissing": {
+        "net_prof_pcom": 300
+      },
+      "income_sha256": "39361e0408033e1bf9aafaa46422c5db9ede4c39372982d5d61efbb9b3012f6b",
+      "cashflow_rows": 300,
+      "cashflow_latest_pub": "2023-11-10",
+      "cashflow_published_after_query": 0,
+      "cashflow_nonmissing": {
+        "net_cf_oper": 300
+      },
+      "cashflow_sha256": "e0f23f92c76727a298f002a58ba5c75d542366abd12c8919461b60d0cefd40fd",
+      "annual_balance_rows": 298,
+      "annual_balance_latest_pub": "2023-08-29",
+      "annual_balance_published_after_query": 0,
+      "annual_balance_nonmissing": {
+        "ttl_ast": 298,
+        "ttl_liab": 298
+      },
+      "annual_balance_sha256": "9fc72a29d88cccab891368f0d34a835299f356801bb91565ba22be856db7d01a",
+      "annual_income_rows": 297,
+      "annual_income_latest_pub": "2023-07-28",
+      "annual_income_published_after_query": 0,
+      "annual_income_nonmissing": {
+        "net_prof_pcom": 297
+      },
+      "annual_income_sha256": "0a2415f2d83241d142f6a1a100c28b1b42028731cade3f582542c6f4ee215061",
+      "annual_cashflow_rows": 298,
+      "annual_cashflow_latest_pub": "2023-08-10",
+      "annual_cashflow_published_after_query": 0,
+      "annual_cashflow_nonmissing": {
+        "net_cf_oper": 298
+      },
+      "annual_cashflow_sha256": "dd79e28915d8fa470f6143fb591d9116ae76295f077af7e1a9f97f97a7ae1366",
+      "shared_symbols": 300,
+      "aligned_report_dates": 300,
+      "annual_shared_symbols": 297,
+      "annual_aligned_report_dates": 297
+    },
+    {
+      "month": "2023-12",
+      "balance_rows": 300,
+      "balance_latest_pub": "2023-11-10",
+      "balance_published_after_query": 0,
+      "balance_nonmissing": {
+        "ttl_ast": 300,
+        "ttl_liab": 300
+      },
+      "balance_sha256": "120fe950cc0846e7601746a35def9fe0a8e8a361d241319ef77c9d924a434e8f",
+      "income_rows": 300,
+      "income_latest_pub": "2023-11-10",
+      "income_published_after_query": 0,
+      "income_nonmissing": {
+        "net_prof_pcom": 300
+      },
+      "income_sha256": "5b4234e2c3edd4f5874465a5cff098fa800850ad848fbdce0a5ac0d056991b6f",
+      "cashflow_rows": 300,
+      "cashflow_latest_pub": "2023-11-10",
+      "cashflow_published_after_query": 0,
+      "cashflow_nonmissing": {
+        "net_cf_oper": 300
+      },
+      "cashflow_sha256": "06e73baab8ced0e4b047c13936ed5d6867ede0f2dff0ae818b96235f32149328",
+      "annual_balance_rows": 299,
+      "annual_balance_latest_pub": "2023-12-12",
+      "annual_balance_published_after_query": 0,
+      "annual_balance_nonmissing": {
+        "ttl_ast": 299,
+        "ttl_liab": 299
+      },
+      "annual_balance_sha256": "08681fafee7436803bd44c4be14c71889381c96cf05c2fbfc6c94daf13440e83",
+      "annual_income_rows": 298,
+      "annual_income_latest_pub": "2023-12-12",
+      "annual_income_published_after_query": 0,
+      "annual_income_nonmissing": {
+        "net_prof_pcom": 298
+      },
+      "annual_income_sha256": "17972df5ce8493deb0565ebb833a1eb47e184d04c5ad37e6d89832a3b06a9e46",
+      "annual_cashflow_rows": 298,
+      "annual_cashflow_latest_pub": "2023-08-10",
+      "annual_cashflow_published_after_query": 0,
+      "annual_cashflow_nonmissing": {
+        "net_cf_oper": 298
+      },
+      "annual_cashflow_sha256": "b0d5724e3ff4145768fdd37b2332f5645c532525a735cc5c6281b5964fa98aa5",
+      "shared_symbols": 300,
+      "aligned_report_dates": 300,
+      "annual_shared_symbols": 298,
+      "annual_aligned_report_dates": 298
+    },
+    {
+      "month": "2024-01",
+      "balance_rows": 300,
+      "balance_latest_pub": "2023-11-10",
+      "balance_published_after_query": 0,
+      "balance_nonmissing": {
+        "ttl_ast": 300,
+        "ttl_liab": 300
+      },
+      "balance_sha256": "2f415dc46230359f15c424ad562b50da1e1d329c3fbadac280a4c04eb07fe535",
+      "income_rows": 300,
+      "income_latest_pub": "2023-11-10",
+      "income_published_after_query": 0,
+      "income_nonmissing": {
+        "net_prof_pcom": 300
+      },
+      "income_sha256": "3725213f0d9554815a5924ae15eff6bbe73b33d6a7bbdd76645bc0aee9f1487a",
+      "cashflow_rows": 300,
+      "cashflow_latest_pub": "2023-11-10",
+      "cashflow_published_after_query": 0,
+      "cashflow_nonmissing": {
+        "net_cf_oper": 300
+      },
+      "cashflow_sha256": "8b25fef8e3ad55c57a72d5d6c7a05ac8bae5009849671af08d1f9b1cbfff2a2f",
+      "annual_balance_rows": 299,
+      "annual_balance_latest_pub": "2023-12-12",
+      "annual_balance_published_after_query": 0,
+      "annual_balance_nonmissing": {
+        "ttl_ast": 299,
+        "ttl_liab": 299
+      },
+      "annual_balance_sha256": "ee68f44872919215b7ca355a0e62c6312c35a2560645a0846261d92b4ae1e9ad",
+      "annual_income_rows": 298,
+      "annual_income_latest_pub": "2023-12-12",
+      "annual_income_published_after_query": 0,
+      "annual_income_nonmissing": {
+        "net_prof_pcom": 298
+      },
+      "annual_income_sha256": "aade768021649d54dd06c586281d50f4c304027515870bc01eb492c41a971986",
+      "annual_cashflow_rows": 298,
+      "annual_cashflow_latest_pub": "2023-08-10",
+      "annual_cashflow_published_after_query": 0,
+      "annual_cashflow_nonmissing": {
+        "net_cf_oper": 298
+      },
+      "annual_cashflow_sha256": "fe243dd294a5b39ed1b05594c4b6b51b4c48a5cfa21d5222b6a45839595f8117",
+      "shared_symbols": 300,
+      "aligned_report_dates": 300,
+      "annual_shared_symbols": 298,
+      "annual_aligned_report_dates": 298
+    },
+    {
+      "month": "2024-02",
+      "balance_rows": 300,
+      "balance_latest_pub": "2024-02-27",
+      "balance_published_after_query": 0,
+      "balance_nonmissing": {
+        "ttl_ast": 300,
+        "ttl_liab": 300
+      },
+      "balance_sha256": "9e5fccb10306b8701b946f98367089a37664d8540436fec551061a8267d803bc",
+      "income_rows": 300,
+      "income_latest_pub": "2024-02-27",
+      "income_published_after_query": 0,
+      "income_nonmissing": {
+        "net_prof_pcom": 300
+      },
+      "income_sha256": "c0728d31c0a1211c94375efb841b0433f5b10e339e12eebfcb2e87245b22b531",
+      "cashflow_rows": 300,
+      "cashflow_latest_pub": "2024-02-27",
+      "cashflow_published_after_query": 0,
+      "cashflow_nonmissing": {
+        "net_cf_oper": 300
+      },
+      "cashflow_sha256": "571ac5b23c255804e571772ae27a6f9c11fcb1f665e3c4f7fc4acfec9a98e523",
+      "annual_balance_rows": 299,
+      "annual_balance_latest_pub": "2024-02-27",
+      "annual_balance_published_after_query": 0,
+      "annual_balance_nonmissing": {
+        "ttl_ast": 299,
+        "ttl_liab": 299
+      },
+      "annual_balance_sha256": "0aeeeb637b8f108fec9884fbb0fd009a5c3f64b4ee0627e6cd9596055dfbe6a4",
+      "annual_income_rows": 298,
+      "annual_income_latest_pub": "2024-02-27",
+      "annual_income_published_after_query": 0,
+      "annual_income_nonmissing": {
+        "net_prof_pcom": 298
+      },
+      "annual_income_sha256": "7ccdfced1b3bc90818ca5ed97e700ad213662b2fba139ac5d8303635b5c24153",
+      "annual_cashflow_rows": 298,
+      "annual_cashflow_latest_pub": "2024-02-27",
+      "annual_cashflow_published_after_query": 0,
+      "annual_cashflow_nonmissing": {
+        "net_cf_oper": 298
+      },
+      "annual_cashflow_sha256": "71b9f01f002189a6e5b8dfd177a6e8803e7c11fb21296b238b40a08ee600c701",
+      "shared_symbols": 300,
+      "aligned_report_dates": 300,
+      "annual_shared_symbols": 298,
+      "annual_aligned_report_dates": 298
+    },
+    {
+      "month": "2024-03",
+      "balance_rows": 300,
+      "balance_latest_pub": "2024-03-28",
+      "balance_published_after_query": 0,
+      "balance_nonmissing": {
+        "ttl_ast": 300,
+        "ttl_liab": 300
+      },
+      "balance_sha256": "d067a7e652f9b0bb738240f7b0eb2427f77686a679f36fc5609a74c82f99f885",
+      "income_rows": 300,
+      "income_latest_pub": "2024-03-28",
+      "income_published_after_query": 0,
+      "income_nonmissing": {
+        "net_prof_pcom": 300
+      },
+      "income_sha256": "ba9d23767f890dd8beac9b2d66bf85124db81537ca531662776c6e9454a448fa",
+      "cashflow_rows": 300,
+      "cashflow_latest_pub": "2024-03-28",
+      "cashflow_published_after_query": 0,
+      "cashflow_nonmissing": {
+        "net_cf_oper": 300
+      },
+      "cashflow_sha256": "ed855ea446d69cc9d440bfc6370513ae0af1e08c008661a9c962fb67e2196e49",
+      "annual_balance_rows": 299,
+      "annual_balance_latest_pub": "2024-03-28",
+      "annual_balance_published_after_query": 0,
+      "annual_balance_nonmissing": {
+        "ttl_ast": 299,
+        "ttl_liab": 299
+      },
+      "annual_balance_sha256": "74113a661b19261e05f699ffdcefbc6aa412899363b41a054e58e8dd90d5e798",
+      "annual_income_rows": 298,
+      "annual_income_latest_pub": "2024-03-28",
+      "annual_income_published_after_query": 0,
+      "annual_income_nonmissing": {
+        "net_prof_pcom": 298
+      },
+      "annual_income_sha256": "7985ca0273c6afd6a1988ffbcf3c115e4b731f98f0b3d166d4552799a62b0346",
+      "annual_cashflow_rows": 298,
+      "annual_cashflow_latest_pub": "2024-03-28",
+      "annual_cashflow_published_after_query": 0,
+      "annual_cashflow_nonmissing": {
+        "net_cf_oper": 298
+      },
+      "annual_cashflow_sha256": "7c5edd59ebde8c5bcf876b75c145f603f5933b135a0f046455c26234f103a9a0",
+      "shared_symbols": 300,
+      "aligned_report_dates": 299,
+      "annual_shared_symbols": 298,
+      "annual_aligned_report_dates": 297
+    },
+    {
+      "month": "2024-04",
+      "balance_rows": 300,
+      "balance_latest_pub": "2024-04-29",
+      "balance_published_after_query": 0,
+      "balance_nonmissing": {
+        "ttl_ast": 300,
+        "ttl_liab": 300
+      },
+      "balance_sha256": "48824c34fd8ca6624c8cdefd54c3c6b7117695bf5d63bf70f650e72c05fe6a34",
+      "income_rows": 300,
+      "income_latest_pub": "2024-04-29",
+      "income_published_after_query": 0,
+      "income_nonmissing": {
+        "net_prof_pcom": 300
+      },
+      "income_sha256": "384a76ceecb09cef4316bf5a2fb1a922956262a5c33ace39b61addbd01485ffb",
+      "cashflow_rows": 300,
+      "cashflow_latest_pub": "2024-04-29",
+      "cashflow_published_after_query": 0,
+      "cashflow_nonmissing": {
+        "net_cf_oper": 300
+      },
+      "cashflow_sha256": "0aa48b05d502de2a7a7b2652b1037974b6e97ca6044496276589576c5b9d2917",
+      "annual_balance_rows": 299,
+      "annual_balance_latest_pub": "2024-04-29",
+      "annual_balance_published_after_query": 0,
+      "annual_balance_nonmissing": {
+        "ttl_ast": 299,
+        "ttl_liab": 299
+      },
+      "annual_balance_sha256": "b5a319e2af3b5424174ec95261195b066589ff437d411d22ed8363fade879733",
+      "annual_income_rows": 299,
+      "annual_income_latest_pub": "2024-04-29",
+      "annual_income_published_after_query": 0,
+      "annual_income_nonmissing": {
+        "net_prof_pcom": 299
+      },
+      "annual_income_sha256": "f93d278248ce5a6e0173369c82947a3302e1aab20e9fe99ac6fac2ea7ff1a8be",
+      "annual_cashflow_rows": 299,
+      "annual_cashflow_latest_pub": "2024-04-29",
+      "annual_cashflow_published_after_query": 0,
+      "annual_cashflow_nonmissing": {
+        "net_cf_oper": 299
+      },
+      "annual_cashflow_sha256": "49509e1122e97b0378d73f795ed22c7473a93f97f37b8fdf00df994465f9b9a5",
+      "shared_symbols": 300,
+      "aligned_report_dates": 299,
+      "annual_shared_symbols": 299,
+      "annual_aligned_report_dates": 298
+    },
+    {
+      "month": "2024-05",
+      "balance_rows": 300,
+      "balance_latest_pub": "2024-05-10",
+      "balance_published_after_query": 0,
+      "balance_nonmissing": {
+        "ttl_ast": 300,
+        "ttl_liab": 300
+      },
+      "balance_sha256": "d9a1318a60810c7d0c9a513b067f4276f25e8afc92741590a06a0a50fa5e04b8",
+      "income_rows": 300,
+      "income_latest_pub": "2024-05-10",
+      "income_published_after_query": 0,
+      "income_nonmissing": {
+        "net_prof_pcom": 300
+      },
+      "income_sha256": "d57f835c29655b67acf3f5a417b7acc73d72ef85a94055e94f77fb76a086e580",
+      "cashflow_rows": 300,
+      "cashflow_latest_pub": "2024-05-10",
+      "cashflow_published_after_query": 0,
+      "cashflow_nonmissing": {
+        "net_cf_oper": 300
+      },
+      "cashflow_sha256": "3ca4b2ba2159b5ac580c061d559050ad919e53470ba448975b9986c26c339d69",
+      "annual_balance_rows": 299,
+      "annual_balance_latest_pub": "2024-05-23",
+      "annual_balance_published_after_query": 0,
+      "annual_balance_nonmissing": {
+        "ttl_ast": 299,
+        "ttl_liab": 299
+      },
+      "annual_balance_sha256": "37fad3f71548aa575b70ce0a3b29afd97c084c9403b83a2088d2f96a6b7e69a1",
+      "annual_income_rows": 299,
+      "annual_income_latest_pub": "2024-05-23",
+      "annual_income_published_after_query": 0,
+      "annual_income_nonmissing": {
+        "net_prof_pcom": 299
+      },
+      "annual_income_sha256": "9b0774ea987d4571a830a80a97a7247289d1f40183cbf051405bbb3be98f86f2",
+      "annual_cashflow_rows": 299,
+      "annual_cashflow_latest_pub": "2024-05-23",
+      "annual_cashflow_published_after_query": 0,
+      "annual_cashflow_nonmissing": {
+        "net_cf_oper": 299
+      },
+      "annual_cashflow_sha256": "99e9b200a0adf479e8e50d312a4af740a0772c68ca36da5e0b68e01cc58e3fdb",
+      "shared_symbols": 300,
+      "aligned_report_dates": 298,
+      "annual_shared_symbols": 299,
+      "annual_aligned_report_dates": 298
+    },
+    {
+      "month": "2024-06",
+      "balance_rows": 300,
+      "balance_latest_pub": "2024-05-10",
+      "balance_published_after_query": 0,
+      "balance_nonmissing": {
+        "ttl_ast": 300,
+        "ttl_liab": 300
+      },
+      "balance_sha256": "94e2565b6ce5e3167e3347c3d8795273e4ce5b616ad351eb54df2401b71d6859",
+      "income_rows": 300,
+      "income_latest_pub": "2024-05-10",
+      "income_published_after_query": 0,
+      "income_nonmissing": {
+        "net_prof_pcom": 300
+      },
+      "income_sha256": "3cb11f42e70071159ccb0ebcfbdb32a950252771f627fed378bea66fdf6aa6a8",
+      "cashflow_rows": 300,
+      "cashflow_latest_pub": "2024-05-10",
+      "cashflow_published_after_query": 0,
+      "cashflow_nonmissing": {
+        "net_cf_oper": 300
+      },
+      "cashflow_sha256": "ca76efa5019f6089936c59e4b38d97233248e7b129c037c94640cf2344165971",
+      "annual_balance_rows": 299,
+      "annual_balance_latest_pub": "2024-05-10",
+      "annual_balance_published_after_query": 0,
+      "annual_balance_nonmissing": {
+        "ttl_ast": 299,
+        "ttl_liab": 299
+      },
+      "annual_balance_sha256": "913ecb57b96240377b2fd9f1a8923a1c3ed5ccb8d590429433d52e2f6e767725",
+      "annual_income_rows": 299,
+      "annual_income_latest_pub": "2024-05-10",
+      "annual_income_published_after_query": 0,
+      "annual_income_nonmissing": {
+        "net_prof_pcom": 299
+      },
+      "annual_income_sha256": "158f90df8aa08fb478d68c367c6462baed95c8bac4cb2d3437ef56c00b7a7609",
+      "annual_cashflow_rows": 299,
+      "annual_cashflow_latest_pub": "2024-05-10",
+      "annual_cashflow_published_after_query": 0,
+      "annual_cashflow_nonmissing": {
+        "net_cf_oper": 299
+      },
+      "annual_cashflow_sha256": "383321c203b513b3306be89c87bfc7896914745046cddcfce658cae7f222fecb",
+      "shared_symbols": 300,
+      "aligned_report_dates": 298,
+      "annual_shared_symbols": 299,
+      "annual_aligned_report_dates": 298
+    },
+    {
+      "month": "2024-07",
+      "balance_rows": 300,
+      "balance_latest_pub": "2024-07-30",
+      "balance_published_after_query": 0,
+      "balance_nonmissing": {
+        "ttl_ast": 300,
+        "ttl_liab": 300
+      },
+      "balance_sha256": "6e3a679ed50adac9cd58b5464858e52ea758e416fd385ba726ec674c971f451b",
+      "income_rows": 300,
+      "income_latest_pub": "2024-07-30",
+      "income_published_after_query": 0,
+      "income_nonmissing": {
+        "net_prof_pcom": 300
+      },
+      "income_sha256": "0b31a5b6ccf6d7ad941daa24c8c8ddb8d69b52bd96273fbe124a6bac59324787",
+      "cashflow_rows": 300,
+      "cashflow_latest_pub": "2024-07-30",
+      "cashflow_published_after_query": 0,
+      "cashflow_nonmissing": {
+        "net_cf_oper": 300
+      },
+      "cashflow_sha256": "a8da96dd10a6132256d28c77ec0e004fb7498743711d164c2b44508424b7488b",
+      "annual_balance_rows": 299,
+      "annual_balance_latest_pub": "2024-05-10",
+      "annual_balance_published_after_query": 0,
+      "annual_balance_nonmissing": {
+        "ttl_ast": 299,
+        "ttl_liab": 299
+      },
+      "annual_balance_sha256": "c58780332f4758f4a11c9a0d9f8dcf3dc57fd4d1a4e7586c6720e8843017710d",
+      "annual_income_rows": 299,
+      "annual_income_latest_pub": "2024-05-10",
+      "annual_income_published_after_query": 0,
+      "annual_income_nonmissing": {
+        "net_prof_pcom": 299
+      },
+      "annual_income_sha256": "4972ff30130567a29d5e220ca8e5946104c52ec39aae809da1e9331d6473a589",
+      "annual_cashflow_rows": 299,
+      "annual_cashflow_latest_pub": "2024-05-10",
+      "annual_cashflow_published_after_query": 0,
+      "annual_cashflow_nonmissing": {
+        "net_cf_oper": 299
+      },
+      "annual_cashflow_sha256": "610aff8790ada09a95878e4653b6d82cb51e36ada2e661fabf2b13642fea4446",
+      "shared_symbols": 300,
+      "aligned_report_dates": 298,
+      "annual_shared_symbols": 299,
+      "annual_aligned_report_dates": 298
+    },
+    {
+      "month": "2024-08",
+      "balance_rows": 300,
+      "balance_latest_pub": "2024-08-29",
+      "balance_published_after_query": 0,
+      "balance_nonmissing": {
+        "ttl_ast": 300,
+        "ttl_liab": 300
+      },
+      "balance_sha256": "f85d8f836c6ba855b4209b3242e6a36d19dc8a6d728811feaff3dfd44a50a148",
+      "income_rows": 300,
+      "income_latest_pub": "2024-08-29",
+      "income_published_after_query": 0,
+      "income_nonmissing": {
+        "net_prof_pcom": 300
+      },
+      "income_sha256": "91646dfb55ce7bd2fa22f0874391ad2855e506b05aeb14738cfee115ee8d056a",
+      "cashflow_rows": 300,
+      "cashflow_latest_pub": "2024-08-29",
+      "cashflow_published_after_query": 0,
+      "cashflow_nonmissing": {
+        "net_cf_oper": 300
+      },
+      "cashflow_sha256": "b8c25b6ff74b89683a668cf4e19293ceb97b37a65ee99d0914bdee6cbca50e72",
+      "annual_balance_rows": 299,
+      "annual_balance_latest_pub": "2024-05-10",
+      "annual_balance_published_after_query": 0,
+      "annual_balance_nonmissing": {
+        "ttl_ast": 299,
+        "ttl_liab": 299
+      },
+      "annual_balance_sha256": "4d186b06c18abd5f6c7b5badcc163cacc4ea189c7d70779721bcf3fc0eea8dc2",
+      "annual_income_rows": 299,
+      "annual_income_latest_pub": "2024-05-10",
+      "annual_income_published_after_query": 0,
+      "annual_income_nonmissing": {
+        "net_prof_pcom": 299
+      },
+      "annual_income_sha256": "44354fc7adda7452fdda9224737305633a78210fe345bcf0921ae1307c01e91d",
+      "annual_cashflow_rows": 299,
+      "annual_cashflow_latest_pub": "2024-05-10",
+      "annual_cashflow_published_after_query": 0,
+      "annual_cashflow_nonmissing": {
+        "net_cf_oper": 299
+      },
+      "annual_cashflow_sha256": "b00eeb912c663986b8773be4667830325f7fd3daaa79074470dd60e6aeeb54d7",
+      "shared_symbols": 300,
+      "aligned_report_dates": 297,
+      "annual_shared_symbols": 299,
+      "annual_aligned_report_dates": 298
+    },
+    {
+      "month": "2024-09",
+      "balance_rows": 300,
+      "balance_latest_pub": "2024-09-03",
+      "balance_published_after_query": 0,
+      "balance_nonmissing": {
+        "ttl_ast": 300,
+        "ttl_liab": 300
+      },
+      "balance_sha256": "7d0a325346057e3a2d9eab6204d5c637be78016d9dc86d62ff47fe6075548c14",
+      "income_rows": 300,
+      "income_latest_pub": "2024-09-03",
+      "income_published_after_query": 0,
+      "income_nonmissing": {
+        "net_prof_pcom": 300
+      },
+      "income_sha256": "acf09a902c2d3aa4db3bd78117761cd9404236439214b07203a048e431da5835",
+      "cashflow_rows": 300,
+      "cashflow_latest_pub": "2024-09-03",
+      "cashflow_published_after_query": 0,
+      "cashflow_nonmissing": {
+        "net_cf_oper": 300
+      },
+      "cashflow_sha256": "b11ced793a2f5b4f5c166871e8f36670142bb0bcd49515336de1a03d5a7dd8da",
+      "annual_balance_rows": 299,
+      "annual_balance_latest_pub": "2024-05-10",
+      "annual_balance_published_after_query": 0,
+      "annual_balance_nonmissing": {
+        "ttl_ast": 299,
+        "ttl_liab": 299
+      },
+      "annual_balance_sha256": "e257cdb798c5ed05242432d8bf31df3fe39e20b85dc1b9dc0153ddd505d8e290",
+      "annual_income_rows": 299,
+      "annual_income_latest_pub": "2024-05-10",
+      "annual_income_published_after_query": 0,
+      "annual_income_nonmissing": {
+        "net_prof_pcom": 299
+      },
+      "annual_income_sha256": "b139aa6e3fcbdf54d7b7c75ca6efa19ecbf3e1bb851c2b5aa5ac7af6471bcfda",
+      "annual_cashflow_rows": 299,
+      "annual_cashflow_latest_pub": "2024-05-10",
+      "annual_cashflow_published_after_query": 0,
+      "annual_cashflow_nonmissing": {
+        "net_cf_oper": 299
+      },
+      "annual_cashflow_sha256": "763f4674811e4c80631995c3f417ee00af64fc2dbfe1861506dd120b3a0599e4",
+      "shared_symbols": 300,
+      "aligned_report_dates": 297,
+      "annual_shared_symbols": 299,
+      "annual_aligned_report_dates": 298
+    },
+    {
+      "month": "2024-10",
+      "balance_rows": 300,
+      "balance_latest_pub": "2024-10-30",
+      "balance_published_after_query": 0,
+      "balance_nonmissing": {
+        "ttl_ast": 300,
+        "ttl_liab": 300
+      },
+      "balance_sha256": "b9a9ebaf8061ab87c393a3d0d6ed27addadc39162b2151e60f92f219b66127ae",
+      "income_rows": 300,
+      "income_latest_pub": "2024-10-30",
+      "income_published_after_query": 0,
+      "income_nonmissing": {
+        "net_prof_pcom": 300
+      },
+      "income_sha256": "cfc52bc07563cf3de73a5f4583070f175e304140a6bb366997b699419cf4e0c7",
+      "cashflow_rows": 300,
+      "cashflow_latest_pub": "2024-10-30",
+      "cashflow_published_after_query": 0,
+      "cashflow_nonmissing": {
+        "net_cf_oper": 300
+      },
+      "cashflow_sha256": "d62a8aad7255fa6a59378d2ae6244f406f503add734a88fddc954662e64f503f",
+      "annual_balance_rows": 299,
+      "annual_balance_latest_pub": "2024-05-10",
+      "annual_balance_published_after_query": 0,
+      "annual_balance_nonmissing": {
+        "ttl_ast": 299,
+        "ttl_liab": 299
+      },
+      "annual_balance_sha256": "fabb3402409afb9136352f84d955c4b0c201f65ae81d19483c143273bff05f68",
+      "annual_income_rows": 299,
+      "annual_income_latest_pub": "2024-05-10",
+      "annual_income_published_after_query": 0,
+      "annual_income_nonmissing": {
+        "net_prof_pcom": 299
+      },
+      "annual_income_sha256": "35ed965859832cf933facd713da68b22cb35c4bb1c817d637ad019ddb6074232",
+      "annual_cashflow_rows": 299,
+      "annual_cashflow_latest_pub": "2024-05-10",
+      "annual_cashflow_published_after_query": 0,
+      "annual_cashflow_nonmissing": {
+        "net_cf_oper": 299
+      },
+      "annual_cashflow_sha256": "62706b0cfa7a80250b8fe3f4b53540068be41cc3baaa33630bff3fcaefd096da",
+      "shared_symbols": 300,
+      "aligned_report_dates": 299,
+      "annual_shared_symbols": 299,
+      "annual_aligned_report_dates": 298
+    },
+    {
+      "month": "2024-11",
+      "balance_rows": 300,
+      "balance_latest_pub": "2024-11-22",
+      "balance_published_after_query": 0,
+      "balance_nonmissing": {
+        "ttl_ast": 300,
+        "ttl_liab": 300
+      },
+      "balance_sha256": "b5cc54e2baf86035dbadff460a88a82ec27da319512127c56f22bc19052056a9",
+      "income_rows": 300,
+      "income_latest_pub": "2024-11-22",
+      "income_published_after_query": 0,
+      "income_nonmissing": {
+        "net_prof_pcom": 300
+      },
+      "income_sha256": "fc6c218080d55ce5fff8b0a5c70419697a8366dbd91fb7f19ad1e96af3099ad3",
+      "cashflow_rows": 300,
+      "cashflow_latest_pub": "2024-11-22",
+      "cashflow_published_after_query": 0,
+      "cashflow_nonmissing": {
+        "net_cf_oper": 300
+      },
+      "cashflow_sha256": "468db7d10e5fbb0a7ae9ecd34b80142bc8c70a2318dc4fb1cbb452246f57df9c",
+      "annual_balance_rows": 299,
+      "annual_balance_latest_pub": "2024-05-10",
+      "annual_balance_published_after_query": 0,
+      "annual_balance_nonmissing": {
+        "ttl_ast": 299,
+        "ttl_liab": 299
+      },
+      "annual_balance_sha256": "2b6b7f95bd0a1157c0ce2550c8b339de0c4ae9c21192e7a78eff7df26096a6c8",
+      "annual_income_rows": 299,
+      "annual_income_latest_pub": "2024-05-10",
+      "annual_income_published_after_query": 0,
+      "annual_income_nonmissing": {
+        "net_prof_pcom": 299
+      },
+      "annual_income_sha256": "f06972cc1a2ac15fbda5a13e9add80a341d5f855c46a990200a684eb7e588da5",
+      "annual_cashflow_rows": 299,
+      "annual_cashflow_latest_pub": "2024-05-10",
+      "annual_cashflow_published_after_query": 0,
+      "annual_cashflow_nonmissing": {
+        "net_cf_oper": 299
+      },
+      "annual_cashflow_sha256": "9f514f2931b8220d0fd1a60bfb86c49cffb48c7dfc312aeb2e2fff96c2965c37",
+      "shared_symbols": 300,
+      "aligned_report_dates": 299,
+      "annual_shared_symbols": 299,
+      "annual_aligned_report_dates": 298
+    },
+    {
+      "month": "2024-12",
+      "balance_rows": 300,
+      "balance_latest_pub": "2024-11-22",
+      "balance_published_after_query": 0,
+      "balance_nonmissing": {
+        "ttl_ast": 300,
+        "ttl_liab": 300
+      },
+      "balance_sha256": "387bf56a8bb381bcecb0121456d1dcd6a0340437a80f2491f98c55b2d2a82952",
+      "income_rows": 300,
+      "income_latest_pub": "2024-11-22",
+      "income_published_after_query": 0,
+      "income_nonmissing": {
+        "net_prof_pcom": 300
+      },
+      "income_sha256": "0a22de61ba1eb367a672772e7e65a3ec85e317c733fbcf8a0fc2a915d48f04d6",
+      "cashflow_rows": 300,
+      "cashflow_latest_pub": "2024-11-22",
+      "cashflow_published_after_query": 0,
+      "cashflow_nonmissing": {
+        "net_cf_oper": 300
+      },
+      "cashflow_sha256": "2e8bbeeeb7c0f26b2dde94d7946af2361cd048bb8a2b8257816383566dfeec85",
+      "annual_balance_rows": 298,
+      "annual_balance_latest_pub": "2024-04-30",
+      "annual_balance_published_after_query": 0,
+      "annual_balance_nonmissing": {
+        "ttl_ast": 298,
+        "ttl_liab": 298
+      },
+      "annual_balance_sha256": "920755d2c1cee45f1abb85b0da08967f7c817908163c10746a25f9ef58b98303",
+      "annual_income_rows": 298,
+      "annual_income_latest_pub": "2024-04-30",
+      "annual_income_published_after_query": 0,
+      "annual_income_nonmissing": {
+        "net_prof_pcom": 298
+      },
+      "annual_income_sha256": "76535d67750f1e12d2bcabae0cc8c461f8cc3a87e14db4c5e1acc7a2a5914715",
+      "annual_cashflow_rows": 298,
+      "annual_cashflow_latest_pub": "2024-04-30",
+      "annual_cashflow_published_after_query": 0,
+      "annual_cashflow_nonmissing": {
+        "net_cf_oper": 298
+      },
+      "annual_cashflow_sha256": "61d87a07d8aa64c6e381e61c0d5659f975e961dbd22f3de173095d8a2087ded2",
+      "shared_symbols": 300,
+      "aligned_report_dates": 299,
+      "annual_shared_symbols": 298,
+      "annual_aligned_report_dates": 297
+    },
+    {
+      "month": "2025-01",
+      "balance_rows": 300,
+      "balance_latest_pub": "2024-11-22",
+      "balance_published_after_query": 0,
+      "balance_nonmissing": {
+        "ttl_ast": 300,
+        "ttl_liab": 300
+      },
+      "balance_sha256": "17e675bd8823a081f55c3f924ac9f52136da106daa8f835b191acea17b8a77a9",
+      "income_rows": 300,
+      "income_latest_pub": "2024-11-22",
+      "income_published_after_query": 0,
+      "income_nonmissing": {
+        "net_prof_pcom": 300
+      },
+      "income_sha256": "09224931a18b6c806275f932ac9b26d760252ec0cd45ee5cd29328619abd6ed0",
+      "cashflow_rows": 300,
+      "cashflow_latest_pub": "2024-11-22",
+      "cashflow_published_after_query": 0,
+      "cashflow_nonmissing": {
+        "net_cf_oper": 300
+      },
+      "cashflow_sha256": "8b0d588e7c0587e9c987d2ea2499a5803cf9e8943788ecd54a8a859e83c22095",
+      "annual_balance_rows": 298,
+      "annual_balance_latest_pub": "2024-04-30",
+      "annual_balance_published_after_query": 0,
+      "annual_balance_nonmissing": {
+        "ttl_ast": 298,
+        "ttl_liab": 298
+      },
+      "annual_balance_sha256": "9337332c5c2c6b075f9a9d4414acced16285650f081b6d11becc418ffc619951",
+      "annual_income_rows": 298,
+      "annual_income_latest_pub": "2024-04-30",
+      "annual_income_published_after_query": 0,
+      "annual_income_nonmissing": {
+        "net_prof_pcom": 298
+      },
+      "annual_income_sha256": "2f288b0034dd8405a09422cba19692b4972301666c50169e22b26237eb7cd5d2",
+      "annual_cashflow_rows": 298,
+      "annual_cashflow_latest_pub": "2024-04-30",
+      "annual_cashflow_published_after_query": 0,
+      "annual_cashflow_nonmissing": {
+        "net_cf_oper": 298
+      },
+      "annual_cashflow_sha256": "6c1f4855341dd059e5a658645cba5ddc8d146861b9b42a1966dd8975ec192d06",
+      "shared_symbols": 300,
+      "aligned_report_dates": 299,
+      "annual_shared_symbols": 298,
+      "annual_aligned_report_dates": 297
+    },
+    {
+      "month": "2025-02",
+      "balance_rows": 300,
+      "balance_latest_pub": "2025-02-27",
+      "balance_published_after_query": 0,
+      "balance_nonmissing": {
+        "ttl_ast": 300,
+        "ttl_liab": 300
+      },
+      "balance_sha256": "1f9c7f1a14fafb756b68720f197af3e714f1672572ab0c9a687249d87ddfb6b5",
+      "income_rows": 300,
+      "income_latest_pub": "2025-02-27",
+      "income_published_after_query": 0,
+      "income_nonmissing": {
+        "net_prof_pcom": 300
+      },
+      "income_sha256": "638efc537fe7a920f069ff7441d3f0553a685bc241397c9df584368b8b90dfe6",
+      "cashflow_rows": 300,
+      "cashflow_latest_pub": "2025-02-27",
+      "cashflow_published_after_query": 0,
+      "cashflow_nonmissing": {
+        "net_cf_oper": 300
+      },
+      "cashflow_sha256": "3533023907feeaff9ae8bdf4b5443c4c2fee5ba1d41cb25bc7a51782f9b933f8",
+      "annual_balance_rows": 298,
+      "annual_balance_latest_pub": "2025-02-27",
+      "annual_balance_published_after_query": 0,
+      "annual_balance_nonmissing": {
+        "ttl_ast": 298,
+        "ttl_liab": 298
+      },
+      "annual_balance_sha256": "d949d0634e12677570d7c27b1ae8a944f8d4441ad9ac5928363d0b67bdd25849",
+      "annual_income_rows": 298,
+      "annual_income_latest_pub": "2025-02-27",
+      "annual_income_published_after_query": 0,
+      "annual_income_nonmissing": {
+        "net_prof_pcom": 298
+      },
+      "annual_income_sha256": "8642cdf6c7cf9849f4a4c8a8344b6dbc146ae8d8382f5461a46f5a147a11ada4",
+      "annual_cashflow_rows": 298,
+      "annual_cashflow_latest_pub": "2025-02-27",
+      "annual_cashflow_published_after_query": 0,
+      "annual_cashflow_nonmissing": {
+        "net_cf_oper": 298
+      },
+      "annual_cashflow_sha256": "d98d13745e5a0dea1a82d362421a315e206a5d874879ee02a4258a6f9cfce89d",
+      "shared_symbols": 300,
+      "aligned_report_dates": 299,
+      "annual_shared_symbols": 298,
+      "annual_aligned_report_dates": 297
+    },
+    {
+      "month": "2025-03",
+      "balance_rows": 300,
+      "balance_latest_pub": "2025-03-28",
+      "balance_published_after_query": 0,
+      "balance_nonmissing": {
+        "ttl_ast": 300,
+        "ttl_liab": 300
+      },
+      "balance_sha256": "119996b134dfaed79068a824d4763ca347c35456debd84d4526856200839a3ce",
+      "income_rows": 300,
+      "income_latest_pub": "2025-03-28",
+      "income_published_after_query": 0,
+      "income_nonmissing": {
+        "net_prof_pcom": 300
+      },
+      "income_sha256": "0265c5fc0807aff230183c1527e9adfa6997f638624bce47cf73290d762a8d8f",
+      "cashflow_rows": 300,
+      "cashflow_latest_pub": "2025-03-28",
+      "cashflow_published_after_query": 0,
+      "cashflow_nonmissing": {
+        "net_cf_oper": 300
+      },
+      "cashflow_sha256": "4ce87b208fda2f917b4cde64cc1ca6a5eff5ebfcee543ba89775c7a17f9bfbf3",
+      "annual_balance_rows": 298,
+      "annual_balance_latest_pub": "2025-03-28",
+      "annual_balance_published_after_query": 0,
+      "annual_balance_nonmissing": {
+        "ttl_ast": 298,
+        "ttl_liab": 298
+      },
+      "annual_balance_sha256": "2dcda9dcef989477a56d38096ddbd2eecf08fdaeafe9a9804895bb6cc4a960c7",
+      "annual_income_rows": 298,
+      "annual_income_latest_pub": "2025-03-28",
+      "annual_income_published_after_query": 0,
+      "annual_income_nonmissing": {
+        "net_prof_pcom": 298
+      },
+      "annual_income_sha256": "fc9810f939e4f8275b4d8a61ba3fe9d7a55d21478388fc1d9a0bd46e9d26aaa2",
+      "annual_cashflow_rows": 298,
+      "annual_cashflow_latest_pub": "2025-03-28",
+      "annual_cashflow_published_after_query": 0,
+      "annual_cashflow_nonmissing": {
+        "net_cf_oper": 298
+      },
+      "annual_cashflow_sha256": "7f6bd41b01e3a3bfc064701f868b7714d0f2578621b92ac2d024e157bdf62f3c",
+      "shared_symbols": 300,
+      "aligned_report_dates": 299,
+      "annual_shared_symbols": 298,
+      "annual_aligned_report_dates": 297
+    },
+    {
+      "month": "2025-04",
+      "balance_rows": 300,
+      "balance_latest_pub": "2025-04-29",
+      "balance_published_after_query": 0,
+      "balance_nonmissing": {
+        "ttl_ast": 300,
+        "ttl_liab": 300
+      },
+      "balance_sha256": "e652cf9e34ceee957bd9a9b87bd76b9863dc24316af9b84a27178127444fd5c5",
+      "income_rows": 300,
+      "income_latest_pub": "2025-04-29",
+      "income_published_after_query": 0,
+      "income_nonmissing": {
+        "net_prof_pcom": 300
+      },
+      "income_sha256": "6a8c125946526dfc64fe5f58a4682cc42bcbf7d67af44b21f0034a08aa229936",
+      "cashflow_rows": 300,
+      "cashflow_latest_pub": "2025-04-29",
+      "cashflow_published_after_query": 0,
+      "cashflow_nonmissing": {
+        "net_cf_oper": 300
+      },
+      "cashflow_sha256": "e5a8494314a3c5280cad3bd296580c48d27a00d6a3cf928cc2c840a89beed977",
+      "annual_balance_rows": 297,
+      "annual_balance_latest_pub": "2025-04-29",
+      "annual_balance_published_after_query": 0,
+      "annual_balance_nonmissing": {
+        "ttl_ast": 297,
+        "ttl_liab": 297
+      },
+      "annual_balance_sha256": "445712236ab262184afbe021f0fa7d2c4ffdd24bb542c7cbd24b786cf8c2f18b",
+      "annual_income_rows": 297,
+      "annual_income_latest_pub": "2025-04-29",
+      "annual_income_published_after_query": 0,
+      "annual_income_nonmissing": {
+        "net_prof_pcom": 297
+      },
+      "annual_income_sha256": "8a42fd83452f2ce5885bdc72fe90d6cfb85eeca9d3de1ff4ff1e831319c4ee7e",
+      "annual_cashflow_rows": 297,
+      "annual_cashflow_latest_pub": "2025-04-29",
+      "annual_cashflow_published_after_query": 0,
+      "annual_cashflow_nonmissing": {
+        "net_cf_oper": 297
+      },
+      "annual_cashflow_sha256": "553ce4d4ab91ecf78d150877a3755865e17dd8c4ffd00f8b468f930c4d01895d",
+      "shared_symbols": 300,
+      "aligned_report_dates": 299,
+      "annual_shared_symbols": 297,
+      "annual_aligned_report_dates": 295
+    },
+    {
+      "month": "2025-05",
+      "balance_rows": 300,
+      "balance_latest_pub": "2025-05-28",
+      "balance_published_after_query": 0,
+      "balance_nonmissing": {
+        "ttl_ast": 300,
+        "ttl_liab": 300
+      },
+      "balance_sha256": "db554085438391d6646ad879197c1511596d7aa27d528b31237748f3896a5f11",
+      "income_rows": 300,
+      "income_latest_pub": "2025-05-28",
+      "income_published_after_query": 0,
+      "income_nonmissing": {
+        "net_prof_pcom": 300
+      },
+      "income_sha256": "26254a9b7257a35615c265f288b9fade50e1017add09b36e5da4479e885a7860",
+      "cashflow_rows": 300,
+      "cashflow_latest_pub": "2025-05-28",
+      "cashflow_published_after_query": 0,
+      "cashflow_nonmissing": {
+        "net_cf_oper": 300
+      },
+      "cashflow_sha256": "18182413b3c1faadb746f5ea898db925bd80714bb22d6342bcb670eb34f32aff",
+      "annual_balance_rows": 297,
+      "annual_balance_latest_pub": "2025-05-07",
+      "annual_balance_published_after_query": 0,
+      "annual_balance_nonmissing": {
+        "ttl_ast": 297,
+        "ttl_liab": 297
+      },
+      "annual_balance_sha256": "bf979b181b8e30277b93c41103ffdc9c53054868bd47e111ba7cb0c4c913f742",
+      "annual_income_rows": 297,
+      "annual_income_latest_pub": "2025-05-07",
+      "annual_income_published_after_query": 0,
+      "annual_income_nonmissing": {
+        "net_prof_pcom": 297
+      },
+      "annual_income_sha256": "127217bf54b7b62b19ff3a513a4f2756eb0b50d800129a14280f1dd79ecc8a8a",
+      "annual_cashflow_rows": 297,
+      "annual_cashflow_latest_pub": "2025-05-07",
+      "annual_cashflow_published_after_query": 0,
+      "annual_cashflow_nonmissing": {
+        "net_cf_oper": 297
+      },
+      "annual_cashflow_sha256": "0fd9f3a73723000ceb9a4f602750d5d1c15035ca0b2c43bbebe1a50513c97510",
+      "shared_symbols": 300,
+      "aligned_report_dates": 299,
+      "annual_shared_symbols": 297,
+      "annual_aligned_report_dates": 295
+    },
+    {
+      "month": "2025-06",
+      "balance_rows": 300,
+      "balance_latest_pub": "2025-05-28",
+      "balance_published_after_query": 0,
+      "balance_nonmissing": {
+        "ttl_ast": 300,
+        "ttl_liab": 300
+      },
+      "balance_sha256": "d64558b92bb51ff9ee097dea2c44efda84ae33eb677b9b3087042eda1c0e9784",
+      "income_rows": 300,
+      "income_latest_pub": "2025-05-28",
+      "income_published_after_query": 0,
+      "income_nonmissing": {
+        "net_prof_pcom": 300
+      },
+      "income_sha256": "9505bf892ab77607a8a556020cd60d843601aa7f8557b3ac7af5d6509c610e6b",
+      "cashflow_rows": 300,
+      "cashflow_latest_pub": "2025-05-28",
+      "cashflow_published_after_query": 0,
+      "cashflow_nonmissing": {
+        "net_cf_oper": 300
+      },
+      "cashflow_sha256": "0201e0308b6dd842bbffd0736e15b6e19782557e4132b5b37f8256d69fcae290",
+      "annual_balance_rows": 297,
+      "annual_balance_latest_pub": "2025-05-07",
+      "annual_balance_published_after_query": 0,
+      "annual_balance_nonmissing": {
+        "ttl_ast": 297,
+        "ttl_liab": 297
+      },
+      "annual_balance_sha256": "d06205b68f98863d61861414b853aa463257ad26ad6fcd807fc6d0c76406aba1",
+      "annual_income_rows": 297,
+      "annual_income_latest_pub": "2025-05-07",
+      "annual_income_published_after_query": 0,
+      "annual_income_nonmissing": {
+        "net_prof_pcom": 297
+      },
+      "annual_income_sha256": "e1b58f2ad774588207b0f8dc7e9326b610ce3c2ab121b98af942a745c79d7fce",
+      "annual_cashflow_rows": 297,
+      "annual_cashflow_latest_pub": "2025-05-07",
+      "annual_cashflow_published_after_query": 0,
+      "annual_cashflow_nonmissing": {
+        "net_cf_oper": 297
+      },
+      "annual_cashflow_sha256": "8cb7d28d1dfa6bbb663dbff9b44607f35c8aaeba20c54243dca67601a88df2c6",
+      "shared_symbols": 300,
+      "aligned_report_dates": 299,
+      "annual_shared_symbols": 297,
+      "annual_aligned_report_dates": 295
+    },
+    {
+      "month": "2025-07",
+      "balance_rows": 300,
+      "balance_latest_pub": "2025-07-30",
+      "balance_published_after_query": 0,
+      "balance_nonmissing": {
+        "ttl_ast": 300,
+        "ttl_liab": 300
+      },
+      "balance_sha256": "c37a0542d321a594f8c93b9dbde84c8c19ac23152b04b4ad1f97906dcfed8a16",
+      "income_rows": 300,
+      "income_latest_pub": "2025-07-30",
+      "income_published_after_query": 0,
+      "income_nonmissing": {
+        "net_prof_pcom": 300
+      },
+      "income_sha256": "924c486070e6fa5d28330fa83992494609df8c18c20e42e01c39cb2a63c18bb7",
+      "cashflow_rows": 300,
+      "cashflow_latest_pub": "2025-07-30",
+      "cashflow_published_after_query": 0,
+      "cashflow_nonmissing": {
+        "net_cf_oper": 300
+      },
+      "cashflow_sha256": "0a367b85b954c54eb2795f8839f52d34ab93703eab5551ee5602db05e8d32fe1",
+      "annual_balance_rows": 297,
+      "annual_balance_latest_pub": "2025-05-07",
+      "annual_balance_published_after_query": 0,
+      "annual_balance_nonmissing": {
+        "ttl_ast": 297,
+        "ttl_liab": 297
+      },
+      "annual_balance_sha256": "5b73e12000636a526891cdec49f051597cb9b9dc9af90ea995add6c07e194f2c",
+      "annual_income_rows": 297,
+      "annual_income_latest_pub": "2025-05-07",
+      "annual_income_published_after_query": 0,
+      "annual_income_nonmissing": {
+        "net_prof_pcom": 297
+      },
+      "annual_income_sha256": "22166686d442dd9b93daef722fb30ce75e491acdc564be403b6315225d491dbe",
+      "annual_cashflow_rows": 297,
+      "annual_cashflow_latest_pub": "2025-05-07",
+      "annual_cashflow_published_after_query": 0,
+      "annual_cashflow_nonmissing": {
+        "net_cf_oper": 297
+      },
+      "annual_cashflow_sha256": "dde746da0f871522b48e20e2f4978d93dce20b07f1f4c94456316190f36595d3",
+      "shared_symbols": 300,
+      "aligned_report_dates": 299,
+      "annual_shared_symbols": 297,
+      "annual_aligned_report_dates": 295
+    },
+    {
+      "month": "2025-08",
+      "balance_rows": 300,
+      "balance_latest_pub": "2025-08-28",
+      "balance_published_after_query": 0,
+      "balance_nonmissing": {
+        "ttl_ast": 300,
+        "ttl_liab": 300
+      },
+      "balance_sha256": "a0f1a2c462be6c280936ebc584b1a92da1afce7cbcc9953fb536ba324c819fe9",
+      "income_rows": 300,
+      "income_latest_pub": "2025-08-28",
+      "income_published_after_query": 0,
+      "income_nonmissing": {
+        "net_prof_pcom": 300
+      },
+      "income_sha256": "31c7d1fc59b129001364536f51708f9cf6daabd4a2003e73cb94088c4e9ee8a7",
+      "cashflow_rows": 300,
+      "cashflow_latest_pub": "2025-08-28",
+      "cashflow_published_after_query": 0,
+      "cashflow_nonmissing": {
+        "net_cf_oper": 300
+      },
+      "cashflow_sha256": "ffdf2cf6840f18039fdba8da3683d59cc6d638a0b69f7d7b26e4f2da070c2da8",
+      "annual_balance_rows": 297,
+      "annual_balance_latest_pub": "2025-08-28",
+      "annual_balance_published_after_query": 0,
+      "annual_balance_nonmissing": {
+        "ttl_ast": 297,
+        "ttl_liab": 297
+      },
+      "annual_balance_sha256": "5632e27b037132a3bf9f29a8518a13fc8e803b7a7cc90e2bf40241e3396360d9",
+      "annual_income_rows": 297,
+      "annual_income_latest_pub": "2025-05-07",
+      "annual_income_published_after_query": 0,
+      "annual_income_nonmissing": {
+        "net_prof_pcom": 297
+      },
+      "annual_income_sha256": "b7628c5894426248618132cfa3868c24929dec98b00b9dae611342a6939a7aec",
+      "annual_cashflow_rows": 297,
+      "annual_cashflow_latest_pub": "2025-05-07",
+      "annual_cashflow_published_after_query": 0,
+      "annual_cashflow_nonmissing": {
+        "net_cf_oper": 297
+      },
+      "annual_cashflow_sha256": "0107a34d7cf5c75c1b77cc44a902fa2c8f6be4b3eefc82afdf819e88da829147",
+      "shared_symbols": 300,
+      "aligned_report_dates": 299,
+      "annual_shared_symbols": 297,
+      "annual_aligned_report_dates": 296
+    },
+    {
+      "month": "2025-09",
+      "balance_rows": 300,
+      "balance_latest_pub": "2025-08-30",
+      "balance_published_after_query": 0,
+      "balance_nonmissing": {
+        "ttl_ast": 300,
+        "ttl_liab": 300
+      },
+      "balance_sha256": "fdbc88bd4faaa29995274bc092d7354f003ffed2aeb1bd4220151896b171097a",
+      "income_rows": 300,
+      "income_latest_pub": "2025-08-30",
+      "income_published_after_query": 0,
+      "income_nonmissing": {
+        "net_prof_pcom": 300
+      },
+      "income_sha256": "e8200a799d31bc8919ba46dda8d5f3a5f6ef960360b024abf9f069b94dfa78be",
+      "cashflow_rows": 300,
+      "cashflow_latest_pub": "2025-08-30",
+      "cashflow_published_after_query": 0,
+      "cashflow_nonmissing": {
+        "net_cf_oper": 300
+      },
+      "cashflow_sha256": "d3a20c0b4fa2a1eb9b4613a4cb45931cbb4f419b209f6769e8514e588b296d6d",
+      "annual_balance_rows": 297,
+      "annual_balance_latest_pub": "2025-08-29",
+      "annual_balance_published_after_query": 0,
+      "annual_balance_nonmissing": {
+        "ttl_ast": 297,
+        "ttl_liab": 297
+      },
+      "annual_balance_sha256": "390d2589e12b297f50f0fe97516f728f4229024b5f30976319504880e3fd648a",
+      "annual_income_rows": 297,
+      "annual_income_latest_pub": "2025-05-07",
+      "annual_income_published_after_query": 0,
+      "annual_income_nonmissing": {
+        "net_prof_pcom": 297
+      },
+      "annual_income_sha256": "d4bc459c3e9c9c31ebb0f51266fe3a76443fbd4dfabf1beb4ba3f680f95f7838",
+      "annual_cashflow_rows": 297,
+      "annual_cashflow_latest_pub": "2025-05-07",
+      "annual_cashflow_published_after_query": 0,
+      "annual_cashflow_nonmissing": {
+        "net_cf_oper": 297
+      },
+      "annual_cashflow_sha256": "b764b42a0dfb777f094c375b6eda784b5bb8cc22960155b09000cd1961f52cbc",
+      "shared_symbols": 300,
+      "aligned_report_dates": 299,
+      "annual_shared_symbols": 297,
+      "annual_aligned_report_dates": 297
+    },
+    {
+      "month": "2025-10",
+      "balance_rows": 299,
+      "balance_latest_pub": "2025-10-30",
+      "balance_published_after_query": 0,
+      "balance_nonmissing": {
+        "ttl_ast": 299,
+        "ttl_liab": 299
+      },
+      "balance_sha256": "09eae2a4716a3f0c889b8d28c8bd755022e6caa33dd6d964b17fcff9516b4da4",
+      "income_rows": 299,
+      "income_latest_pub": "2025-10-30",
+      "income_published_after_query": 0,
+      "income_nonmissing": {
+        "net_prof_pcom": 299
+      },
+      "income_sha256": "980fda71d1db88090ff583e959537c982ab6537697f96a076d8fb1e23b8130e9",
+      "cashflow_rows": 300,
+      "cashflow_latest_pub": "2025-10-30",
+      "cashflow_published_after_query": 0,
+      "cashflow_nonmissing": {
+        "net_cf_oper": 300
+      },
+      "cashflow_sha256": "db799fdb742620e25d6f33dbb38f99275d6696bd15c77555a717be403936a8aa",
+      "annual_balance_rows": 297,
+      "annual_balance_latest_pub": "2025-08-29",
+      "annual_balance_published_after_query": 0,
+      "annual_balance_nonmissing": {
+        "ttl_ast": 297,
+        "ttl_liab": 297
+      },
+      "annual_balance_sha256": "98a3d5c9a518d5c91b20e2d7a3b8019d09fa0b48806c721daa6fa72d081b6e08",
+      "annual_income_rows": 297,
+      "annual_income_latest_pub": "2025-05-07",
+      "annual_income_published_after_query": 0,
+      "annual_income_nonmissing": {
+        "net_prof_pcom": 297
+      },
+      "annual_income_sha256": "154bb22300b4054be5fa51eaa1e6f4ee9bc7b86881a4f190099e8f2850a52aa1",
+      "annual_cashflow_rows": 297,
+      "annual_cashflow_latest_pub": "2025-05-07",
+      "annual_cashflow_published_after_query": 0,
+      "annual_cashflow_nonmissing": {
+        "net_cf_oper": 297
+      },
+      "annual_cashflow_sha256": "2dbaab3769b96c5490b9cb4849f786f8c21439f1bd7576dca86ddfc880e06cf4",
+      "shared_symbols": 299,
+      "aligned_report_dates": 299,
+      "annual_shared_symbols": 297,
+      "annual_aligned_report_dates": 297
+    },
+    {
+      "month": "2025-11",
+      "balance_rows": 299,
+      "balance_latest_pub": "2025-11-14",
+      "balance_published_after_query": 0,
+      "balance_nonmissing": {
+        "ttl_ast": 299,
+        "ttl_liab": 299
+      },
+      "balance_sha256": "57886742d314aad349f4fb34d6778872a05cb8c64664e3bae3a6a582e59e6b9d",
+      "income_rows": 299,
+      "income_latest_pub": "2025-11-14",
+      "income_published_after_query": 0,
+      "income_nonmissing": {
+        "net_prof_pcom": 299
+      },
+      "income_sha256": "35f33bed33e84609d10f0fd1f7a23ffb028507eaa741757ada9ecede87dc962d",
+      "cashflow_rows": 300,
+      "cashflow_latest_pub": "2025-11-14",
+      "cashflow_published_after_query": 0,
+      "cashflow_nonmissing": {
+        "net_cf_oper": 300
+      },
+      "cashflow_sha256": "063441453df392ecbdb472aad358e59e9532813cfb5880e217503b71a164c3df",
+      "annual_balance_rows": 297,
+      "annual_balance_latest_pub": "2025-08-29",
+      "annual_balance_published_after_query": 0,
+      "annual_balance_nonmissing": {
+        "ttl_ast": 297,
+        "ttl_liab": 297
+      },
+      "annual_balance_sha256": "3034152e5d9453889f586724b15dd659410958e6ab0ea03cb29dd6d85a587daf",
+      "annual_income_rows": 297,
+      "annual_income_latest_pub": "2025-05-07",
+      "annual_income_published_after_query": 0,
+      "annual_income_nonmissing": {
+        "net_prof_pcom": 297
+      },
+      "annual_income_sha256": "c402148b8a35a411b64b28eb6dfb73a218dba38e5f4cacb6f00233ff8ca5aa70",
+      "annual_cashflow_rows": 297,
+      "annual_cashflow_latest_pub": "2025-05-07",
+      "annual_cashflow_published_after_query": 0,
+      "annual_cashflow_nonmissing": {
+        "net_cf_oper": 297
+      },
+      "annual_cashflow_sha256": "8127745e7829d4c202b72764731e44ffc196d60f899b776d13e0e8502baffe75",
+      "shared_symbols": 299,
+      "aligned_report_dates": 299,
+      "annual_shared_symbols": 297,
+      "annual_aligned_report_dates": 297
+    },
+    {
+      "month": "2025-12",
+      "balance_rows": 299,
+      "balance_latest_pub": "2025-11-14",
+      "balance_published_after_query": 0,
+      "balance_nonmissing": {
+        "ttl_ast": 299,
+        "ttl_liab": 299
+      },
+      "balance_sha256": "aaba4029cd1d6b2f9a40f56b4f5745b8df4600ae1b9bff66e84aaa1585c356b3",
+      "income_rows": 299,
+      "income_latest_pub": "2025-11-14",
+      "income_published_after_query": 0,
+      "income_nonmissing": {
+        "net_prof_pcom": 299
+      },
+      "income_sha256": "f43a6bac19c3eb9810ae6dbb05383cf41d32d7d9db7f533f67818bb78afef7a3",
+      "cashflow_rows": 300,
+      "cashflow_latest_pub": "2025-11-14",
+      "cashflow_published_after_query": 0,
+      "cashflow_nonmissing": {
+        "net_cf_oper": 300
+      },
+      "cashflow_sha256": "b0732ad2cb079de9d6d06e0839365d1daf13c0253caafcba7a1a3002f95e7f81",
+      "annual_balance_rows": 298,
+      "annual_balance_latest_pub": "2025-11-28",
+      "annual_balance_published_after_query": 0,
+      "annual_balance_nonmissing": {
+        "ttl_ast": 298,
+        "ttl_liab": 298
+      },
+      "annual_balance_sha256": "1619dca50f214dea21e7764d2d3200182835c1885faf0141b11287130f9de7ff",
+      "annual_income_rows": 298,
+      "annual_income_latest_pub": "2025-11-28",
+      "annual_income_published_after_query": 0,
+      "annual_income_nonmissing": {
+        "net_prof_pcom": 298
+      },
+      "annual_income_sha256": "da2ad733e8106405bb9ef7c5fc87e25d6ab95900164a9584bc68efc46c7659ae",
+      "annual_cashflow_rows": 298,
+      "annual_cashflow_latest_pub": "2025-11-28",
+      "annual_cashflow_published_after_query": 0,
+      "annual_cashflow_nonmissing": {
+        "net_cf_oper": 298
+      },
+      "annual_cashflow_sha256": "8730323df570c78195714545766a5463c6792aae985cc6067b4b7fe399cd005f",
+      "shared_symbols": 299,
+      "aligned_report_dates": 299,
+      "annual_shared_symbols": 298,
+      "annual_aligned_report_dates": 298
+    },
+    {
+      "month": "2026-01",
+      "balance_rows": 299,
+      "balance_latest_pub": "2025-11-14",
+      "balance_published_after_query": 0,
+      "balance_nonmissing": {
+        "ttl_ast": 299,
+        "ttl_liab": 299
+      },
+      "balance_sha256": "ec09d2675d5cc2374fb87091308f4dcb57d675e88a4a6c0fcd7a1f982f67efff",
+      "income_rows": 299,
+      "income_latest_pub": "2025-11-14",
+      "income_published_after_query": 0,
+      "income_nonmissing": {
+        "net_prof_pcom": 299
+      },
+      "income_sha256": "fe7de0c5bd63baeb2d2bbbac2ebecf6d462023bf6dcf4863cbb15582299810da",
+      "cashflow_rows": 300,
+      "cashflow_latest_pub": "2025-11-14",
+      "cashflow_published_after_query": 0,
+      "cashflow_nonmissing": {
+        "net_cf_oper": 300
+      },
+      "cashflow_sha256": "dd821d2daafd56ca0e65d979ba6719e84d119cfdaf7d502498e68934d2b54500",
+      "annual_balance_rows": 298,
+      "annual_balance_latest_pub": "2025-11-28",
+      "annual_balance_published_after_query": 0,
+      "annual_balance_nonmissing": {
+        "ttl_ast": 298,
+        "ttl_liab": 298
+      },
+      "annual_balance_sha256": "a435de29aa2dbbe644e4dc017919730060c4c59ff0625e4f2131d6a1a0dee20c",
+      "annual_income_rows": 298,
+      "annual_income_latest_pub": "2025-11-28",
+      "annual_income_published_after_query": 0,
+      "annual_income_nonmissing": {
+        "net_prof_pcom": 298
+      },
+      "annual_income_sha256": "a62f2c28198535e7e7f0a291d3393afb47e23a6f2ffe9bf9381f08b673d0a754",
+      "annual_cashflow_rows": 298,
+      "annual_cashflow_latest_pub": "2025-11-28",
+      "annual_cashflow_published_after_query": 0,
+      "annual_cashflow_nonmissing": {
+        "net_cf_oper": 298
+      },
+      "annual_cashflow_sha256": "d1f0a70b23ade9b7780a5f5ec8ace6a44b6bf3968906dc08556539e22f27e9fc",
+      "shared_symbols": 299,
+      "aligned_report_dates": 299,
+      "annual_shared_symbols": 298,
+      "annual_aligned_report_dates": 298
+    },
+    {
+      "month": "2026-02",
+      "balance_rows": 299,
+      "balance_latest_pub": "2026-01-31",
+      "balance_published_after_query": 0,
+      "balance_nonmissing": {
+        "ttl_ast": 299,
+        "ttl_liab": 299
+      },
+      "balance_sha256": "4c671f8dd82061a08391d5a0eea4d2490e44cfe8ce79e8a4ba5e4fed48551a9f",
+      "income_rows": 299,
+      "income_latest_pub": "2026-01-31",
+      "income_published_after_query": 0,
+      "income_nonmissing": {
+        "net_prof_pcom": 299
+      },
+      "income_sha256": "5ac6df35634a9f7a7c89d0008f3e94037c44dae40cf59102ff33d7a7e2e7d5b9",
+      "cashflow_rows": 300,
+      "cashflow_latest_pub": "2026-01-31",
+      "cashflow_published_after_query": 0,
+      "cashflow_nonmissing": {
+        "net_cf_oper": 300
+      },
+      "cashflow_sha256": "4b0e41eab8cc86605e6410464a6cda94d19b1c01c803b5083b26e70ee9133fe6",
+      "annual_balance_rows": 298,
+      "annual_balance_latest_pub": "2026-01-31",
+      "annual_balance_published_after_query": 0,
+      "annual_balance_nonmissing": {
+        "ttl_ast": 298,
+        "ttl_liab": 298
+      },
+      "annual_balance_sha256": "728589320c0eb65a6b668c08d4215cb2d4aaf2a6875053edff03ada5f827f057",
+      "annual_income_rows": 298,
+      "annual_income_latest_pub": "2026-01-31",
+      "annual_income_published_after_query": 0,
+      "annual_income_nonmissing": {
+        "net_prof_pcom": 298
+      },
+      "annual_income_sha256": "121a6a2bb857a2454ec4e8b32bc2c78b789c178dbf3c9dca691727e28b52429f",
+      "annual_cashflow_rows": 298,
+      "annual_cashflow_latest_pub": "2026-01-31",
+      "annual_cashflow_published_after_query": 0,
+      "annual_cashflow_nonmissing": {
+        "net_cf_oper": 298
+      },
+      "annual_cashflow_sha256": "c1c312149c7064e22e977628acd6d23b08b0fabe5dd98ae001b3fd4bdbfeab1d",
+      "shared_symbols": 299,
+      "aligned_report_dates": 299,
+      "annual_shared_symbols": 298,
+      "annual_aligned_report_dates": 298
+    },
+    {
+      "month": "2026-03",
+      "balance_rows": 299,
+      "balance_latest_pub": "2026-03-30",
+      "balance_published_after_query": 0,
+      "balance_nonmissing": {
+        "ttl_ast": 299,
+        "ttl_liab": 299
+      },
+      "balance_sha256": "b8a248438dc18f921235df282a6e1764298af1e28e895c26ed7bec45d0dfeb87",
+      "income_rows": 299,
+      "income_latest_pub": "2026-03-30",
+      "income_published_after_query": 0,
+      "income_nonmissing": {
+        "net_prof_pcom": 299
+      },
+      "income_sha256": "5ffd7735327e06855095ede4d9712587b41bd349ce681030ae728b3e18195ccf",
+      "cashflow_rows": 300,
+      "cashflow_latest_pub": "2026-03-30",
+      "cashflow_published_after_query": 0,
+      "cashflow_nonmissing": {
+        "net_cf_oper": 300
+      },
+      "cashflow_sha256": "86f97af091180b024b4ba441084da9e57d7793d9fdf652a11c3a706aceb1222e",
+      "annual_balance_rows": 299,
+      "annual_balance_latest_pub": "2026-03-30",
+      "annual_balance_published_after_query": 0,
+      "annual_balance_nonmissing": {
+        "ttl_ast": 299,
+        "ttl_liab": 299
+      },
+      "annual_balance_sha256": "e2d3fcee64d81014d1f35d95939c243f60d63d2a6b1722183dbff4b79f8bcf63",
+      "annual_income_rows": 299,
+      "annual_income_latest_pub": "2026-03-30",
+      "annual_income_published_after_query": 0,
+      "annual_income_nonmissing": {
+        "net_prof_pcom": 299
+      },
+      "annual_income_sha256": "63b911b3c41c16c9da99e61f87bdfeb3e91044c454177c9963abd58af3cad40a",
+      "annual_cashflow_rows": 299,
+      "annual_cashflow_latest_pub": "2026-03-30",
+      "annual_cashflow_published_after_query": 0,
+      "annual_cashflow_nonmissing": {
+        "net_cf_oper": 299
+      },
+      "annual_cashflow_sha256": "8d86970cac1b191ab178bc703405e0fc4e47e06ab51fa0825a56052b534a57fd",
+      "shared_symbols": 299,
+      "aligned_report_dates": 299,
+      "annual_shared_symbols": 299,
+      "annual_aligned_report_dates": 299
+    },
+    {
+      "month": "2026-04",
+      "balance_rows": 300,
+      "balance_latest_pub": "2026-04-29",
+      "balance_published_after_query": 0,
+      "balance_nonmissing": {
+        "ttl_ast": 300,
+        "ttl_liab": 300
+      },
+      "balance_sha256": "3f43e609fcf1a8c175bd03906963104ed56eda7e2e5ad93ad718698c0ec4bb49",
+      "income_rows": 300,
+      "income_latest_pub": "2026-04-29",
+      "income_published_after_query": 0,
+      "income_nonmissing": {
+        "net_prof_pcom": 300
+      },
+      "income_sha256": "da2f62b7bf3bb524838377928900339400af1995ec67ec7f4c88a7d31a25d2a8",
+      "cashflow_rows": 300,
+      "cashflow_latest_pub": "2026-04-29",
+      "cashflow_published_after_query": 0,
+      "cashflow_nonmissing": {
+        "net_cf_oper": 300
+      },
+      "cashflow_sha256": "c77f5ef7b82c695bb62531d657d1b1cfbda140c40f38c115e3b20dbc18a97f70",
+      "annual_balance_rows": 300,
+      "annual_balance_latest_pub": "2026-04-29",
+      "annual_balance_published_after_query": 0,
+      "annual_balance_nonmissing": {
+        "ttl_ast": 300,
+        "ttl_liab": 300
+      },
+      "annual_balance_sha256": "17bf73c261c1c30b03cdd125186ea0b1ce2d005c3f28263c77e793243ee41fe7",
+      "annual_income_rows": 300,
+      "annual_income_latest_pub": "2026-04-29",
+      "annual_income_published_after_query": 0,
+      "annual_income_nonmissing": {
+        "net_prof_pcom": 300
+      },
+      "annual_income_sha256": "2810f5b0033c3e6e8537ceba2cdb45cc30d4d6948160a7424c2ef2f3220f6eed",
+      "annual_cashflow_rows": 300,
+      "annual_cashflow_latest_pub": "2026-04-29",
+      "annual_cashflow_published_after_query": 0,
+      "annual_cashflow_nonmissing": {
+        "net_cf_oper": 300
+      },
+      "annual_cashflow_sha256": "0a541e01b640f328b1f19850673780b2164cab1dbf15f79675b9c03d934148c8",
+      "shared_symbols": 300,
+      "aligned_report_dates": 300,
+      "annual_shared_symbols": 300,
+      "annual_aligned_report_dates": 300
+    },
+    {
+      "month": "2026-05",
+      "balance_rows": 300,
+      "balance_latest_pub": "2026-05-15",
+      "balance_published_after_query": 0,
+      "balance_nonmissing": {
+        "ttl_ast": 300,
+        "ttl_liab": 300
+      },
+      "balance_sha256": "0e397bda1bb58466eee269767ee0ecb11c0cdf1d88afbcec028a69972b4d0c77",
+      "income_rows": 300,
+      "income_latest_pub": "2026-05-15",
+      "income_published_after_query": 0,
+      "income_nonmissing": {
+        "net_prof_pcom": 300
+      },
+      "income_sha256": "f75f9236daa95e0b491b55ad20d5ec7853f693492371106dbcb20c375e72aa64",
+      "cashflow_rows": 300,
+      "cashflow_latest_pub": "2026-05-15",
+      "cashflow_published_after_query": 0,
+      "cashflow_nonmissing": {
+        "net_cf_oper": 300
+      },
+      "cashflow_sha256": "eb1e2bff9325b45fd3c14240e9f0909f7f311763d303a6d80cd7639506715ac6",
+      "annual_balance_rows": 300,
+      "annual_balance_latest_pub": "2026-05-19",
+      "annual_balance_published_after_query": 0,
+      "annual_balance_nonmissing": {
+        "ttl_ast": 300,
+        "ttl_liab": 300
+      },
+      "annual_balance_sha256": "127e0bb23f2272a4ec2a4e8d8aba90e3c0e2db388c890df264fd9ec63ec83399",
+      "annual_income_rows": 300,
+      "annual_income_latest_pub": "2026-05-19",
+      "annual_income_published_after_query": 0,
+      "annual_income_nonmissing": {
+        "net_prof_pcom": 300
+      },
+      "annual_income_sha256": "ddb95d857e6cdad6a248fe79f4150f7166eec701b16e6ae4bdea50f3b2061183",
+      "annual_cashflow_rows": 300,
+      "annual_cashflow_latest_pub": "2026-05-19",
+      "annual_cashflow_published_after_query": 0,
+      "annual_cashflow_nonmissing": {
+        "net_cf_oper": 300
+      },
+      "annual_cashflow_sha256": "6969eb404d2b83961faa7443dd6bba6477ada06700d9fb672cbe0ca4223c0d4e",
+      "shared_symbols": 300,
+      "aligned_report_dates": 300,
+      "annual_shared_symbols": 300,
+      "annual_aligned_report_dates": 300
+    },
+    {
+      "month": "2026-06",
+      "balance_rows": 300,
+      "balance_latest_pub": "2026-05-15",
+      "balance_published_after_query": 0,
+      "balance_nonmissing": {
+        "ttl_ast": 300,
+        "ttl_liab": 300
+      },
+      "balance_sha256": "2cb6d5e4a00020c89a93aa0fc6f2362d0dba9fe2540fa629716c7f2689f3d298",
+      "income_rows": 300,
+      "income_latest_pub": "2026-05-15",
+      "income_published_after_query": 0,
+      "income_nonmissing": {
+        "net_prof_pcom": 300
+      },
+      "income_sha256": "3fe6300d6835a148fe77e9e0d695293362b561cd1477ddd1309bd951eaf06eeb",
+      "cashflow_rows": 300,
+      "cashflow_latest_pub": "2026-05-15",
+      "cashflow_published_after_query": 0,
+      "cashflow_nonmissing": {
+        "net_cf_oper": 300
+      },
+      "cashflow_sha256": "461aed9f5404e3d8a9b9bf2961e822393c31b22855efbd3252bbf1dd3d4a573e",
+      "annual_balance_rows": 300,
+      "annual_balance_latest_pub": "2026-05-19",
+      "annual_balance_published_after_query": 0,
+      "annual_balance_nonmissing": {
+        "ttl_ast": 300,
+        "ttl_liab": 300
+      },
+      "annual_balance_sha256": "ca4a83a20701c2d1be86d63e4b82b91ae0552d6d3fbb309ed0faf6f532ed2c4b",
+      "annual_income_rows": 300,
+      "annual_income_latest_pub": "2026-05-19",
+      "annual_income_published_after_query": 0,
+      "annual_income_nonmissing": {
+        "net_prof_pcom": 300
+      },
+      "annual_income_sha256": "b37d4e9c203b21bf74a48afbd42ac2d7371b81b4498711b06347df429af22928",
+      "annual_cashflow_rows": 300,
+      "annual_cashflow_latest_pub": "2026-05-19",
+      "annual_cashflow_published_after_query": 0,
+      "annual_cashflow_nonmissing": {
+        "net_cf_oper": 300
+      },
+      "annual_cashflow_sha256": "75d22ff263954069dc5b28d0fab9cae25af8b5e9a6b7073cae5fa91652b55085",
+      "shared_symbols": 300,
+      "aligned_report_dates": 300,
+      "annual_shared_symbols": 300,
+      "annual_aligned_report_dates": 300
+    },
+    {
+      "month": "2026-07",
+      "balance_rows": 300,
+      "balance_latest_pub": "2026-07-25",
+      "balance_published_after_query": 0,
+      "balance_nonmissing": {
+        "ttl_ast": 300,
+        "ttl_liab": 300
+      },
+      "balance_sha256": "94b705d7dc2809d980c288d7d3a955f3b667ea89eb54068c7f84076058df52a3",
+      "income_rows": 300,
+      "income_latest_pub": "2026-07-25",
+      "income_published_after_query": 0,
+      "income_nonmissing": {
+        "net_prof_pcom": 300
+      },
+      "income_sha256": "b1679c85fc06bff7cee700390dc3e55c3ee85bd2d1d71739a97bd9bbf971add9",
+      "cashflow_rows": 300,
+      "cashflow_latest_pub": "2026-07-25",
+      "cashflow_published_after_query": 0,
+      "cashflow_nonmissing": {
+        "net_cf_oper": 300
+      },
+      "cashflow_sha256": "c9eef5fbc9f7fa6d747d813ff5aa12b3b886f91fcbfebf8d39fe5e463b53e540",
+      "annual_balance_rows": 300,
+      "annual_balance_latest_pub": "2026-05-19",
+      "annual_balance_published_after_query": 0,
+      "annual_balance_nonmissing": {
+        "ttl_ast": 300,
+        "ttl_liab": 300
+      },
+      "annual_balance_sha256": "0e806e218ddf186a39d874f3036f4d47f93c6d22e385d40799e124644ba7b0c2",
+      "annual_income_rows": 300,
+      "annual_income_latest_pub": "2026-05-19",
+      "annual_income_published_after_query": 0,
+      "annual_income_nonmissing": {
+        "net_prof_pcom": 300
+      },
+      "annual_income_sha256": "76dccbeaccfc365226a8df511ed721560eaa2f71224a1c78633b215a7bbb37b0",
+      "annual_cashflow_rows": 300,
+      "annual_cashflow_latest_pub": "2026-05-19",
+      "annual_cashflow_published_after_query": 0,
+      "annual_cashflow_nonmissing": {
+        "net_cf_oper": 300
+      },
+      "annual_cashflow_sha256": "826cd4a17cff56aa091b5a6e6e7daf5a103836c4f1f26b6dafb270c103103adf",
+      "shared_symbols": 300,
+      "aligned_report_dates": 300,
+      "annual_shared_symbols": 300,
+      "annual_aligned_report_dates": 300
+    },
+    {
+      "month": "2026-08",
+      "balance_rows": 300,
+      "balance_latest_pub": "2026-08-28",
+      "balance_published_after_query": 0,
+      "balance_nonmissing": {
+        "ttl_ast": 300,
+        "ttl_liab": 300
+      },
+      "balance_sha256": "4a406e1479d3b8856598f04703428a418bb6dd22f2f54303bcfe2b8a369d2aee",
+      "income_rows": 300,
+      "income_latest_pub": "2026-08-28",
+      "income_published_after_query": 0,
+      "income_nonmissing": {
+        "net_prof_pcom": 300
+      },
+      "income_sha256": "dcbcfd430c04242fe53cd5e5027e60ee4f236d9eabe36d549c6fc5cd71b78b4e",
+      "cashflow_rows": 300,
+      "cashflow_latest_pub": "2026-08-28",
+      "cashflow_published_after_query": 0,
+      "cashflow_nonmissing": {
+        "net_cf_oper": 300
+      },
+      "cashflow_sha256": "fb0e1b1d5a2fd84be8c31d931068dfc0244f70425088ed68ac6d1c811024f797",
+      "annual_balance_rows": 300,
+      "annual_balance_latest_pub": "2026-05-19",
+      "annual_balance_published_after_query": 0,
+      "annual_balance_nonmissing": {
+        "ttl_ast": 300,
+        "ttl_liab": 300
+      },
+      "annual_balance_sha256": "70d111bafacc4900d0fbe3484992984237170a9fa198244b147117e6afb70b85",
+      "annual_income_rows": 300,
+      "annual_income_latest_pub": "2026-05-19",
+      "annual_income_published_after_query": 0,
+      "annual_income_nonmissing": {
+        "net_prof_pcom": 300
+      },
+      "annual_income_sha256": "077f6b5088fa4ed99efe9bf564e9237bdf865a4aeaa957721fecd45483816f8c",
+      "annual_cashflow_rows": 300,
+      "annual_cashflow_latest_pub": "2026-05-19",
+      "annual_cashflow_published_after_query": 0,
+      "annual_cashflow_nonmissing": {
+        "net_cf_oper": 300
+      },
+      "annual_cashflow_sha256": "6e66a3a1216fc9aa8239af2ec2fa53b4d360e9473e56b1a18b57c63086d308df",
+      "shared_symbols": 300,
+      "aligned_report_dates": 300,
+      "annual_shared_symbols": 300,
+      "annual_aligned_report_dates": 300
+    },
+    {
+      "month": "2026-09",
+      "balance_rows": 300,
+      "balance_latest_pub": "2026-08-31",
+      "balance_published_after_query": 0,
+      "balance_nonmissing": {
+        "ttl_ast": 300,
+        "ttl_liab": 300
+      },
+      "balance_sha256": "49ee4feeef2c09be3d145acb44da321de1a7f4c11cbaa54d7315c8f596e95692",
+      "income_rows": 300,
+      "income_latest_pub": "2026-08-31",
+      "income_published_after_query": 0,
+      "income_nonmissing": {
+        "net_prof_pcom": 300
+      },
+      "income_sha256": "7c668a2ec10c44ed75084de541f4d0271ecc622ba58d75d8214d4fc2ae497e59",
+      "cashflow_rows": 300,
+      "cashflow_latest_pub": "2026-08-31",
+      "cashflow_published_after_query": 0,
+      "cashflow_nonmissing": {
+        "net_cf_oper": 300
+      },
+      "cashflow_sha256": "29a52c9f8595b35396a9c259e1b6f8c2d6809ba4bc0962886b77e2c8c8c72b96",
+      "annual_balance_rows": 300,
+      "annual_balance_latest_pub": "2026-05-19",
+      "annual_balance_published_after_query": 0,
+      "annual_balance_nonmissing": {
+        "ttl_ast": 300,
+        "ttl_liab": 300
+      },
+      "annual_balance_sha256": "4ed81a04eee9aaf2c5b7fe4ad7c0ebd386a27b8af51cbe2f86fb119f764373fc",
+      "annual_income_rows": 300,
+      "annual_income_latest_pub": "2026-05-19",
+      "annual_income_published_after_query": 0,
+      "annual_income_nonmissing": {
+        "net_prof_pcom": 300
+      },
+      "annual_income_sha256": "ee9b3f8f165a8577cb3bae8900f2ee3d223ed081fd28434e3b775f7a229e87f3",
+      "annual_cashflow_rows": 300,
+      "annual_cashflow_latest_pub": "2026-05-19",
+      "annual_cashflow_published_after_query": 0,
+      "annual_cashflow_nonmissing": {
+        "net_cf_oper": 300
+      },
+      "annual_cashflow_sha256": "bfa27c3e053f46ab8fa136ca39c379f521f739390ca9e792c25ff15d549340bd",
+      "shared_symbols": 300,
+      "aligned_report_dates": 300,
+      "annual_shared_symbols": 300,
+      "annual_aligned_report_dates": 300
+    }
+  ],
+  "complete_months": 81,
+  "published_after_query": 0,
+  "limitations": [
+    "Historical revisions and announcement intraday times not independently verified",
+    "Values are locally cached and omitted from Git"
+  ]
+}

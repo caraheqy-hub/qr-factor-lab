@@ -1,0 +1,14 @@
+{
+  "source": "Fangzheng 2023-07-07 convertible bond factor, transferred to HS300 equities",
+  "definition": "last publicly available original annual net_cf_oper / ttl_ast",
+  "baselines": [
+    "net_prof_pcom / ttl_ast",
+    "-ttl_liab / ttl_ast"
+  ],
+  "pit": "data_type=101, rpt_type=12, previous trading day monthly query",
+  "same_report_date_required": true,
+  "max_report_age_days": 548,
+  "signal": "month-end close",
+  "label": "next month open to following month open",
+  "scope": "exploratory IC; not an execution backtest"
+}
