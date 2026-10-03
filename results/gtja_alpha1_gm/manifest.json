@@ -1,0 +1,15 @@
+{
+  "source": "GTJA 2017-06-15, table 6, PDF page 11, Alpha1",
+  "formula": "-CORR(RANK(DELTA(LOG(VOLUME),1)),RANK((CLOSE-OPEN)/OPEN),6)",
+  "windows": [
+    4,
+    6,
+    10
+  ],
+  "original_window": 6,
+  "rank": "daily HS300 cross-sectional percentile",
+  "signal": "after close t",
+  "entry": "open t+1",
+  "label": "adjusted open t+1 to t+2 or t+6",
+  "scope": "exploratory IC only; no execution or cost claim"
+}

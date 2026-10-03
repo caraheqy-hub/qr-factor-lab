@@ -18,20 +18,28 @@ def fetch(month):
     set_token(token)
     stem = f'gm_hs300_{month.replace("-", "_")}'
     output = DATA / f'{stem}_turnover.parquet'
+    partial = DATA / f'{stem}_turnover_partial.parquet'
     if output.exists():
         print(json.dumps({'month': month, 'status': 'already_complete'}))
         return
     members = pd.read_parquet(DATA / f'{stem}_members.parquet')
-    frames = []
+    frames = [pd.read_parquet(partial)] if partial.exists() else []
+    done = set(frames[0].date) if frames else set()
     for day, rows in members.groupby('trade_date', sort=True):
+        day = str(pd.Timestamp(day).date())
+        if day in done:
+            continue
         frame = stk_get_daily_basic_pt(symbols=rows.symbol.tolist(),
-                                       fields='turnrate', trade_date=str(day), df=True)
+                                       fields='turnrate', trade_date=day, df=True)
+        if len(frame) != len(rows):
+            raise RuntimeError(f'Incomplete turnover response for {day}')
+        frame['date'] = day
         frames.append(frame)
+        pd.concat(frames, ignore_index=True).to_parquet(partial, index=False)
     panel = pd.concat(frames, ignore_index=True)
-    panel['date'] = pd.to_datetime(panel.trade_date).dt.date.astype(str)
     if panel.duplicated(['date', 'symbol']).any():
         raise RuntimeError('Duplicate turnover keys')
-    panel.to_parquet(output, index=False)
+    partial.replace(output)
     print(json.dumps({'month': month, 'rows': len(panel),
                       'nonmissing_turnrate': int(panel.turnrate.notna().sum())}))
 
