@@ -5,11 +5,11 @@ from pathlib import Path
 import pandas as pd
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / 'results' / 'fangzheng_interday_gm'
 
 
-def run(window=20, cost_bps=15):
-    signals = pd.read_parquet(ROOT / 'data' / f'fangzheng_interday_{window}_signals.parquet')
+def run(window=20, cost_bps=15, factor='vol_flip', family='fangzheng_interday'):
+    output = ROOT / 'results' / f'{family}_gm'
+    signals = pd.read_parquet(ROOT / 'data' / f'{family}_{window}_signals.parquet')
     inst = pd.concat((pd.read_parquet(p) for p in sorted(
         (ROOT / 'data').glob('gm_hs300_*_instruments.parquet'))), ignore_index=True)
     inst['date'] = pd.to_datetime(inst.date)
@@ -26,7 +26,7 @@ def run(window=20, cost_bps=15):
     rows = []
     previous = {}
     for date, day in signals.groupby('date', sort=True):
-        ranked = day.dropna(subset=['vol_flip']).sort_values(['vol_flip', 'symbol'])
+        ranked = day.dropna(subset=[factor]).sort_values([factor, 'symbol'])
         if len(ranked) < 200:
             continue
         selected = ranked.head(len(ranked) // 5)
@@ -50,8 +50,8 @@ def run(window=20, cost_bps=15):
                      'net': gross - cost_bps / 10000 * turnover,
                      'buy_blocked': int(buy_blocked), 'sell_blocked': int(sell_blocked)})
     monthly = pd.DataFrame(rows)
-    OUT.mkdir(exist_ok=True)
-    monthly.to_csv(OUT / f'monthly_cost_screen_{window}.csv', index=False)
+    output.mkdir(exist_ok=True)
+    monthly.to_csv(output / f'monthly_cost_screen_{window}.csv', index=False)
     good = monthly[monthly.usable].copy()
     good['year'] = good.date.dt.year
     summary = good.groupby('year').agg(
@@ -62,7 +62,7 @@ def run(window=20, cost_bps=15):
     summary['net_excess_bps_month'] = 10000 * (summary.net_monthly - summary.benchmark_monthly)
     summary['skipped_months'] = monthly[~monthly.usable].groupby(monthly.date.dt.year).size()
     summary['skipped_months'] = summary.skipped_months.fillna(0).astype(int)
-    summary.to_csv(OUT / f'cost_screen_summary_{window}.csv')
+    summary.to_csv(output / f'cost_screen_summary_{window}.csv')
     print('window=', window)
     print(summary.to_string())
 

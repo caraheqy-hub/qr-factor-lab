@@ -1,0 +1,14 @@
+{
+  "source": "Fangzheng Securities 2022-06-11, sections 2.4-2.14",
+  "formula": "three monthly revised reversal legs, each combining volatility and turnover flips",
+  "windows": [
+    10,
+    20,
+    40
+  ],
+  "original_window": 20,
+  "implementation_choice": "cross-sectional zscore before each equal-weight combination",
+  "universe_change": "daily HS300 rather than all A shares",
+  "neutralization": "no industry or size regression",
+  "scope": "exploratory IC; no executable portfolio claim"
+}

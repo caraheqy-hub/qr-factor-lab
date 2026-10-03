@@ -104,8 +104,7 @@ def run():
                                                        'adj_open': f'{side}_open'}),
                                 on=[f'{side}_date', 'symbol'], how='left', validate='many_to_one')
         frame['next_month_return'] = frame.exit_open / frame.entry_open - 1
-        if window == 20:
-            frame.to_parquet(DATA / 'fangzheng_team_coin_20_signals.parquet', index=False)
+        frame.to_parquet(DATA / f'fangzheng_team_coin_{window}_signals.parquet', index=False)
         factors = ['team_coin'] + [f'{leg}_{kind}' for leg in LEGS
                                    for kind in ('volflip', 'turn', 'revised')]
         for factor in factors:
