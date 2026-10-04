@@ -1,0 +1,10 @@
+factor,period,months,mean_ic,hac_lag,normal_95_lower,normal_95_upper,positive_month_fraction,scope
+low_asset_growth,discovery_2020_23,45,0.04814136091403337,3,0.0036359073052290025,0.09264681452283774,0.6,post-hoc descriptive; no multiple-test correction
+low_asset_growth,review_2024_25,24,-0.01832266741578315,3,-0.05736587093610272,0.02072053610453643,0.4166666666666667,post-hoc descriptive; no multiple-test correction
+low_asset_growth,seen_2026,7,-0.07002613698835612,3,-0.16491269675190098,0.02486042277518874,0.42857142857142855,post-hoc descriptive; no multiple-test correction
+team_coin_20,discovery_2020_23,47,-0.08615358125240152,3,-0.12280169395896354,-0.04950546854583951,0.2765957446808511,post-hoc descriptive; no multiple-test correction
+team_coin_20,review_2024_25,24,-0.043361823224688956,3,-0.1135879963342003,0.02686434988482239,0.4583333333333333,post-hoc descriptive; no multiple-test correction
+team_coin_20,seen_2026,7,-0.055739699168514886,3,-0.14143939307355607,0.029959994736526316,0.7142857142857143,post-hoc descriptive; no multiple-test correction
+cashflow_assets,discovery_2020_23,48,0.010052207323301783,3,-0.02715932316707082,0.047263737813674385,0.6458333333333334,post-hoc descriptive; no multiple-test correction
+cashflow_assets,review_2024_25,24,-0.01991513036351324,3,-0.07653251850159433,0.036702257774567856,0.5,post-hoc descriptive; no multiple-test correction
+cashflow_assets,seen_2026,7,0.02290587715315356,3,0.0005929400092467701,0.04521881429706035,0.7142857142857143,post-hoc descriptive; no multiple-test correction

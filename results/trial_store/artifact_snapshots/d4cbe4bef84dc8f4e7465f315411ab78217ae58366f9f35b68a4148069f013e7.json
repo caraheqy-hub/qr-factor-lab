@@ -1,0 +1,46 @@
+{
+  "report": "Huafu Securities, 2026-03-10, mean daily volume over 20 days",
+  "report_url": "https://www.scribd.com/document/1023858597/",
+  "publication_date": "2026-03-10",
+  "split_date": "2026-07-01",
+  "common_discovery_start": "2026-04-07",
+  "input": "data\\gm_tech_2026.csv",
+  "input_sha256": "e20d31d5630caa4c0b7f8eac8ada4587dbf6c154a720c301599b901fb18647c8",
+  "symbols": 22,
+  "bars": 3542,
+  "excluded_incomplete_symbols": [
+    "SHSE.600745"
+  ],
+  "published_window": 20,
+  "tested_windows": [
+    20,
+    10,
+    40
+  ],
+  "cost_bps_per_traded_notional": 15.0,
+  "selection_rule": "highest post-publication discovery mean Rank IC",
+  "selected_window": 10,
+  "holdout": {
+    "days": 63,
+    "mean_rank_ic": 0.006801716086712985,
+    "ic_positive_fraction": 0.5555555555555556,
+    "annual_return": -0.641201868162518,
+    "annual_volatility": 0.4305780678762689,
+    "sharpe": -2.16395748721437,
+    "max_drawdown": -0.2539062640939991,
+    "mean_daily_turnover": 0.06444298077000521,
+    "baseline_total_return": -0.17618588404121005
+  },
+  "interpretation": "Formula-level transfer to a fixed tech sample, not the report's full portfolio",
+  "published_20_holdout": {
+    "days": 63,
+    "mean_rank_ic": 0.0026071731378624857,
+    "ic_positive_fraction": 0.5396825396825397,
+    "annual_return": -0.6165754525550708,
+    "annual_volatility": 0.4705507372622982,
+    "sharpe": -1.8017615999920893,
+    "max_drawdown": -0.2421650787780304,
+    "mean_daily_turnover": 0.06492642020544014,
+    "baseline_total_return": -0.17618588404121005
+  }
+}

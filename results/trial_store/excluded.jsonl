@@ -1,0 +1,12 @@
+{"artifact": "results/fangzheng_cashflow_assets_gm/monthly_ic.csv", "reason": "daily_detail_or_monthly_ic_already_summarized", "sha256": "08aa9b5d62b805c04c62d64dc058fdb44de72fdc151e2d3439e683f95e364054"}
+{"artifact": "results/fangzheng_interday_gm/monthly_ic.csv", "reason": "daily_detail_or_monthly_ic_already_summarized", "sha256": "e193604fe8928015ebe6810a0b7f8dc579764ae9694975a78adaa1e32ec4f9dd"}
+{"artifact": "results/fangzheng_team_coin_gm/monthly_ic.csv", "reason": "daily_detail_or_monthly_ic_already_summarized", "sha256": "1ad3ca5c811a47ff63dc5678893f4ffafd51f73957eb40cd48159d51d77f5b3f"}
+{"artifact": "results/gtja_alpha1_gm/cost_daily.csv", "reason": "daily_detail_or_monthly_ic_already_summarized", "sha256": "710a77eb3971a368618521706a38e3ef624fca8dd0704c23004294af788694ab"}
+{"artifact": "results/gtja_alpha1_gm/daily_ic.csv", "reason": "daily_detail_or_monthly_ic_already_summarized", "sha256": "899347f444a1eb8906e62796bff26ad3adb1b53229b23505420e531118516d80"}
+{"artifact": "results/gtja_alpha5_gm/cost_daily.csv", "reason": "daily_detail_or_monthly_ic_already_summarized", "sha256": "5793ddb7bc0f33eb4e5b1b4a9628d43b2556f228199f929c94b5cd02b2d0c647"}
+{"artifact": "results/gtja_alpha5_gm/daily_ic.csv", "reason": "daily_detail_or_monthly_ic_already_summarized", "sha256": "54d62251638fcfdf6e4186b850d994952401e9998ecdcc01fdfa9405f9315e33"}
+{"artifact": "results/hs300_validation_2020_2026/daily_ic.csv", "reason": "daily_detail_or_monthly_ic_already_summarized", "sha256": "9fce5a09c7acd32223afb0558f8279c9d4b72b46df33cfdd9ed82dcc55e36ba2"}
+{"artifact": "results/hs300_validation_2020_2026/f08_daily_diagnostic.csv", "reason": "daily_detail_or_monthly_ic_already_summarized", "sha256": "8f6a28cc28944101f460e826657ce03da2cfe7a4706ba60412f6f41135d815ae"}
+{"artifact": "results/hs300_validation_2020_2026/monthly_lowvol_daily.csv", "reason": "daily_detail_or_monthly_ic_already_summarized", "sha256": "eac12a3a26874159422be8fbdf98a85279a225452069b8c14ddfa0af83fc46ca"}
+{"artifact": "results/hs300_validation_2020_2026/monthly_value_daily.csv", "reason": "daily_detail_or_monthly_ic_already_summarized", "sha256": "e9ff98cc0dc61350c788637d308f1c0516210f1856dfa5af40e0339c1bc7da97"}
+{"artifact": "results/wq101_gm/daily_ic.csv", "reason": "daily_detail_or_monthly_ic_already_summarized", "sha256": "5923216320a5ae12f7dfe03117a59a05c913b55c5629ee37298a5b0323194014"}
