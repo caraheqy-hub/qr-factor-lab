@@ -41,3 +41,4 @@ F39,behavior,方正日间波动翻转,R24,flip_20day_mean_close_return_if_20day_
 F40,volume,国君Alpha1,R25,"-CORR(RANK(DELTA(LOG(VOLUME),1)) RANK((CLOSE-OPEN)/OPEN) 6)",volume open close,exact,yes,cost_rejected_hs300,4/6/10日窗口及1/5日持有共6试验;15基点费用后每年均负超额
 F41,volume,国君Alpha5亦即WorldQuant Alpha26,R25,-TSMAX(CORR(TSRANK(VOLUME 5) TSRANK(HIGH 5) 5) 3),volume high,formula_interpretation,yes,cost_rejected_hs300,同式见R20;原式正IC但2021和2025前20%毛超额为负;预登记12组低换手参数在2020至2023发现期15基点费用后平均均负
 F42,quality,经营现金流资产比,R29,net_cf_oper/ttl_ast,annual cashflow annual balance pub_date rpt_date,asset_transfer,yes,rejected_gm_ic_screen,方正原报告用于可转债;股票迁移2020至2023月均IC正但2024至2025转负;不是QMJ精确CFOA
+F43,investment,低总资产增长率,R30,-(annual_assets_t/annual_assets_tminus1-1),annual balance ttl_ast pub_date rpt_date,formula_transfer,yes,rejected_gm_ic_screen,2020至2023平均IC正但2024至2025和2026已见月份翻负;预登记第一关失败故未调参和扣费

@@ -5,5 +5,6 @@
 - 已试并拒绝：WorldQuant Alpha 101，方正日间波动翻转及完整“球队硬币”、方正现金流质量的股票迁移，国君 Alpha1/Alpha5。原式、参数网格、逐年 IC、乐观扣费筛查及问题见 [`iteration_2026_10_03.md`](iteration_2026_10_03.md)。完整“球队硬币”20 日窗口 2025 年 IC 变正，2023/2025 扣费月均超额为负；2026 均值受 2 个极端月主导。国君 Alpha5 原式有正 IC，但 2020—25 年 5 日扣费净超额逐年为负。现金流资产比的 2024—25 IC 转负。均不能报可用。
 - 2026-10-04 针对国君 Alpha5 做深挖，见 [`iteration_2026_10_04.md`](iteration_2026_10_04.md)：原式也是 WorldQuant Alpha#26；原式前20%在2021/2025零费用毛超额仍负；12组平滑/持有期/分组宽度的有限网格在发现期15基点费用后平均净超额全部为负。停止 Alpha5 调参，转查方正完整因子2025—2026符号翻转。
 - 同轮方正“球队硬币”诊断也见该记录：2020—2024 月均 Rank IC 各年为负，2025 接近零且符号翻转，2026 极端负月在控制此前20日收益后仍存在。当前阈值是沪深300截面，原研报为全 A 股截面；历史退出股票缺后续价格。暂停这个适配版调参。全 A 股元数据只读探针已写好，但本轮 `deps/gm` 目录拒绝读取，`gm.api` 无法导入；未查询全 A 股。
+- 新增 Cooper 等总资产增长率的公式迁移试验，计划见 [`asset_growth_plan.md`](asset_growth_plan.md)，结果见 [`asset_growth_gm/summary.csv`](../results/asset_growth_gm/summary.csv)：发现期月均 IC +0.048，2024—2025 为 −0.018，2026 已见为 −0.070；按预定门槛拒绝，不继续窗口调参或扣费筛查。当前仍无可用因子。
 - 下一步：从原文核验另一组券商或论文因子，先登记公式及有限参数网格，再按相同日期和股票池做 IC、简单基准增量、逐年稳定性检查。通过后再建真实成交状态机、行业/市值暴露、ST、成本敏感性与容量检查。旧候选不要根据已看过的 2020—2026 年结果反复调参。真正的前向确认需要 2026-10 以后新数据。
 - 运行检查：`$env:PYTHONPATH=(Resolve-Path .\src).Path; python -m unittest discover -s tests -q`，`python -m compileall -q src research`，`git diff --check`。掘金 SDK 在忽略的 `deps/`，需要时设置 `$env:PYTHONPATH=(Resolve-Path .\deps).Path`。SDK 的只读接口和失败记录见 [`gm_access_2026_10_03.md`](gm_access_2026_10_03.md)。

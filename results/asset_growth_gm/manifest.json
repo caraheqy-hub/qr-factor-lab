@@ -1,0 +1,9 @@
+{
+  "source": "Cooper, Gulen, Schill (2008), asset growth effect",
+  "formula": "-(current annual total assets / prior annual total assets - 1)",
+  "current": "GM original consolidated annual PIT snapshot as of previous trading day",
+  "prior": "first observed historical snapshot of immediately prior annual report",
+  "universe": "historical HS300 members",
+  "label": "next month first open to following month first open",
+  "scope": "exploratory rank IC; no trading claim"
+}
