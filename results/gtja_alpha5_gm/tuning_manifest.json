@@ -1,0 +1,31 @@
+{
+  "source_factor": "GTJA Alpha5 / WorldQuant Alpha26, original 5/5/3",
+  "grid": {
+    "smoothing_days": [
+      1,
+      5,
+      10
+    ],
+    "holding_days": [
+      5,
+      10
+    ],
+    "top_fraction": [
+      0.2,
+      0.4
+    ]
+  },
+  "selection_period": "2020-2023, already seen in this project",
+  "review_period": "2024-2025, already seen",
+  "seen_2026": "2026 through September; incomplete forward labels",
+  "cost_bps_per_traded_notional": [
+    5,
+    10,
+    15,
+    25
+  ],
+  "turnover": "target weights versus prior holdings drifted by realised return",
+  "limit_handling": "counted only; returns still assume fills",
+  "missing_selected_return": "skip entire period and reset holdings",
+  "scope": "optimistic diagnostic; no executable backtest claim"
+}

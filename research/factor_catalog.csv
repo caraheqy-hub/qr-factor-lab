@@ -39,5 +39,5 @@ F37,price,WorldQuant Alpha 101,R20,(close-open)/(high-low+0.001),open high low c
 F38,behavior,球队硬币因子,R24,three_revised_reversal_components_equal_weight,open close turnrate adj_factor,adaptation,yes,cost_rejected_hs300,10/20/40日全部记录;20日2025年IC转正且2023和2025扣费超额为负;横截面zscore合成未经原报告核实;原报告全市场行业市值中性化与沪深300有差异
 F39,behavior,方正日间波动翻转,R24,flip_20day_mean_close_return_if_20day_vol_below_cross_mean,close adj_factor,exact_subfactor,yes,cost_screen_failed,20日IC同向但月度费用后2021 2023 2025超额为负且多月无法完整成交;10/20/40日均记录
 F40,volume,国君Alpha1,R25,"-CORR(RANK(DELTA(LOG(VOLUME),1)) RANK((CLOSE-OPEN)/OPEN) 6)",volume open close,exact,yes,cost_rejected_hs300,4/6/10日窗口及1/5日持有共6试验;15基点费用后每年均负超额
-F41,volume,国君Alpha5,R25,-TSMAX(CORR(TSRANK(VOLUME 5) TSRANK(HIGH 5) 5) 3),volume high,formula_interpretation,yes,cost_rejected_hs300,原式5/5/3及3/3/3和10/10/5改编;原式5日标签IC正但2020至2025扣费每年负超额;TSRANK口径为本项目解释
+F41,volume,国君Alpha5亦即WorldQuant Alpha26,R25,-TSMAX(CORR(TSRANK(VOLUME 5) TSRANK(HIGH 5) 5) 3),volume high,formula_interpretation,yes,cost_rejected_hs300,同式见R20;原式正IC但2021和2025前20%毛超额为负;预登记12组低换手参数在2020至2023发现期15基点费用后平均均负
 F42,quality,经营现金流资产比,R29,net_cf_oper/ttl_ast,annual cashflow annual balance pub_date rpt_date,asset_transfer,yes,rejected_gm_ic_screen,方正原报告用于可转债;股票迁移2020至2023月均IC正但2024至2025转负;不是QMJ精确CFOA

@@ -3,6 +3,7 @@ __pycache__/
 .pytest_cache/
 .venv/
 deps/
+deps_gm_repair/
 .env
 data/*.csv
 data/*.parquet
